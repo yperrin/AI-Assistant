@@ -1,0 +1,1 @@
+This project is meant to play with multiple agents running against of local and on-line models.
