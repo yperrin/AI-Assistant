@@ -1,0 +1,11 @@
+
+services:
+  ollama:
+    container_name: ollama
+    image: ollama/ollama # https://ollama.com/search for a list of supported models
+    ports:
+      - "11434:11434" # Expose the Ollama API port
+    volumes:
+      - ./.ollama:/root/.ollama
+    runtime: nvidia # Use the NVIDIA runtime for GPU acceleration
+    restart: always # Ensure Ollama restarts on failure
