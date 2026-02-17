@@ -1,0 +1,21 @@
+[project]
+name = "agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deepeval>=3.8.4",
+    "langchain-ollama>=1.0.1",
+    "langchain-openai>=1.1.9",
+    "langgraph>=1.0.8",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I"] # Error, Flake, Isort
