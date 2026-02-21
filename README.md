@@ -9,3 +9,7 @@ How to use uv
 * create the .venv folder: uv venv
 * activate: .venv\Scripts\activate
 * to install all packages in pyproject.toml: uv sync
+
+Training
+* [LangGraph Complete Course](https://www.youtube.com/watch?v=jGg_1h0qzaM)
+* [LangChain Crash Course](https://www.youtube.com/watch?v=J7j5tCB_y4w)
