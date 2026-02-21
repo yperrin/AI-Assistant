@@ -1,11 +1,24 @@
 
 services:
   ollama:
-    container_name: ollama
+    container_name: assistant_ollama
     image: ollama/ollama # https://ollama.com/search for a list of supported models
     ports:
       - "11434:11434" # Expose the Ollama API port
     volumes:
-      - ./.ollama:/root/.ollama
+      - ollama_models:/root/.ollama
     runtime: nvidia # Use the NVIDIA runtime for GPU acceleration
+    environment:
+      - OLLAMA_TIMEOUT=36000 # Set the Ollama timeout to 10 hours
+      - APP_MAX_EXECUTION_TIME=36000
+      - API_TOOL_DEFAULT_READ_TIMEOUT=36000
+      - WORKFLOW_MAX_EXECUTION_TIME=36000
+      - HTTP_REQUEST_MAX_CONNECT_TIMEOUT=36000
+      - HTTP_REQUEST_MAX_READ_TIMEOUT=36000
+      - HTTP_REQUEST_MAX_WRITE_TIMEOUT=36000
     restart: always # Ensure Ollama restarts on failure
+
+volumes:
+  ollama_models:
+    # Defining a named volume here creates it on the first 'docker-compose up'
+    name: ollama_models
