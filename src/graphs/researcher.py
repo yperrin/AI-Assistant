@@ -9,7 +9,9 @@ from src.tools.file_ops import write_markdown_artifact
 
 def research_node(state: AgentState) -> dict:
     """Uses Gemini to perform web-grounded research on the query."""
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0.3)
+    import os
+    model_name = os.getenv("GOOGLE_SEARCH_MODEL", "gemini-2.5-flash-lite")
+    llm = ChatGoogleGenerativeAI(model=model_name, temperature=0.3)
     response = llm.invoke(
         [
             SystemMessage(
@@ -22,18 +24,29 @@ def research_node(state: AgentState) -> dict:
                     "4. Citations: You MUST provide direct URL links for every key fact or claim made. Append references at the end of sections or inline as [Source Name](URL). "
                     "5. Depth: Do not just summarize; analyze the 'why' and 'how.' For technical topics, focus on architectural implications and trade-offs. "
                     "6. Conciseness: Use professional, 'to the point' language. Avoid conversational filler or redundant introductory phrases. "
+                    "7. Critical Analysis: Where applicable, include a brief critical analysis of the information found, highlighting potential biases or gaps in the data. "
+                    "8. At the end of your research include a list of all the sources you used in your research, formatted as [Source Name](URL). This is mandatory."
                 )
             ),
             HumanMessage(content=state["query"]),
         ],
         tools=[{"google_search": {}}],
     )
+    # Deterministic file write via artifact tool
+    safe_name = state["query"][:50].strip().replace(" ", "_").lower()
+    subfolder = f"{state['run_id']}/research_search"
+    write_markdown_artifact.invoke(
+        {"filename": safe_name, "content": response.content, "subfolder": subfolder}
+    )
     return {"research_data": response.content}
 
 
 def writer_node(state: AgentState) -> dict:
     """Uses Ollama to format research data into Markdown and save via the artifact tool."""
-    llm = ChatOllama(model="llama3.1:8b", temperature=0, host="http://localhost:11434")
+    import os
+    model_name = os.getenv("OLLAMA_SEARCH_MODEL", "llama3.1:8b")
+    model_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
+    llm = ChatOllama(model=model_name, temperature=0.3, host=model_host)
     response = llm.invoke(
         [
             SystemMessage(
@@ -41,7 +54,14 @@ def writer_node(state: AgentState) -> dict:
                     "You are a technical writer. "
                     "Format the provided research data into a well-structured Markdown report. "
                     "Use headings, bullet points, and sections. "
-                    "Output ONLY the Markdown content, no preamble."
+                    "Output ONLY the Markdown content, no preamble." \
+                    "The report will be componsed of multiple sections, each with a header and content. The sections are: "
+                    "1. Overview: A brief summary of the topic. "
+                    "2. Key Findings: Bullet points of the most important information discovered. "
+                    "3. Analysis: A deeper dive into the implications of each of the findings, including any trade-offs or critical insights and a detailed analysis. "
+                    "4. Risks and Uncertainties: Highlight any potential risks, uncertainties, or areas where information was lacking. "
+                    "5. Areas for additional research: Suggestions for areas that require further investigation or unanswered questions. "
+                    "6. Sources: A list of all sources cited in the research, formatted as [Source Name](URL). "
                 )
             ),
             HumanMessage(
