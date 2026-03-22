@@ -7,7 +7,8 @@ class ArtifactMetadata(TypedDict):
     agent_source: str
 
 
-class AgentState(TypedDict):
+class ResearcherAgentState(TypedDict):
+    parent_run_id: str
     run_id: str
     query: str
     research_data: str | None

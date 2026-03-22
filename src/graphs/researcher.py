@@ -3,11 +3,11 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_ollama import ChatOllama
 from langgraph.graph import END, StateGraph
 
-from src.state import AgentState
+from src.state.researcher import ResearcherAgentState
 from src.tools.file_ops import write_markdown_artifact
 
 
-def research_node(state: AgentState) -> dict:
+def research_node(state: ResearcherAgentState) -> dict:
     """Uses Gemini to perform web-grounded research on the query."""
     import os
     model_name = os.getenv("GOOGLE_SEARCH_MODEL", "gemini-2.5-flash-lite")
@@ -34,14 +34,14 @@ def research_node(state: AgentState) -> dict:
     )
     # Deterministic file write via artifact tool
     safe_name = state["query"][:50].strip().replace(" ", "_").lower()
-    subfolder = f"{state['run_id']}/research_search"
+    subfolder = f"{state['run_id']}/{safe_name}"
     write_markdown_artifact.invoke(
-        {"filename": safe_name, "content": response.content, "subfolder": subfolder}
+        {"filename": "search", "content": response.content, "subfolder": subfolder}
     )
     return {"research_data": response.content}
 
 
-def writer_node(state: AgentState) -> dict:
+def writer_node(state: ResearcherAgentState) -> dict:
     """Uses Ollama to format research data into Markdown and save via the artifact tool."""
     import os
     model_name = os.getenv("OLLAMA_SEARCH_MODEL", "llama3.1:8b")
@@ -72,22 +72,21 @@ def writer_node(state: AgentState) -> dict:
 
     # Deterministic file write via artifact tool
     safe_name = state["query"][:50].strip().replace(" ", "_").lower()
-    subfolder = f"{state['run_id']}/research_reports"
+    subfolder = f"{state['run_id']}/{safe_name}"
     path = write_markdown_artifact.invoke(
-        {"filename": safe_name, "content": response.content, "subfolder": subfolder}
+        {"filename": "report", "content": response.content, "subfolder": subfolder}
     )
-
     artifact = {
         "file_path": path,
         "description": f"Research report: {state['query']}",
-        "agent_source": "ollama_writer",
+        "agent_source": "researcher_writer",
     }
     return {"artifacts": [artifact]}
 
 
 def build_researcher_graph():
-    """Builds and compiles the Phase 1 Researcher -> Writer graph."""
-    workflow = StateGraph(AgentState)
+    """Builds and compiles the Researcher agent graph -> Writer graph."""
+    workflow = StateGraph(ResearcherAgentState)
     workflow.add_node("researcher", research_node)
     workflow.add_node("writer", writer_node)
 
