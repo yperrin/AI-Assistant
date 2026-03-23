@@ -69,7 +69,15 @@ def architect_node(state: IdeaAgentState) -> dict:
 
 def research_graph(state: IdeaAgentState) -> dict:
     """The Researcher - External API calls for up-to-date information."""
-    query = state["messages"][-1].content
+    if state["messages"] and len(state["messages"]) > 0:
+        query = state["messages"][-1].content
+    else:
+        state["idea"]
+        query = f"""
+        Create an initial research to gather information on the following idea: {state["idea"]}.
+        Find existing information, data, and research related to the idea. Focus on finding recent developments, technical details, and relevant data that can inform the analysis of the idea.
+        Provide a summary of the most relevant and up-to-date information you can find on the idea, including any recent advancements, technical details, and data that can inform the analysis of the idea.
+        """
     research_graph = build_researcher_graph()
     run_id = uuid.uuid4().hex[:8]
     print("--- Research Node ---")
@@ -82,10 +90,19 @@ def research_graph(state: IdeaAgentState) -> dict:
             "artifacts": [],
         }
     )
-    return {
+
+    # Ensure response["research_data"] is properly structured
+    research_data = response.get("research_data", "")
+    if isinstance(research_data, dict):
+        research_data_content = research_data.get("content", "")
+    else:
+        research_data_content = str(research_data)
+
         "artifacts": response["artifacts"], 
-        "additional_information": response["research_data"],
-        "messages": [AIMessage(content=response["research_data"], name="Researcher")]
+
+    return {
+        "additional_information": research_data_content,
+        "messages": [AIMessage(content=research_data_content, name="Researcher", role="assistant")]
     }
 
 
@@ -108,10 +125,10 @@ def build_idea_graph():
     workflow.add_node("Researcher", research_graph)
     workflow.add_node("Analysis", analysis_node)
 
-    workflow.add_edge(START, "Architect")
+    workflow.add_edge(START, "Researcher")
+    workflow.add_edge("Researcher", "Architect")
     workflow.add_edge("Architect", "Critic")
     workflow.add_edge("Critic", "Analysis")
     workflow.add_conditional_edges("Analysis", route_discussion, {"Researcher": "Researcher", "continue": END})
-    workflow.add_edge("Researcher", "Architect")
 
     return workflow.compile()
