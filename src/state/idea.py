@@ -1,3 +1,4 @@
+import operator
 from typing import Annotated, List, TypedDict
 
 from langchain_core.messages import BaseMessage
@@ -13,5 +14,5 @@ class IdeaAgentState(TypedDict):
     current_dissent: str
     additional_information: str
     messages: Annotated[List[BaseMessage], add_messages]
-    artifacts: Annotated[List[ArtifactMetadata], add_messages]
+    artifacts: Annotated[List[ArtifactMetadata], operator.add]
     max_loop: int

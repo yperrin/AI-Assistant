@@ -97,10 +97,8 @@ def research_graph(state: IdeaAgentState) -> dict:
         research_data_content = research_data.get("content", "")
     else:
         research_data_content = str(research_data)
-
-        "artifacts": response["artifacts"], 
-
     return {
+        "artifacts": response["artifacts"], 
         "additional_information": research_data_content,
         "messages": [AIMessage(content=research_data_content, name="Researcher", role="assistant")]
     }
