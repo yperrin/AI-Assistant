@@ -11,7 +11,7 @@ def research_node(state: ResearcherAgentState) -> dict:
     """Uses Gemini to perform web-grounded research on the query."""
     import os
     model_name = os.getenv("GOOGLE_SEARCH_MODEL", "gemini-2.5-flash-lite")
-    llm = ChatGoogleGenerativeAI(model=model_name, temperature=0.3)
+    llm = ChatGoogleGenerativeAI(model=model_name, temperature=0.4)
     response = llm.invoke(
         [
             SystemMessage(
@@ -25,20 +25,26 @@ def research_node(state: ResearcherAgentState) -> dict:
                     "5. Depth: Do not just summarize; analyze the 'why' and 'how.' For technical topics, focus on architectural implications and trade-offs. "
                     "6. Conciseness: Use professional, 'to the point' language. Avoid conversational filler or redundant introductory phrases. "
                     "7. Critical Analysis: Where applicable, include a brief critical analysis of the information found, highlighting potential biases or gaps in the data. "
-                    "8. At the end of your research include a list of all the sources you used in your research, formatted as [Source Name](URL). This is mandatory."
                 )
             ),
             HumanMessage(content=state["query"]),
         ],
         tools=[{"google_search": {}}],
     )
+
+    # Handle case where response.content is a list
+    content = response.content
+    if isinstance(content, list):
+        content = "\n".join(content)
+
     # Deterministic file write via artifact tool
-    safe_name = state["query"][:50].strip().replace(" ", "_").lower()
-    subfolder = f"{state['run_id']}/{safe_name}"
+    subfolder = f"{state['run_id']}"
+    if state['parent_run_id']:
+        subfolder = f"{state['parent_run_id']}/{subfolder}"
     write_markdown_artifact.invoke(
-        {"filename": "search", "content": response.content, "subfolder": subfolder}
+        {"filename": "search.md", "content": content, "subfolder": subfolder}
     )
-    return {"research_data": response.content}
+    return {"research_data": content}
 
 
 def writer_node(state: ResearcherAgentState) -> dict:
@@ -54,14 +60,13 @@ def writer_node(state: ResearcherAgentState) -> dict:
                     "You are a technical writer. "
                     "Format the provided research data into a well-structured Markdown report. "
                     "Use headings, bullet points, and sections. "
-                    "Output ONLY the Markdown content, no preamble." \
+                    "Output ONLY the Markdown content, no preamble."
                     "The report will be componsed of multiple sections, each with a header and content. The sections are: "
                     "1. Overview: A brief summary of the topic. "
                     "2. Key Findings: Bullet points of the most important information discovered. "
                     "3. Analysis: A deeper dive into the implications of each of the findings, including any trade-offs or critical insights and a detailed analysis. "
                     "4. Risks and Uncertainties: Highlight any potential risks, uncertainties, or areas where information was lacking. "
-                    "5. Areas for additional research: Suggestions for areas that require further investigation or unanswered questions. "
-                    "6. Sources: A list of all sources cited in the research, formatted as [Source Name](URL). "
+                    "5. Areas for additional research: Suggestions for areas that require further investigation, additional or alternative approaches, or unanswered questions. "
                 )
             ),
             HumanMessage(
@@ -69,12 +74,17 @@ def writer_node(state: ResearcherAgentState) -> dict:
             ),
         ]
     )
-
+    # Handle case where response.content is a list
+    content = response.content
+    if isinstance(content, list):
+        content = "\n".join(content)
+    
     # Deterministic file write via artifact tool
-    safe_name = state["query"][:50].strip().replace(" ", "_").lower()
-    subfolder = f"{state['run_id']}/{safe_name}"
+    subfolder = f"{state['run_id']}"
+    if state['parent_run_id']:
+        subfolder = f"{state['parent_run_id']}/{subfolder}"
     path = write_markdown_artifact.invoke(
-        {"filename": "report", "content": response.content, "subfolder": subfolder}
+        {"filename": "report.md", "content": content, "subfolder": subfolder}
     )
     artifact = {
         "file_path": path,
