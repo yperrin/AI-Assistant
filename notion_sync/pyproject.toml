@@ -1,0 +1,14 @@
+[project]
+name = "notion-sync"
+version = "0.1.0"
+description = "Sync Notion 'Journal Entries' database to local Markdown files."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "notion-client",
+    "python-dotenv",
+    "notion2md",
+]
+
+[tool.uv]
+package = false
