@@ -35,4 +35,5 @@ def format_state(state: IdeaAgentState) -> str:
 {state.get('current_dissent')}
 
 ## Additional Information
-{state.get('additional_information')}"""
+{state.get('additional_information')}
+"""
