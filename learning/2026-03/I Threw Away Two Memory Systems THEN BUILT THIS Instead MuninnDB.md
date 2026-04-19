@@ -1,6 +1,24 @@
 ---
-title: I Threw Away Two Memory Systems THEN BUILT THIS Instead MuninnDB
+complexity: Advanced
+date: 2026-03-25 13:53:00-04:00
 id: 32e9fa3b-8750-80d6-97fb-ccacdffc2be7
+processed_by_ai: true
+summary: This document outlines a memory system based on activation rather than retrieval,
+  featuring temporal decay, Hebbian association, Bayesian confidence, and semantic
+  triggers. It emphasizes local operation, privacy, and includes a bundled embedding
+  model and web UI.
+title: I Threw Away Two Memory Systems THEN BUILT THIS Instead MuninnDB
+tools_mentioned:
+- LLM
+- embedding model
+- web UI
+topics:
+- Memory Systems
+- Artificial Intelligence
+- Information Retrieval
+- Cognitive Science
+- Local AI
+- Machine Learning Concepts
 url: https://www.notion.so/I-Threw-Away-Two-Memory-Systems-THEN-BUILT-THIS-Instead-MuninnDB-32e9fa3b875080d697fbccacdffc2be7
 ---
 
@@ -21,4 +39,3 @@ url: https://www.notion.so/I-Threw-Away-Two-Memory-Systems-THEN-BUILT-THIS-Inste
 ### Getting Started
 
 ---
-

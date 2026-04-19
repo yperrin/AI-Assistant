@@ -1,6 +1,26 @@
 ---
-title: Building a second Brain
+complexity: Intermediate
+date: 2026-01-09
 id: 2e39fa3b-8750-8062-9a4f-c966a2a593a6
+processed_by_ai: true
+summary: This document outlines a new, automated approach to personal knowledge management
+  and note-taking, contrasting it with traditional manual methods. It details a system
+  where capturing a thought triggers an AI-powered loop for sorting, summarizing,
+  and surfacing information across various tools.
+title: Building a second Brain
+tools_mentioned:
+- Slack
+- Zapier
+- Claude
+- ChatGPT
+- Notion
+topics:
+- Personal Knowledge Management
+- Automation
+- AI
+- Productivity
+- Note-taking
+- Second Brain
 url: https://www.notion.so/Building-a-second-Brain-2e39fa3b875080629a4fc966a2a593a6
 ---
 
@@ -31,4 +51,3 @@ url: https://www.notion.so/Building-a-second-Brain-2e39fa3b875080629a4fc966a2a59
 1. **The Tap on the Shoulder (Surfacing):** Instead of you digging for notes, the system sends you a **Daily Digest** (top 3 priorities) and a **Weekly Review** to Slack.
 
 1. **The Fix Button:** A simple way to correct mistakes (e.g., replying "Fix: this is a project" in Slack) without opening the database.
-

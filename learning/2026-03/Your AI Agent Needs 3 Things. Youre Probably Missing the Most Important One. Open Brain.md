@@ -1,6 +1,29 @@
 ---
-title: Your AI Agent Needs 3 Things. Youre Probably Missing the Most Important One. Open Brain
+complexity: Intermediate
+date: 2026-03-21
 id: 32a9fa3b-8750-809f-b242-d82f09cc5a03
+processed_by_ai: true
+summary: 'This document outlines the three essential components of an effective AI
+  agent: memory, proactivity, and tools. It emphasizes the safety and accumulated
+  value of this approach compared to alternatives like OpenClaw, and explores various
+  practical use cases.'
+title: Your AI Agent Needs 3 Things. Youre Probably Missing the Most Important One.
+  Open Brain
+tools_mentioned:
+- OpenBrain
+- Claude Code
+- Remotion
+- OpenClaw
+- Slack
+- Salesforce
+- CRM
+topics:
+- AI Agents
+- Memory
+- Proactivity
+- Tools
+- AI Safety
+- Use Cases
 url: https://www.notion.so/Your-AI-Agent-Needs-3-Things-You-re-Probably-Missing-the-Most-Important-One-Open-Brain-32a9fa3b8750809fb242d82f09cc5a03
 ---
 
@@ -29,4 +52,3 @@ url: https://www.notion.so/Your-AI-Agent-Needs-3-Things-You-re-Probably-Missing-
 - **Networking:** A `/loop` that triggers every Friday to scan your recent interactions and generate a **personalized video briefing** [13:21 Opens in a new window ](http://www.youtube.com/watch?v=vqnAOV8NMZ4&t=801) on people you'll see that night.
 
 ---
-

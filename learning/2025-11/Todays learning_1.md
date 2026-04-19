@@ -1,6 +1,25 @@
 ---
-title: Todays learning
+complexity: Intermediate
+date: 2025-11-08 12:32:00-05:00
 id: 2a59fa3b-8750-8015-a379-c2d581024c1e
+processed_by_ai: true
+summary: This document explains key classification evaluation metrics like Recall
+  (TPR), Precision, and TNR, detailing their formulas, differences, and appropriate
+  use cases. It also introduces open and axial coding methodologies for analyzing
+  AI model failures, describing how granular observations are categorized into a structured
+  failure taxonomy.
+title: Todays learning
+tools_mentioned: []
+topics:
+- Classification Metrics
+- Recall
+- Precision
+- True Negative Rate (TNR)
+- AI Model Evaluation
+- Qualitative Data Analysis
+- Open Coding
+- Axial Coding
+- Failure Taxonomy
 url: https://www.notion.so/Today-s-learning-2a59fa3b87508015a379c2d581024c1e
 ---
 
@@ -94,4 +113,3 @@ Please extract all the different open codes. From the z_note field, propose 5-6 
 - **Style/Format Issues** (Group for "Output was overly verbose")
 
 - **Misinterpretation/Safety** (Group for "Misunderstood the user's intent to be aggressive")
-

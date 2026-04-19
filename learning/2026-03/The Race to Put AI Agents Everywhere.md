@@ -1,6 +1,31 @@
 ---
-title: The Race to Put AI Agents Everywhere
+complexity: Intermediate
+date: 2026-03-20
 id: 3299fa3b-8750-80e8-88ff-dcba22e7b4e8
+processed_by_ai: true
+summary: The document outlines key market moves by major tech companies like Nvidia,
+  OpenAI, Perplexity, and Meta, focusing on new AI tools, enterprise productivity,
+  and a growing "local-first" trend for AI agents. It highlights products designed
+  for enhanced privacy, parallel task execution, complex workflow management, and
+  local task automation.
+title: The Race to Put AI Agents Everywhere
+tools_mentioned:
+- NemoClaw
+- OpenClaw
+- Codex
+- Perplexity Computer
+- Manus
+- Adaptive Computer
+- Square
+- Excel
+- Swift
+topics:
+- AI
+- Enterprise Software
+- Agentic AI
+- Local-First Computing
+- Market Trends
+- Product Development
 url: https://www.notion.so/The-Race-to-Put-AI-Agents-Everywhere-3299fa3b875080e888ffdcba22e7b4e8
 ---
 
@@ -23,4 +48,3 @@ url: https://www.notion.so/The-Race-to-Put-AI-Agents-Everywhere-3299fa3b875080e8
 ### **The Outlook for Q2 2026**
 
 <br/>
-

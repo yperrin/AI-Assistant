@@ -1,6 +1,22 @@
 ---
-title: Fast Paths and Slow Paths
+complexity: Advanced
+date: 2026-04-06 07:32:00-04:00
 id: 33a9fa3b-8750-8038-9043-e0862c605e8b
+processed_by_ai: true
+summary: This document identifies the challenges of "universal mediation" in autonomous
+  agents, such as compounding latency and structural fragility. It proposes a solution
+  using "Fast vs. Slow Paths" for governance, advocating for continuous observation
+  and proportional intervention rather than per-step approval to ensure safe and scalable
+  AI systems.
+title: Fast Paths and Slow Paths
+tools_mentioned: []
+topics:
+- AI Governance
+- Autonomous Agents
+- System Architecture
+- Control Systems
+- Scalability
+- Latency
 url: https://www.notion.so/Fast-Paths-and-Slow-Paths-33a9fa3b875080389043e0862c605e8b
 ---
 
@@ -43,4 +59,3 @@ url: https://www.notion.so/Fast-Paths-and-Slow-Paths-33a9fa3b875080389043e0862c6
 - **Outcome-Oriented:** Architects should focus on governing the final results and behavioral trajectories rather than micromanaging every inference step.
 
 > "The future of AI governance is not more gates. It is better control. And control, done right, does not stop systems from acting. It ensures they can keep acting safely."
-

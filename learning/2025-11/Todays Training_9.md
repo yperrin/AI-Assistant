@@ -1,6 +1,34 @@
 ---
-title: Todays Training
+complexity: Advanced
+date: 2025-11-25
 id: 2b89fa3b-8750-80ed-8e3a-d7f91258a5de
+processed_by_ai: true
+summary: This document outlines key characteristics of modern data platforms, details
+  a four-rung approach to building AI agents using CrewAI Studio, and describes Block's
+  transformation into an AI-native company with their open-source "Goose" AI agent,
+  emphasizing organizational shifts and developer productivity gains.
+title: Todays Training
+tools_mentioned:
+- Ferrovial
+- SAP
+- CrewAI Studio
+- Brave Search
+- Google Sheets
+- USDA food database API
+- MCP (Model Context Protocol)
+- Claude Desktop
+- Snowflake
+- Slack
+- Google Docs
+- Goose
+topics:
+- Data Platforms
+- AI Agents
+- No-Code Development
+- AI Strategy
+- Organizational Transformation
+- Open Source
+- Developer Productivity
 url: https://www.notion.so/Today-s-Training-2b89fa3b875080ed8e3ad7f91258a5de
 ---
 
@@ -55,4 +83,3 @@ url: https://www.notion.so/Today-s-Training-2b89fa3b875080ed8e3ad7f91258a5de
 - **Code Quality vs. Product Value:** Prasanna argues that code quality does not equal product success, citing YouTube's messy early codebase as an example. He emphasizes solving real user problems over architectural perfection.
 
 - **Open Source Philosophy:** Block released Goose as open source, encouraging other companies to build on it. This aligns with their broader mission of economic empowerment and openness.
-

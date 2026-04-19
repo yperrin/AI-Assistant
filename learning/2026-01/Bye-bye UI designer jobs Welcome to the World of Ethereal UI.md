@@ -1,6 +1,43 @@
 ---
-title: Bye-bye UI designer jobs Welcome to the World of Ethereal UI
+complexity: Intermediate
+date: 2026-01-02 22:14:00-05:00
 id: 2dd9fa3b-8750-80a3-a62b-ea9e43eb4f0d
+processed_by_ai: true
+summary: The document discusses the concept of "Ethereal UI," interfaces generated
+  on demand by AI for a single user and purpose, and how this shift is transforming
+  the role of UI designers. Designers will move from crafting basic components to
+  focusing on high-level strategy, ethical AI design, and agentic workflows, with
+  AI taking over more routine tasks.
+title: Bye-bye UI designer jobs Welcome to the World of Ethereal UI
+tools_mentioned:
+- ChatGPT
+- Gemini
+- Figma AI (Figma Make)
+- Figma Sites
+- Google Stitch
+- Material Design
+- Framer AI
+- Galileo AI
+- Emergent
+- React
+- Next.js
+- Expo
+- Builder.io Fusion
+- Git
+- Ux Pilot
+- Adobe Firefly
+- Photoshop
+- Illustrator
+- Uizard
+- Visily
+topics:
+- Ethereal UI
+- AI in Design
+- UI Design Evolution
+- Ethical AI Design
+- Agentic Workflows
+- Prompt-to-Prototype
+- Design-to-Code
 url: https://www.notion.so/Bye-bye-UI-designer-jobs-Welcome-to-the-World-of-Ethereal-UI-2dd9fa3b875080a3a62bea9e43eb4f0d
 ---
 
@@ -69,4 +106,3 @@ url: https://www.notion.so/Bye-bye-UI-designer-jobs-Welcome-to-the-World-of-Ethe
 ---
 
 ### **The Shift Toward "Agentic" UI**
-

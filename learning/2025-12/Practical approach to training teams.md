@@ -1,6 +1,19 @@
 ---
-title: Practical approach to training teams
+complexity: Intermediate
+date: 2025-12-23 22:38:00-05:00
 id: 2d39fa3b-8750-80fd-94b8-f92107af4f84
+processed_by_ai: true
+summary: This document presents a series of reflective questions for teams working
+  with AI, designed to improve prompt engineering, identify missing context, encourage
+  research, and promote critical thinking about AI outputs and testing strategies.
+title: Practical approach to training teams
+tools_mentioned: []
+topics:
+- AI
+- Prompt Engineering
+- Team Collaboration
+- Critical Thinking
+- Software Testing
 url: https://www.notion.so/Practical-approach-to-training-teams-2d39fa3b875080fd94b8f92107af4f84
 ---
 
@@ -25,4 +38,3 @@ url: https://www.notion.so/Practical-approach-to-training-teams-2d39fa3b875080fd
 - **Do these unit tests reveal any design issues or hidden dependencies?** (Connects testing with design insight.)
 
 - **Have you tried starting a new chat session or using a different AI tool for this research?** (Models flexibility with tools.)
-

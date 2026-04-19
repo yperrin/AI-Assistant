@@ -1,6 +1,25 @@
 ---
-title: Anthropic Just Revealed How Claude Works. The Judgment vs Rules War Is Over. Judgment Won.
+complexity: Intermediate
+date: 2026-02-06 15:01:00-05:00
 id: 2ff9fa3b-8750-8050-bcd8-fc9ebda20e1d
+processed_by_ai: true
+summary: This document compares OpenAI's rule-based approach to AI with Anthropic's
+  character-based approach, highlighting how Claude uses "practical wisdom" and a
+  principal hierarchy to navigate ambiguous situations. It also provides practical
+  advice for both advanced builders and beginners on how to effectively interact with
+  Claude.
+title: Anthropic Just Revealed How Claude Works. The Judgment vs Rules War Is Over.
+  Judgment Won.
+tools_mentioned:
+- OpenAI
+- Anthropic
+- Claude
+topics:
+- AI Ethics
+- Large Language Models
+- AI Development
+- Prompt Engineering
+- AI Behavior
 url: https://www.notion.so/Anthropic-Just-Revealed-How-Claude-Works-The-Judgment-vs-Rules-War-Is-Over-Judgment-Won-2ff9fa3b87508050bcd8fc9ebda20e1d
 ---
 
@@ -29,4 +48,3 @@ url: https://www.notion.so/Anthropic-Just-Revealed-How-Claude-Works-The-Judgment
 - **The "Why" Matters:** If Claude refuses a request, it usually provides reasoning. You can often resolve this by clarifying your intent (e.g., "I'm preparing for a debate" vs. "Write a biased essay"). [08:33 Opens in a new window](http://www.youtube.com/watch?v=iL3uDrk-i_E&t=513)
 
 ### **The Future of Agents** [10:52 Opens in a new window](http://www.youtube.com/watch?v=iL3uDrk-i_E&t=652)
-

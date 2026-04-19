@@ -1,6 +1,23 @@
 ---
-title: Whoop Is Hiring 600 People. Everyone Else Is Cutting. One Side Is Wrong Its Not Who You Think
+complexity: Intermediate
+date: 2026-03-14 21:07:00+05:30
 id: 3239fa3b-8750-80ef-bce2-c7971a142a9f
+processed_by_ai: true
+summary: This document outlines six strategic shifts driven by AI, emphasizing how
+  AI enables faster product iteration, empowers domain experts to build solutions,
+  ensures quality by default, transforms every company into a platform, redefines
+  market viability, and accelerates acting on customer insights.
+title: Whoop Is Hiring 600 People. Everyone Else Is Cutting. One Side Is Wrong Its
+  Not Who You Think
+tools_mentioned:
+- Cursor
+topics:
+- AI
+- Product Development
+- Business Strategy
+- Organizational Change
+- Software Development
+- Jevons Paradox
 url: https://www.notion.so/Whoop-Is-Hiring-600-People-Everyone-Else-Is-Cutting-One-Side-Is-Wrong-It-s-Not-Who-You-Think-3239fa3b875080efbce2c7971a142a9f
 ---
 
@@ -23,4 +40,3 @@ url: https://www.notion.so/Whoop-Is-Hiring-600-People-Everyone-Else-Is-Cutting-O
 ### Key Takeaway
 
 <br/>
-

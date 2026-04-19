@@ -1,6 +1,27 @@
 ---
-title: AI Skills Break the Moment an Agent Runs Them. Heres How I Fixed Mine
+complexity: Advanced
+date: 2026-03-30 17:28:00-04:00
 id: 3339fa3b-8750-8087-a367-d6bfc55e935e
+processed_by_ai: true
+summary: This document outlines a significant shift in AI skills, moving from individual
+  use to organizational infrastructure and from human-called to agent-called, emphasizing
+  standardization and open collaboration. It provides detailed guidance on building
+  robust, "battle-hardened" AI skills, focusing on clear descriptions, reasoning,
+  explicit edge cases, and contract-based output, and categorizes team skills into
+  standard, methodology, and personal workflow tiers.
+title: AI Skills Break the Moment an Agent Runs Them. Heres How I Fixed Mine
+tools_mentioned:
+- Anthropic
+- OpenAI
+- Microsoft
+- Claude
+topics:
+- AI Skills
+- AI Agents
+- Skill Development
+- Organizational AI
+- Standardization
+- Prompt Engineering
 url: https://www.notion.so/AI-Skills-Break-the-Moment-an-Agent-Runs-Them-Here-s-How-I-Fixed-Mine-3339fa3b87508087a367d6bfc55e935e
 ---
 
@@ -41,4 +62,3 @@ url: https://www.notion.so/AI-Skills-Break-the-Moment-an-Agent-Runs-Them-Here-s-
 ---
 
 ### 4. Why This Matters: The Compounding Effect
-

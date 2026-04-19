@@ -1,6 +1,25 @@
 ---
-title: Todays training
+complexity: Intermediate
+date: 2025-11-10 13:45:00-05:00
 id: 2a79fa3b-8750-8016-a8cd-fd280423710b
+processed_by_ai: true
+summary: This document outlines potential automation tasks like price comparison,
+  stock analysis, and n8n workflow design, alongside strategic principles for effective
+  decision-making and project execution, emphasizing identifying bottlenecks, understanding
+  context, focusing, and building transparent systems.
+title: Todays training
+tools_mentioned:
+- n8n
+topics:
+- E-commerce
+- Price Comparison
+- Stock Market Analysis
+- Workflow Automation
+- Strategic Thinking
+- Decision Making
+- Project Management
+- Business Strategy
+- Organizational Systems
 url: https://www.notion.so/Today-s-training-2a79fa3b87508016a8cdfd280423710b
 ---
 
@@ -29,4 +48,3 @@ url: https://www.notion.so/Today-s-training-2a79fa3b87508016a8cdfd280423710b
 ---
 
 ---
-

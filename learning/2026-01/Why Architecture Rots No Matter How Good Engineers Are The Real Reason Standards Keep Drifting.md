@@ -1,6 +1,24 @@
 ---
-title: Why Architecture Rots No Matter How Good Engineers Are The Real Reason Standards Keep Drifting
+complexity: Advanced
+date: 2026-01-28 19:05:00-05:00
 id: 2f79fa3b-8750-802a-9016-d798a617c30d
+processed_by_ai: true
+summary: This document explores the reasons behind software architecture degradation,
+  such as the "Cathedral and Brick" problem and loss of context. It then discusses
+  how AI, particularly Large Language Models, can help maintain architectural integrity
+  through massive context windows and tireless consistency, while also outlining areas
+  where human judgment remains crucial.
+title: Why Architecture Rots No Matter How Good Engineers Are The Real Reason Standards
+  Keep Drifting
+tools_mentioned:
+- LLMs
+topics:
+- Software Architecture
+- Technical Debt
+- Code Review
+- Large Language Models
+- AI in Software Development
+- System Design
 url: https://www.notion.so/Why-Architecture-Rots-No-Matter-How-Good-Engineers-Are-The-Real-Reason-Standards-Keep-Drifting-2f79fa3b8750802a9016d798a617c30d
 ---
 
@@ -27,4 +45,3 @@ url: https://www.notion.so/Why-Architecture-Rots-No-Matter-How-Good-Engineers-Ar
 - **Business Trade-offs:** AI can flag technical debt but can't decide if shipping faster is the right business move [18:16 Opens in a new window ](http://www.youtube.com/watch?v=NoRePxSrhpw&t=1096).
 
 - **Cross-System Context:** Knowing which team owns a service or remembering a specific failure from a "Black Friday" event remains a human strength [18:43 Opens in a new window ](http://www.youtube.com/watch?v=NoRePxSrhpw&t=1123).
-

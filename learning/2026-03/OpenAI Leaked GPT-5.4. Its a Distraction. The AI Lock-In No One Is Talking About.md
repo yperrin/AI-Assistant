@@ -1,6 +1,30 @@
 ---
-title: OpenAI Leaked GPT-5.4. Its a Distraction. The AI Lock-In No One Is Talking About
+complexity: Advanced
+date: 2026-03-06 19:32:00+05:30
 id: 31b9fa3b-8750-80c0-99bc-d153c486f79a
+processed_by_ai: true
+summary: This document outlines OpenAI's four key bets for developing advanced AI
+  systems, including strong reasoning, persistent memory, scalable retrieval, and
+  high execution accuracy. It also compares OpenAI's top-down infrastructure approach
+  with Anthropic's bottom-up strategy via Claude Code, and provides actionable advice
+  for leaders on managing AI adoption and context accumulation.
+title: OpenAI Leaked GPT-5.4. Its a Distraction. The AI Lock-In No One Is Talking
+  About
+tools_mentioned:
+- OpenAI
+- Anthropic
+- Claude Code
+- AWS
+- GPT
+- Gemini
+topics:
+- Artificial Intelligence
+- Large Language Models
+- Enterprise AI
+- Retrieval-Augmented Generation (RAG)
+- AI Strategy
+- Competitive Analysis
+- Organizational AI Adoption
 url: https://www.notion.so/OpenAI-Leaked-GPT-5-4-It-s-a-Distraction-The-AI-Lock-In-No-One-Is-Talking-About-31b9fa3b875080c099bcd153c486f79a
 ---
 
@@ -33,4 +57,3 @@ url: https://www.notion.so/OpenAI-Leaked-GPT-5-4-It-s-a-Distraction-The-AI-Lock-
 1. **Evaluate switching costs:** Consider how portable your current context is and whether you are willing to put your "system of record" in a proprietary cloud like OpenAI’s.
 
 <br/>
-

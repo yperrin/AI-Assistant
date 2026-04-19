@@ -1,6 +1,25 @@
 ---
-title: Todays training
+complexity: Advanced
+date: 2025-11-05 20:29:00-05:00
 id: 2a39fa3b-8750-80ab-809e-e7b6cc664566
+processed_by_ai: true
+summary: This document outlines 10 advanced prompting techniques for AI models, categorized
+  into building self-correction systems, meta prompting, reasoning scaffolds, and
+  perspective engineering. It covers methods like Chain of Verification, Adversarial
+  Prompting, Reverse Prompting, and Multi-Persona Debate to enhance AI output quality
+  and reasoning.
+title: Todays training
+tools_mentioned:
+- sub-agents
+- Plan Mode
+topics:
+- AI Prompting
+- Prompt Engineering
+- Large Language Models
+- Self-Correction
+- Reasoning Scaffolds
+- Meta Prompting
+- Perspective Engineering
 url: https://www.notion.so/Today-s-training-2a39fa3b875080ab809ee7b6cc664566
 ---
 
@@ -41,4 +60,3 @@ url: https://www.notion.so/Today-s-training-2a39fa3b875080ab809ee7b6cc664566
 - **Title:** The Mental Models of Master Prompters: 10 Techniques for Advanced Prompting
 
 - **Channel:** [AI News & Strategy Daily | Nate B Jones](http://www.youtube.com/watch?v=GTEz5WWbfiw)
-

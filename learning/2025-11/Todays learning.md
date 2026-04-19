@@ -1,6 +1,22 @@
 ---
-title: Todays learning
+complexity: Intermediate
+date: 2025-11-06 14:20:00-05:00
 id: 2a39fa3b-8750-805c-acd3-c0ab0aaf8414
+processed_by_ai: true
+summary: This document outlines six common problems users encounter when interacting
+  with large language models, such as underspecified prompts, revision loops, and
+  hallucinations. For each issue, it provides practical solutions and strategies for
+  more effective and reliable LLM interactions.
+title: Todays learning
+tools_mentioned:
+- API
+topics:
+- Prompt Engineering
+- Large Language Models
+- AI Interaction
+- Hallucinations
+- Context Management
+- Structured Output
 url: https://www.notion.so/Today-s-learning-2a39fa3b8750805cacd3c0ab0aaf8414
 ---
 
@@ -55,4 +71,3 @@ url: https://www.notion.so/Today-s-learning-2a39fa3b8750805cacd3c0ab0aaf8414
 - **Solution:** Have **clean context loading** and default to providing **as little context as is humanly possible** to get the model to complete the task [09:30 Opens in a new window ](http://www.youtube.com/watch?v=KwQpPbLEBMA&t=570). Focus on the necessary "slice of context" instead of the full document [09:51 Opens in a new window ](http://www.youtube.com/watch?v=KwQpPbLEBMA&t=591).
 
 ---
-

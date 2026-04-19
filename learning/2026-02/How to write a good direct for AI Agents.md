@@ -1,6 +1,25 @@
 ---
-title: How to write a good direct for AI Agents
+complexity: Intermediate
+date: 2026-02-21 06:43:00-05:00
 id: 30e9fa3b-8750-80e2-84cb-d88450f690c4
+processed_by_ai: true
+summary: This document outlines five principles for creating effective AI agent specifications,
+  emphasizing a structured, iterative, and human-in-the-loop approach to ensure robust
+  and maintainable AI-assisted engineering. It also provides key takeaways for senior
+  leadership on avoiding common pitfalls and maintaining architectural health in AI-driven
+  projects.
+title: How to write a good direct for AI Agents
+tools_mentioned:
+- RAG
+- Plan Mode
+topics:
+- AI Agents
+- Software Specifications
+- Software Development Workflow
+- System Design
+- Retrieval-Augmented Generation
+- Code Quality
+- Project Management
 url: https://www.notion.so/How-to-write-a-good-direct-for-AI-Agents-30e9fa3b875080e284cbd88450f690c4
 ---
 
@@ -39,4 +58,3 @@ url: https://www.notion.so/How-to-write-a-good-direct-for-AI-Agents-30e9fa3b8750
 - **Single Source of Truth:** A well-maintained spec acts as the management tool for your "army of AI interns," ensuring [long-term architectural health](https://www.oreilly.com/radar/how-to-write-a-good-spec-for-ai-agents/) and team-wide clarity.
 
 <br/>
-

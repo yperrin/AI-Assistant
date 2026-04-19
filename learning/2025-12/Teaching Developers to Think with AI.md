@@ -1,6 +1,19 @@
 ---
-title: Teaching Developers to Think with AI
+complexity: Intermediate
+date: 2025-12-23 22:31:00-05:00
 id: 2d39fa3b-8750-8036-9f74-d2b87922737e
+processed_by_ai: true
+summary: This document outlines key strategies for learning with AI, emphasizing critical
+  thinking, prompt engineering as a form of coding, using AI for research, and generating
+  unit tests to understand code behavior.
+title: Teaching Developers to Think with AI
+tools_mentioned: []
+topics:
+- AI Learning
+- Prompt Engineering
+- Critical Thinking
+- Unit Testing
+- C#
 url: https://www.notion.so/Teaching-Developers-to-Think-with-AI-2d39fa3b875080369f74d2b87922737e
 ---
 
@@ -15,4 +28,3 @@ url: https://www.notion.so/Teaching-Developers-to-Think-with-AI-2d39fa3b87508036
 - **Unit Test Generation:** Learners practice AI-assisted coding by generating unit tests, which requires them to clearly describe the behavior and interface of the code they are testing.
 
 ### Strategic Goal:
-

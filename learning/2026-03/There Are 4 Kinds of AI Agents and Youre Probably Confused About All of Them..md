@@ -1,6 +1,24 @@
 ---
-title: There Are 4 Kinds of AI Agents and Youre Probably Confused About All of Them.
+complexity: Intermediate
+date: 2026-03-25 11:14:00-04:00
 id: 32e9fa3b-8750-806a-a69c-f1ca5773f3d2
+processed_by_ai: true
+summary: 'This document outlines four species of AI agents: Coding Harnesses, Dark
+  Factories, Auto Research, and Orchestration, detailing their primary goals and best
+  use cases. It also provides key takeaways for leaders, emphasizing the importance
+  of simple configurations, the shifting human role to management, avoiding the "hammer"
+  trap, and considering scale when implementing orchestration frameworks.'
+title: There Are 4 Kinds of AI Agents and Youre Probably Confused About All of Them.
+tools_mentioned:
+- Cursor
+- LangGraph
+- CrewAI
+topics:
+- AI Agents
+- Software Development
+- Automation
+- Workflow Management
+- AI Strategy
 url: https://www.notion.so/There-Are-4-Kinds-of-AI-Agents-and-You-re-Probably-Confused-About-All-of-Them-32e9fa3b8750806aa69cf1ca5773f3d2
 ---
 
@@ -26,4 +44,3 @@ url: https://www.notion.so/There-Are-4-Kinds-of-AI-Agents-and-You-re-Probably-Co
 - **Scale Matters:** Orchestration frameworks like [LangGraph](http://www.youtube.com/watch?v=YpPcDHc3e9U) [22:58 Opens in a new window ](http://www.youtube.com/watch?v=YpPcDHc3e9U&t=1378) or [CrewAI](http://www.youtube.com/watch?v=YpPcDHc3e9U) [28:14 Opens in a new window ](http://www.youtube.com/watch?v=YpPcDHc3e9U&t=1694) are high-overhead; only implement them if the scale of the problem (e.g., 10,000+ tickets) justifies the prompt and context management effort [25:07 Opens in a new window ](http://www.youtube.com/watch?v=YpPcDHc3e9U&t=1507).
 
 ### Next Steps
-

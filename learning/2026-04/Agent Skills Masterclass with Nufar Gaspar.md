@@ -1,6 +1,27 @@
 ---
-title: Agent Skills Masterclass with Nufar Gaspar
+complexity: Advanced
+date: 2026-04-03 07:35:00-04:00
 id: 3379fa3b-8750-8066-824a-e5b501d010d5
+processed_by_ai: true
+summary: This document provides a comprehensive guide to designing, building, and
+  scaling AI agent skills, covering their anatomy, essential examples, advanced patterns
+  like chaining and agentic loops, and organizational strategies for discovery, validation,
+  and lifecycle management. It emphasizes treating skills like software packages and
+  highlights their role in dynamic knowledge loading to prevent prompt bloat.
+title: Agent Skills Masterclass with Nufar Gaspar
+tools_mentioned:
+- Anthropic's Skill Creator
+- play.brief.ai
+- The AI Daily Brief (AI Breakdown)
+- CLAUDE.md
+topics:
+- AI Agents
+- Agent Skills
+- Prompt Engineering
+- Workflow Automation
+- Skill Design
+- Organizational Scaling
+- AI Best Practices
 url: https://www.notion.so/Agent-Skills-Masterclass-with-Nufar-Gaspar-3379fa3b87508066824ae5b501d010d5
 ---
 
@@ -93,5 +114,4 @@ url: https://www.notion.so/Agent-Skills-Masterclass-with-Nufar-Gaspar-3379fa3b87
 
  | **Put IN the Folder When...** | **Point Externally When...** | 
  | ---- | ---- | 
- | Context is specific to this skill and travels with it (rubric, template, persona, examples) | Context is shared across skills or changes independently (CLAUDE.md, project docs, stakeholder list) | 
-
+ | Context is specific to this skill and travels with it (rubric, template, persona, examples) | Context is shared across skills or changes independently (CLAUDE.md, project docs, stakeholder list) |

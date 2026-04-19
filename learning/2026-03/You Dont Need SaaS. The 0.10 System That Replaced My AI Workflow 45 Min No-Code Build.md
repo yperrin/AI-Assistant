@@ -1,6 +1,33 @@
 ---
-title: You Dont Need SaaS. The 0.10 System That Replaced My AI Workflow 45 Min No-Code Build
+complexity: Intermediate
+date: 2026-03-03
 id: 3189fa3b-8750-807e-a0fd-e30492f75578
+processed_by_ai: true
+summary: This document addresses the problem of isolated AI memories across different
+  tools and proposes an "Open Brain" solution using a Postgres database with pgvector
+  for persistent, shared AI memory. This system allows AI agents to access a unified
+  knowledge base, enhancing personalization and effectiveness.
+title: You Dont Need SaaS. The 0.10 System That Replaced My AI Workflow 45 Min No-Code
+  Build
+tools_mentioned:
+- ChatGPT
+- Claude
+- Cursor
+- Notion
+- Evernote
+- Postgres
+- pgvector
+- Slack
+- Supabase Edge Functions
+- VS Code
+- Claude Code
+topics:
+- AI Memory
+- Knowledge Management
+- Vector Databases
+- AI Agents
+- Data Storage
+- Personalization
 url: https://www.notion.so/You-Don-t-Need-SaaS-The-0-10-System-That-Replaced-My-AI-Workflow-45-Min-No-Code-Build-3189fa3b8750807ea0fde30492f75578
 ---
 
@@ -33,4 +60,3 @@ url: https://www.notion.so/You-Don-t-Need-SaaS-The-0-10-System-That-Replaced-My-
 - **Guide:** Full step-by-step instructions and prompts are available on [Nate's Substack](https://natesnewsletter.substack.com/p/every-ai-you-use-forgets-you-heres?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true).
 
 - **Prompts:** Includes templates for memory migration, "spark" interviews to find what to track, and weekly reviews [22:18 Opens in a new window ](http://www.youtube.com/watch?v=2JiMmye2ezg&t=1338).
-

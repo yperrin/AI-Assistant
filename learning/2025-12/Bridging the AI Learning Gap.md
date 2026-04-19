@@ -1,6 +1,23 @@
 ---
-title: Bridging the AI Learning Gap
+complexity: Intermediate
+date: 2025-12-23 22:36:00-05:00
 id: 2d39fa3b-8750-80f7-885a-e7abe9cf7c8b
+processed_by_ai: true
+summary: This document outlines five core action items for integrating AI into learning
+  and development, focusing on critical thinking, effective prompting, using AI for
+  code explanation and research, and prioritizing AI for unit test generation. It
+  emphasizes developing a "trust but verify" habit and equating prompting with technical
+  effort.
+title: Bridging the AI Learning Gap
+tools_mentioned:
+- AI
+topics:
+- AI Learning
+- Prompt Engineering
+- Software Development
+- Code Explanation
+- Unit Testing
+- Critical Thinking
 url: https://www.notion.so/Bridging-the-AI-Learning-Gap-2d39fa3b875080f7885ae7abe9cf7c8b
 ---
 
@@ -17,4 +34,3 @@ url: https://www.notion.so/Bridging-the-AI-Learning-Gap-2d39fa3b875080f7885ae7ab
 - **Prioritize Unit Test Generation:** Use AI to write unit tests for existing components. Writing a prompt for a test forces the developer to clearly describe the component's public contract—its behavior, arguments, and return types—which builds strong architectural habits.
 
 ### Strategic Summary
-

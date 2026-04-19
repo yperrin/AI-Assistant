@@ -1,6 +1,28 @@
 ---
-title: Prompt Engineering Is Dead. Context Engineering Is Dying. What Comes Next Changes Everything.
+complexity: Intermediate
+date: 2026-02-24 17:54:00-05:00
 id: 3119fa3b-8750-80c4-9c4d-ca6bea2eeabf
+processed_by_ai: true
+summary: This document introduces "Intent Engineering" as a critical evolution beyond
+  prompt and context engineering, focusing on aligning AI agents with organizational
+  purpose and actionable parameters. It uses the Klarna case study to illustrate the
+  pitfalls of AI optimizing for measurable metrics over unmeasured intent, outlining
+  three layers of AI maturity and predicting the rise of the AI Workflow Architect.
+title: Prompt Engineering Is Dead. Context Engineering Is Dying. What Comes Next Changes
+  Everything.
+tools_mentioned:
+- Model Context Protocol (MCP)
+- GPT-5
+- Gemini 3
+topics:
+- Intent Engineering
+- AI Agents
+- Organizational Strategy
+- Prompt Engineering
+- Context Engineering
+- AI Maturity
+- RAG pipelines
+- AI Workflow Architect
 url: https://www.notion.so/Prompt-Engineering-Is-Dead-Context-Engineering-Is-Dying-What-Comes-Next-Changes-Everything-3119fa3b875080c49c4dca6bea2eeabf
 ---
 
@@ -33,4 +55,3 @@ url: https://www.notion.so/Prompt-Engineering-Is-Dead-Context-Engineering-Is-Dyi
 - **New Role:** The video predicts the rise of the **AI Workflow Architect** [23:39 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=1419), a role sitting between engineering, operations, and strategy.
 
 - **The Bottleneck:** Models (GPT-5, Gemini 3, etc.) are no longer the bottleneck; the race is now an "intent race" to build the best organizational infrastructure [26:04 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=1564).
-

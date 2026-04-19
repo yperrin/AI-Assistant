@@ -1,6 +1,27 @@
 ---
-title: How to use GitHub Copilot
+complexity: Advanced
+date: 2025-12-10 21:12:00-05:00
 id: 2c69fa3b-8750-80f1-8de1-d67eb723ab4b
+processed_by_ai: true
+summary: 'This document outlines three core components for advanced AI interaction:
+  Custom Instructions for project context, Prompt Files for reusable tasks with specific
+  models, and Custom Agents for specialized personas. It also details a "Pro" workflow
+  strategy leveraging different AI models for planning, generating, and implementing
+  code, along with a tip on managing AI context.'
+title: How to use GitHub Copilot
+tools_mentioned:
+- GPT-4
+- Claude 3.5 Sonnet
+- Claude 3.5 Opus
+- GPT-4o Mini
+- GitHub
+topics:
+- AI workflow
+- Prompt engineering
+- Custom instructions
+- AI agents
+- AI models
+- Context management
 url: https://www.notion.so/How-to-use-GitHub-Copilot-2c69fa3b875080f18de1d67eb723ab4b
 ---
 
@@ -41,4 +62,3 @@ url: https://www.notion.so/How-to-use-GitHub-Copilot-2c69fa3b875080f18de1d67eb72
 ### **Key Takeaway on "Context Rot"** `[10:37]`
 
 - **Tip:** Once a task is done, clear your chat context before starting the next step to keep the AI sharp.
-

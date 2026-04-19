@@ -1,6 +1,26 @@
 ---
-title: Soft Forks How Agent Skills Create Specialized AI Without Training
+complexity: Intermediate
+date: 2026-04-05 15:19:00-04:00
 id: 3399fa3b-8750-800e-9791-da48f94d9ffb
+processed_by_ai: true
+summary: This document introduces the concept of agent skills as "soft forks" for
+  AI models, likening them to applications running on an operating system. It details
+  how skills work through version control, progressive disclosure, and execution sandboxing,
+  and presents key findings from SkillsBench, highlighting performance improvements
+  and the importance of human-curated skills.
+title: Soft Forks How Agent Skills Create Specialized AI Without Training
+tools_mentioned:
+- Claude Code
+- Git
+- SkillsBench
+- Claude Haiku
+- Claude Opus
+topics:
+- Agent Skills
+- Large Language Models
+- Software Architecture
+- Performance Optimization
+- AI Agents
 url: https://www.notion.so/Soft-Forks-How-Agent-Skills-Create-Specialized-AI-Without-Training-3399fa3b8750800e9791da48f94d9ffb
 ---
 
@@ -31,4 +51,3 @@ url: https://www.notion.so/Soft-Forks-How-Agent-Skills-Create-Specialized-AI-Wit
 - **Human Insight is Critical:** Models cannot reliably self-generate effective skills; the expertise must be human-curated.
 
 ### Why It Matters
-

@@ -1,6 +1,36 @@
 ---
-title: The 285B Sell-Off Was Just the Beginning  The Infrastructure Story Is Bigger.
+complexity: Advanced
+date: 2026-02-21 21:23:00-05:00
 id: 30f9fa3b-8750-806a-bdb2-f614fba8506a
+processed_by_ai: true
+summary: The document describes the emerging "Agent Web," optimized for machine reading,
+  contrasting it with the "Human Web." It outlines key infrastructure developments
+  like agentic payments, machine-readable content, specialized search engines, and
+  execution environments, while also addressing emergent economics and security concerns.
+title: The 285B Sell-Off Was Just the Beginning  The Infrastructure Story Is Bigger.
+tools_mentioned:
+- Coinbase
+- X42 protocol
+- Stripe
+- Cloudflare
+- Google
+- Exa.ai
+- OpenAI
+- PolyMarket
+- IronClaw
+- WebAssembly
+topics:
+- Agent Web
+- Machine-to-machine transactions
+- Structured data
+- AI agents
+- Web infrastructure
+- Payments
+- Content access
+- Search engines
+- Execution environments
+- Autonomous trading
+- Cybersecurity
 url: https://www.notion.so/The-285B-Sell-Off-Was-Just-the-Beginning-The-Infrastructure-Story-Is-Bigger-30f9fa3b8750806abdb2f614fba8506a
 ---
 
@@ -25,4 +55,3 @@ url: https://www.notion.so/The-285B-Sell-Off-Was-Just-the-Beginning-The-Infrastr
 - **Autonomous Trading ****[16:27 Opens in a new window ](http://www.youtube.com/watch?v=O-0poNv2jD4&t=987)****:** On prediction markets like PolyMarket, agents are already trading autonomously to earn money to cover their own compute costs [17:10 Opens in a new window ](http://www.youtube.com/watch?v=O-0poNv2jD4&t=1030).
 
 - **Security Architecture ****[21:18 Opens in a new window ](http://www.youtube.com/watch?v=O-0poNv2jD4&t=1278)****:** Serious security frameworks now treat agents as potential adversaries. Solutions like **IronClaw** [21:31 Opens in a new window ](http://www.youtube.com/watch?v=O-0poNv2jD4&t=1291) sandbox agent tools in WebAssembly to contain potential "blast radii" if an agent is compromised.
-

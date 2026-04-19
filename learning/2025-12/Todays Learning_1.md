@@ -1,6 +1,26 @@
 ---
-title: Todays Learning
+complexity: Intermediate
+date: 2025-12-06
 id: 2c19fa3b-8750-800f-9103-db8f0e9b599c
+processed_by_ai: true
+summary: This document discusses the advanced capabilities of Gemini 3, including
+  transforming data into interactive web apps, summarizing YouTube lectures into infographics,
+  converting research articles into interactive reports, and creating learning simulations.
+  It also briefly mentions the Claude SDK for agent development and Claude skills
+  for managing AI chatter.
+title: Todays Learning
+tools_mentioned:
+- Claude SDK
+- Claude desktop
+- Gemini CLI
+- Gemini 3
+topics:
+- AI Capabilities
+- Web Application Development
+- Data Visualization
+- Content Summarization
+- Interactive Learning
+- Large Language Models
 url: https://www.notion.so/Today-s-Learning-2c19fa3b8750800f9103db8f0e9b599c
 ---
 
@@ -21,4 +41,3 @@ url: https://www.notion.so/Today-s-Learning-2c19fa3b8750800f9103db8f0e9b599c
 - **4. Science to Learning Simulation ****[05:09 Opens in a new window ](http://www.youtube.com/watch?v=1XSNpRPhFBc&t=309)****:** Gemini 3 can generate the **scientific explanation** for a complex process (like the stages of cancer) and then build an **interactive, visual web app simulation** that walks the user through each stage step-by-step, complete with a visual representation and an updated text explanation below.
 
 ---
-

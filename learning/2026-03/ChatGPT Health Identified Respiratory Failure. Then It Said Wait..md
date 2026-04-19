@@ -1,6 +1,25 @@
 ---
-title: ChatGPT Health Identified Respiratory Failure. Then It Said Wait.
+complexity: Advanced
+date: 2026-03-20
 id: 3299fa3b-8750-8019-a766-db4b97d58ea7
+processed_by_ai: true
+summary: This document outlines four common failure modes of AI agents, particularly
+  in high-stakes situations like healthcare, including issues with extreme cases,
+  reasoning-action gaps, social context influence, and superficial guardrails. It
+  then proposes a four-layer safety architecture involving progressive autonomy, deterministic
+  validation, an evaluation flywheel, and factorial stress testing to build more reliable
+  AI systems.
+title: ChatGPT Health Identified Respiratory Failure. Then It Said Wait.
+tools_mentioned:
+- ChatGPT
+topics:
+- AI Agents
+- AI Safety
+- AI Failure Modes
+- Healthcare AI
+- AI Ethics
+- Evaluation Strategies
+- System Design
 url: https://www.notion.so/ChatGPT-Health-Identified-Respiratory-Failure-Then-It-Said-Wait-3299fa3b87508019a766db4b97d58ea7
 ---
 
@@ -31,4 +50,3 @@ url: https://www.notion.so/ChatGPT-Health-Identified-Respiratory-Failure-Then-It
 ### **The Bottom Line**
 
 <br/>
-

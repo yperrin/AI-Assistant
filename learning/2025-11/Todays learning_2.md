@@ -1,6 +1,30 @@
 ---
-title: Todays learning
+complexity: Intermediate
+date: 2025-11-07
 id: 2a59fa3b-8750-8088-baae-ce067e77dae5
+processed_by_ai: true
+summary: This document details how AI agents can optimize workflows through efficient
+  tool usage and data processing, and then provides an overview of specific AI tools
+  (ChatGPT, Gemini, Claude, Perplexity, NotebookLM) and their applications in research,
+  strategic visualization, and asset creation workflows.
+title: Todays learning
+tools_mentioned:
+- ChatGPT
+- Gemini
+- Claude
+- Perplexity
+- NotebookLM
+- Gemini Jam
+- Figma
+- Google Slides
+topics:
+- AI Agents
+- Workflow Optimization
+- Large Language Models
+- Research Workflows
+- Data Visualization
+- Content Creation
+- AI Tool Comparison
 url: https://www.notion.so/Today-s-learning-2a59fa3b87508088baaece067e77dae5
 ---
 
@@ -51,5 +75,4 @@ url: https://www.notion.so/Today-s-learning-2a59fa3b87508088baaece067e77dae5
  | **Editable Social Visuals** | **Perplexity** + **Claude** (SVG Artifacts) | Use **Perplexity** for quick, real-time summarization (e.g., of an event). Paste the summary into **Claude** and ask it to generate an **SVG artifact** (an editable vector file) that can be easily customized in a design tool like Figma [10:08 Opens in a new window ](http://www.youtube.com/watch?v=zFcxA9T_BWs&t=608). | 
  | **Automated Presentation Deck** | **Gemini Jam** + **Gemini** (Canvas) | Use **Gemini Jam** to generate a presentation outline from a report. Then, use **Gemini's** Canvas mode to build the full slide deck, which can be exported directly to Google Slides [11:49 Opens in a new window ](http://www.youtube.com/watch?v=zFcxA9T_BWs&t=709). | 
  | **Complete Asset Package** | **NotebookLM** + **Gemini** | Use **NotebookLM** to find authoritative sources, design a course curriculum, and generate lesson notes and toolkits. Then, use **Gemini** to create complementary assets like presentation slides based on the **NotebookLM** output [13:30 Opens in a new window ](http://www.youtube.com/watch?v=zFcxA9T_BWs&t=810). | 
- | **Grounded Prototypes/Assets** | **NotebookLM** + **Gemini** | Use **NotebookLM** to create a strategic brief for a new asset (e.g., a landing page) backed by research. Then, use **Gemini** to build a fully functional, deployable prototype based on the strategic brief [16:26 Opens in a new window ](http://www.youtube.com/watch?v=zFcxA9T_BWs&t=986). | 
-
+ | **Grounded Prototypes/Assets** | **NotebookLM** + **Gemini** | Use **NotebookLM** to create a strategic brief for a new asset (e.g., a landing page) backed by research. Then, use **Gemini** to build a fully functional, deployable prototype based on the strategic brief [16:26 Opens in a new window ](http://www.youtube.com/watch?v=zFcxA9T_BWs&t=986). |

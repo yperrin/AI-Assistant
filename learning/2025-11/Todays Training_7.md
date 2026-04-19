@@ -1,6 +1,31 @@
 ---
-title: Todays Training
+complexity: Advanced
+date: 2025-11-23
 id: 2b49fa3b-8750-8057-a1ed-ed9230a34677
+processed_by_ai: true
+summary: This document discusses the strategic implications of AI, framing it as evolving
+  infrastructure and emphasizing flexible adoption over vendor lock-in. It also details
+  various approaches to automating GitHub issue resolution and code reviews using
+  AI agents like Claude, OpenAI Codex, and Cursor, highlighting different levels of
+  human involvement and security considerations.
+title: Todays Training
+tools_mentioned:
+- GitHub Actions
+- Claude
+- OpenAI Codex
+- Cursor
+- SonarQube
+- GitHub CLI
+- OpenAI
+topics:
+- Artificial Intelligence
+- AI Strategy
+- Software Development
+- Automation
+- GitHub Actions
+- Code Review
+- Large Language Models
+- DevOps
 url: https://www.notion.so/Today-s-Training-2b49fa3b87508057a1eded9230a34677
 ---
 
@@ -51,4 +76,3 @@ url: https://www.notion.so/Today-s-Training-2b49fa3b87508057a1eded9230a34677
 - **Cost Efficiency:** For Claude, he demonstrates using a session token from a standard subscription rather than an expensive API key, making the setup much more affordable for individuals. [09:27 Opens in a new window](http://www.youtube.com/watch?v=upwbqZ67UBA&t=567)
 
 - **SonarQube Integration:** He briefly mentions using SonarQube with an MCP (Model Context Protocol) server to let agents run security and quality scans on their own code. [15:13 Opens in a new window](http://www.youtube.com/watch?v=upwbqZ67UBA&t=913)
-

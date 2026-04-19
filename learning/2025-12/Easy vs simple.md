@@ -1,6 +1,25 @@
 ---
-title: Easy vs simple
+complexity: Intermediate
+date: 2025-12-20 13:48:00-05:00
 id: 2cf9fa3b-8750-8094-8316-dace48d7cec9
+processed_by_ai: true
+summary: This document discusses the trap of using AI for "easy" code generation,
+  which often leads to increased complexity and technical debt, and proposes a three-phase
+  "Context Engineering" solution to leverage AI for implementation while retaining
+  human understanding and architectural control. The solution emphasizes human-led
+  research and detailed planning before AI-assisted code generation to prevent a "complexity
+  spiral."
+title: Easy vs simple
+tools_mentioned:
+- AI
+- Slack
+topics:
+- AI in Software Development
+- Code Generation
+- Technical Debt
+- Software Architecture
+- Development Process
+- Context Engineering
 url: https://www.notion.so/Easy-vs-simple-2cf9fa3b875080948316dace48d7cec9
 ---
 
@@ -33,4 +52,3 @@ Key Takeaway
 Nations emphasizes that understanding remains a human endeavor [18:06]. He recounts a Netflix refactor where they had to perform a manual migration first just to "earn the understanding" required to guide the AI safely [15:52]. The goal is to use AI to accelerate mechanical tasks without "outsourcing our thinking."
 Watch the full video here: [https://www.youtube.com/watch?v=eIoohUmYpGI](https://www.youtube.com/watch?v=eIoohUmYpGI)
 YouTube video views will be stored in your YouTube History, and your data will be stored and used by YouTube according to its Terms of Service
-

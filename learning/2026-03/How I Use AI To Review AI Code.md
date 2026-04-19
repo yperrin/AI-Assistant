@@ -1,6 +1,26 @@
 ---
-title: How I Use AI To Review AI Code
+complexity: Intermediate
+date: 2026-03-28 09:06:00-04:00
 id: 3319fa3b-8750-807d-a652-fdeabc051c15
+processed_by_ai: true
+summary: This document outlines a four-layer approach to AI code review, combining
+  automated checks, local AI agents, CI integration, and human oversight to improve
+  code quality. It also provides practical tips for leveraging AI in code review,
+  such as configuring deterministic hooks and using custom review files.
+title: How I Use AI To Review AI Code
+tools_mentioned:
+- Git hooks
+- npm test
+- RuboCop
+- Claude Code
+- Code Rabbit
+- OpenAI Codex
+topics:
+- AI Code Review
+- Software Development
+- Code Quality
+- Automation
+- Continuous Integration
 url: https://www.notion.so/How-I-Use-AI-To-Review-AI-Code-3319fa3b8750807da652fdeabc051c15
 ---
 
@@ -30,4 +50,3 @@ url: https://www.notion.so/How-I-Use-AI-To-Review-AI-Code-3319fa3b8750807da652fd
 - **Local Execution:** Never push AI code without running it locally first to ensure the application actually starts and the UI isn't broken [05:25 Opens in a new window ](http://www.youtube.com/watch?v=As2xy_cSx00&t=325).
 
 <br/>
-

@@ -1,6 +1,25 @@
 ---
-title: Proactive agents
+complexity: Intermediate
+date: 2025-12-13 10:49:00-05:00
 id: 2c89fa3b-8750-802a-ad5c-f18da222bc84
+processed_by_ai: true
+summary: This document discusses the shift from reactive to proactive AI agents in
+  software development, highlighting the vision for agents like Google Labs' project
+  Jewels that act as trusted collaborators. It outlines four essential ingredients
+  for proactivity and describes the evolving levels of agent collaboration, from basic
+  issue fixing to collective intelligence across the product lifecycle.
+title: Proactive agents
+tools_mentioned:
+- Jewels
+- Stitch
+- Insights
+topics:
+- AI Agents
+- Proactive AI
+- Software Development
+- Developer Productivity
+- Code Assistance
+- Context Switching
 url: https://www.notion.so/Proactive-agents-2c89fa3b8750802aad5cf18da222bc84
 ---
 
@@ -29,4 +48,3 @@ url: https://www.notion.so/Proactive-agents-2c89fa3b8750802aad5cf18da222bc84
 	- **Level 3 ("Collective Intelligence"):** Agents like Jewels (code), Stitch (design), and Insights (data) converge to propose improvements based on **consequences** to users and performance, representing alignment across the full product lifecycle [07:52 Opens in a new window ](http://www.youtube.com/watch?v=v3u8xc0zLec&t=472).
 
 - **New Features in Jewels:** New features include adding **memory** to build project context, a **critic agent** for adversarial code review, and a **to-do bot** that proactively works on items developers have flagged in the code [09:35 Opens in a new window ](http://www.youtube.com/watch?v=v3u8xc0zLec&t=575).
-

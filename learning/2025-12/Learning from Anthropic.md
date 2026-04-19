@@ -1,6 +1,26 @@
 ---
-title: Learning from Anthropic
+complexity: Advanced
+date: 2025-12-05 17:51:00-05:00
 id: 2c09fa3b-8750-80aa-a334-f317edb02d60
+processed_by_ai: true
+summary: This document outlines advanced tool use features on the Claude Developer
+  Platform, focusing on solutions for context window management, programmatic tool
+  calling with Python scripts, and improving tool accuracy with input examples. It
+  also details the benefits of code execution with MCP for efficiency, on-demand tool
+  access, complex logic handling, and enhanced privacy.
+title: Learning from Anthropic
+tools_mentioned:
+- Claude
+- Python
+- MCP
+topics:
+- Advanced Tool Use
+- Large Language Models
+- Context Window Management
+- Code Execution
+- Developer Platform
+- Efficiency
+- Privacy
 url: https://www.notion.so/Learning-from-Anthropic-2c09fa3b875080aaa334f317edb02d60
 ---
 
@@ -39,4 +59,3 @@ url: https://www.notion.so/Learning-from-Anthropic-2c09fa3b875080aaa334f317edb02
 - **Better Logic:** Complex workflows (loops, error handling) are handled in code rather than through multiple expensive model round-trips.
 
 - **Enhanced Privacy:** Sensitive intermediate data stays in the execution environment and never enters the model's context window.
-

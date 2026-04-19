@@ -1,6 +1,21 @@
 ---
-title: How to Make the Best of AI Programming Assistants
+complexity: Intermediate
+date: 2026-02-22
 id: 30f9fa3b-8750-8014-aab5-e0a1b0956b5c
+processed_by_ai: true
+summary: This document addresses the problem of "undersampling" AI-generated code,
+  where AI produces code much faster than it can be manually reviewed or tested, leading
+  to unnoticed errors. It proposes Continuous Integration (CI) as the solution to
+  continuously verify AI output through automated testing and fast feedback loops.
+title: How to Make the Best of AI Programming Assistants
+tools_mentioned: []
+topics:
+- AI Development
+- Continuous Integration
+- Software Testing
+- Feedback Loops
+- Code Quality
+- Development Practices
 url: https://www.notion.so/How-to-Make-the-Best-of-AI-Programming-Assistants-30f9fa3b87508014aab5e0a1b0956b5c
 ---
 
@@ -36,5 +51,4 @@ url: https://www.notion.so/How-to-Make-the-Best-of-AI-Programming-Assistants-30f
 
 <br/>
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/800f330d-42f8-47ad-8a9f-47c7834a4d77/fcfdca03-37c7-489c-a036-a291e1380ad9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665LEBTNGG%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T163628Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIE1f8L1hi4LMGDKrzYOIG9MqyHd7UKrr5nBipcOtJGfaAiEA9wSXMdh2562Ls7tjW1e4aKUhU7jQ7TDL3issJHmzGrkq%2FwMIERAAGgw2Mzc0MjMxODM4MDUiDMvkljZ8%2F4ohboh9sSrcA5Woj0Mcr1ohShR%2FkTzo0IoLXwF0rA64rJPk7q5m%2B35yyDz5t6r1BmHh7qDLr0ILPZ9qEmuVJCagolZJCP%2Ff115dg3NfKy9sk%2B5uLMtkFh1edUhhkKa42sLf%2BDO%2B0y7r66U1mXwkTgdoUpOxuNNLvIjN9I5Y1nG7gNVP5AoGQT%2F3SO%2Fu916OqJc%2BKm1ZQYXsdx%2BkqtV%2Fi6%2FP10xI%2FjcSbixDlo1sfqwRb5ictSJTARaO54XsmU5Z4%2FujByXPYM0NLE3OeheZU9ilmawNp77zdv5MbBEFKYH0kTFZfBZhu4cM7njaAePGN8hSUK0vNkfsRRkyjRqyZzSjA%2Fz6Q09hNw6sWJ8VL7%2BK0pgf1KRgtM6ZQWESapJ1ggyIqhWW9h3cODLsmC4uwxggjLuh4sw9SIJ3HdI5OH7vD5TF1%2BE1HfZb%2FzrUo0JyEkMU2lrGvhbEeE90tFeY22ld8YrJ4Hd3WYwOuQ3lmhlxtIl1%2FMZCZqtrhXVTdMuK%2F5tvG%2FVj%2FaxFuqEyPIxxr2Gfn%2BQewlniDe2ZefSmUBnicLd6GVjmMBe4dudghSV0q47jw3M1csxpXk2kFXaAA3EOAEm%2BjJPHdCMp0JPTniJXeKWDk5Q3cYIqyln%2FZ8UCSNuggsowMNKTpc4GOqUBWVhfs%2BHS91eYfYYnWC9e9WmVya6eP6ucQbXNNwjYCRfNILDkYLXLqIgUgpRMuBCXdSPRAlTeFqYb76H3sAR%2FxRyJvY0UJmZEhR61Ifnod00ubUZWROw09tebqF7UHIRuEs7l8rScuYCdDHQQbjibWerj24MyryI%2BYLbtzzasSANn4r%2BVQ4aSt7fg1Dherx6%2F2V%2BBvt85bpgQJv3CD5U%2FPr%2FsRneo&X-Amz-Signature=35004c1f97d4d93e23353c4a0acde9b6769babc3fa3ab3b8a493bf5cb27b70a8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/800f330d-42f8-47ad-8a9f-47c7834a4d77/fcfdca03-37c7-489c-a036-a291e1380ad9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZOFSLHPV%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T141351Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDkaCXVzLXdlc3QtMiJIMEYCIQCgpYsdWe3qimqp0WmCqyqE9SfKNrLTP8c24VADMxooLAIhALjWW9MiCs6LQ2hdgcKXR4oxG9fSOpTS%2Bwt8m9VROJW8Kv8DCAIQABoMNjM3NDIzMTgzODA1IgwW9pdvQFIfuCBLuncq3ANbTcO9xk4TslA7cz61Eto0uxJcNab49tYElsmEo%2FHtvgc9qQ1JJlFzEKWijisW8ZyprYE2TlbZwpiPmQVLILiahEoQMsaBhF6Q%2BhVEIsFk4fkFg0JKIYqphw91X8LVe2HOszqiw5XSmblAHFswk7%2BlcG77QESQnHmDt8AZuru7caNlZb4xj0xmIrP0cTOFVaGAfu2a5VXWVb0SB7J4Sqq9H6kbz9K1NP2x3%2FFksCoY5Cr5zB6cc4f54xr05RqDv%2Fp0yE5NrBnuvGSL%2B3o8Mkf3lD5yhZHW7Z2iVR79EdT2eCU4x1GGy%2Fp8yL%2FTVeWYH8zHX8EyLzH3LXgQUcSatX2SewnQhco1qsbsCLOfJ%2Bac%2FBItiZTfCM2E1IY8BStO0ySiCPYz8dKHPz3HyY5jTiAZovr10lqUebb7CpXqe2j7R5YA8Xz78XitXz%2BZTI%2FEOjgXFgSMCuOPwPVNOhSOIzN1LmyJo7QnI7xLIKQ2JQgi%2FjCHyVWTYAf11g0h9t0ISGBpgqM8cY9iIjpsyQyq9I%2B2Wft%2FvmyPzh5flcclyuR%2Bn5fnMqATjFlAIm%2FXM5CLTy90L10yDtYjHwKk3Ib02YGsHVXGfIzjxBLzfg22ntpexl5YOLUCvUCyuTowNTDJrpLPBjqkAT1VYqfSaMVrv%2FIfzZtQBung8ZdAzldISKbuQXgHJHGTYgnlWE0ro04yfEX0DnFI78c8NlkM4uRNQ8m6kbD5o2BZ2rbi9Rlp%2ByXDfHHI9a0Kn%2F4WRIvBaGLRA3RiuW%2B9deD9ZseLcfWz5ThtpqgaMg0TBv2XKICCdLFLoCPTOmlpYGnHaPGGZQJxKFyp%2FbBsAt9d2WkMT7MY18E72tsI5lMVBDoy&X-Amz-Signature=126062d6ff25329ce2c7046b7d85bdf83732d9b3d82c8a236ef32ff7d6f3b47b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)

@@ -1,6 +1,35 @@
 ---
-title: Training today
+complexity: Advanced
+date: 2025-12-04 17:01:00-05:00
 id: 2bf9fa3b-8750-8082-8d9b-ff9255a60c01
+processed_by_ai: true
+summary: This document introduces several AI-powered development tools like Factory
+  AI for context management, Cursor for IDE, BugBot for code review, Vercel for deployment,
+  and MCPs for accurate AI context. It then outlines a comprehensive research prompt
+  for evaluating low-code/no-code integration platforms, focusing on architectural
+  health, developer adoption, and strategic recommendations.
+title: Training today
+tools_mentioned:
+- Factory AI
+- Cursor
+- BugBot
+- Vercel
+- Ref.tools
+- Exa Code
+- Kafka
+- Event Hub
+- SQS
+- Angular
+- C#
+- Java
+- GitOps
+topics:
+- AI Development Tools
+- Low-Code/No-Code Platforms
+- Architectural Evaluation
+- Software Development
+- AI Agents
+- DevOps
 url: https://www.notion.so/Training-today-2bf9fa3b875080828d9bff9255a60c01
 ---
 
@@ -81,4 +110,3 @@ url: https://www.notion.so/Training-today-2bf9fa3b875080828d9bff9255a60c01
 	- **Tools:** **Ref.tools** ($9/mo) and **Exa Code** (Free).
 
 	- **Function:** These provide the AI with accurate, fresh documentation and context, preventing it from hallucinating syntax or using outdated patterns.
-

@@ -1,6 +1,26 @@
 ---
-title: Anthropic Just Revealed How Claude Works. The Judgment vs Rules War Is Over. Judgment Won
+complexity: Advanced
+date: 2026-02-08 11:47:00-05:00
 id: 3019fa3b-8750-8077-bb76-f6169668c986
+processed_by_ai: true
+summary: Anthropic's approach to AI, particularly with Claude, prioritizes "judgment
+  over rules" through a principal hierarchy, allowing the AI to handle complex situations
+  by understanding *why* it should behave a certain way. This strategy has significant
+  implications for developers, encouraging them to trust AI discretion and focus on
+  explaining purpose and values in prompts, and has led to substantial enterprise
+  adoption for Claude.
+title: Anthropic Just Revealed How Claude Works. The Judgment vs Rules War Is Over.
+  Judgment Won
+tools_mentioned:
+- Claude
+- Anthropic
+topics:
+- AI Principles
+- Large Language Models
+- AI Safety
+- Prompt Engineering
+- Agent Autonomy
+- Enterprise AI
 url: https://www.notion.so/Anthropic-Just-Revealed-How-Claude-Works-The-Judgment-vs-Rules-War-Is-Over-Judgment-Won-3019fa3b87508077bb76f6169668c986
 ---
 
@@ -33,4 +53,3 @@ url: https://www.notion.so/Anthropic-Just-Revealed-How-Claude-Works-The-Judgment
 - **For Builders:** Start testing higher levels of agent autonomy now. The video predicts that the most valuable agents in 2026 will be those capable of navigating trade-offs without human oversight [13:02 Opens in a new window ](http://www.youtube.com/watch?v=iL3uDrk-i_E&t=782).
 
 <br/>
-

@@ -1,6 +1,29 @@
 ---
-title: From IDEs to AI Agents with Steve Yegge
+complexity: Advanced
+date: 2026-03-28 22:38:00-04:00
 id: 3329fa3b-8750-80e0-9b63-f5b00be0e050
+processed_by_ai: true
+summary: This document outlines the 8 Levels of AI Adoption, discusses the 'Vampiric
+  Effect' of AI on productivity, and introduces 'Gas Town' as an open-source agent
+  orchestrator. It also predicts the death of big tech monoliths, the end of manual
+  coding, and the democratization of programming, while offering career advice for
+  engineers navigating these changes, including advancements in tools like Copilot
+  and Claude Code.
+title: From IDEs to AI Agents with Steve Yegge
+tools_mentioned:
+- Gas Town
+- Copilot
+- Claude Code
+- GitHub Copilot
+- Visual Studio
+topics:
+- AI Adoption
+- Developer Productivity
+- AI Agents
+- Future of Programming
+- Software Development Industry
+- Career Advice for Engineers
+- AI Orchestration
 url: https://www.notion.so/From-IDEs-to-AI-Agents-with-Steve-Yegge-3329fa3b875080e09b63f5b00be0e050
 ---
 
@@ -60,4 +83,3 @@ url: https://www.notion.so/From-IDEs-to-AI-Agents-with-Steve-Yegge-3329fa3b87508
  | **Verification** | **Inline Review:** You "Tab" to accept or reject changes in real-time [04:01:00 Opens in a new window ](https://www.youtube.com/watch?v=S1ch_6fjp5M&vl=en&t=14460). | **PR-Ready Diffs:** You review a finished body of work after the agent is done [04:03:00 Opens in a new window ](https://www.youtube.com/watch?v=S1ch_6fjp5M&vl=en&t=14580). | 
 
 ### 🏁 Summary: Is it Level 1?
-

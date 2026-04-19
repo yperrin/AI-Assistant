@@ -1,6 +1,31 @@
 ---
-title: Claude Code vs Codex The Decision That Compounds Every Week You Delay That Nobody Is Talking About
+complexity: Advanced
+date: 2026-03-08
 id: 31d9fa3b-8750-8014-b66f-c6127c5aab9f
+processed_by_ai: true
+summary: This document differentiates between an AI "model" and its "harness," arguing
+  that the harness significantly impacts performance. It compares the architectural
+  philosophies, environments, memory management, and verification methods of Claude
+  Code and OpenAI Codex, highlighting their strategic implications and workflow integration
+  challenges.
+title: Claude Code vs Codex The Decision That Compounds Every Week You Delay That
+  Nobody Is Talking About
+tools_mentioned:
+- Claude 4.6
+- GPT-5.3
+- Claude Code
+- OpenAI Codex
+- Bash
+- Unix primitives
+- Git
+- Puppeteer
+topics:
+- AI Architecture
+- Large Language Models
+- AI Development Environments
+- Software Engineering
+- System Design
+- Developer Tools
 url: https://www.notion.so/Claude-Code-vs-Codex-The-Decision-That-Compounds-Every-Week-You-Delay-That-Nobody-Is-Talking-About-31d9fa3b87508014b66fc6127c5aab9f
 ---
 
@@ -28,4 +53,3 @@ url: https://www.notion.so/Claude-Code-vs-Codex-The-Decision-That-Compounds-Ever
 - **Routing Tasks:** Expert developers now use both: **Claude Code** for creative planning and complex orchestration, and **Codex** for high-reliability implementation with fewer bugs [11:07 Opens in a new window ](http://www.youtube.com/watch?v=09sFAO7pklo&t=667).
 
 ### Summary for Leaders
-

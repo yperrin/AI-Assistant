@@ -129,7 +129,14 @@ def process_page(page: dict, client: Client):
         md_content = StringExporter(block_id=page_id).export()
         
         # Prepend a metadata block (frontmatter)
-        frontmatter = f"---\ntitle: {title}\nid: {page_id}\nurl: {page.get('url')}\n---\n\n"
+        frontmatter = (
+            f"---\n"
+            f"title: {title}\n"
+            f"id: {page_id}\n"
+            f"url: {page.get('url')}\n"
+            f"date: {date_str}\n"
+            f"---\n\n"
+        )
         
         with open(target_path, 'w', encoding='utf-8') as f:
             f.write(frontmatter + md_content)

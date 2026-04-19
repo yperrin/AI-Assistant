@@ -1,6 +1,23 @@
 ---
-title: THIS is Why Youre Still Slow Even With AI
+complexity: Beginner
+date: 2026-01-15 21:31:00-05:00
 id: 2ea9fa3b-8750-8073-8a9d-c297f69cde28
+processed_by_ai: true
+summary: This document outlines 8 habits to break for "AI-Native" work, focusing on
+  rapid prototyping, action over planning, and early feedback. It also identifies
+  new bottlenecks like clarity, ambition, distribution, and relationships in this
+  evolving work paradigm.
+title: THIS is Why Youre Still Slow Even With AI
+tools_mentioned:
+- Cognition
+- Infosys
+topics:
+- AI-Native Work
+- Productivity
+- Agile Development
+- Prototyping
+- Organizational Habits
+- Decision Making
 url: https://www.notion.so/THIS-is-Why-You-re-Still-Slow-Even-With-AI-2ea9fa3b875080738a9dc297f69cde28
 ---
 
@@ -33,4 +50,3 @@ url: https://www.notion.so/THIS-is-Why-You-re-Still-Slow-Even-With-AI-2ea9fa3b87
 - **Distribution:** The ability to actually get products into users' hands (e.g., [Cognition's partnership with Infosys](https://www.youtube.com/watch?v=hpDC29JdgjI)). [08:03 Opens in a new window](http://www.youtube.com/watch?v=hpDC29JdgjI&t=483)
 
 - **Relationships:** Durable professional trust that cannot be "vibe-coded." [09:01 Opens in a new window](http://www.youtube.com/watch?v=hpDC29JdgjI&t=541)
-

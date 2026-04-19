@@ -1,6 +1,23 @@
 ---
-title: The AI Job Market Split in Two. One Side Pays 400K and Cant Hire Fast Enough.
+complexity: Advanced
+date: 2026-03-27 06:54:00-04:00
 id: 3309fa3b-8750-8070-a7b7-c681e29671f5
+processed_by_ai: true
+summary: This document outlines 7 critical AI skills essential for working with AI
+  systems, including specification precision, evaluation, task decomposition, failure
+  pattern recognition, trust and security design, context architecture, and cost economics.
+  It emphasizes that these skills are learnable and crucial for various AI-related
+  roles.
+title: The AI Job Market Split in Two. One Side Pays 400K and Cant Hire Fast Enough.
+tools_mentioned: []
+topics:
+- AI Skills
+- AI System Design
+- AI Evaluation
+- AI Security
+- AI Economics
+- Prompt Engineering
+- Task Management
 url: https://www.notion.so/The-AI-Job-Market-Split-in-Two-One-Side-Pays-400K-and-Can-t-Hire-Fast-Enough-3309fa3b87508070a7b7c681e29671f5
 ---
 
@@ -31,4 +48,3 @@ url: https://www.notion.so/The-AI-Job-Market-Split-in-Two-One-Side-Pays-400K-and
 - **The "Split":** If you aren't in the top half of the "K," the market feels impossible; if you are, you can "write your own ticket" [03:32 Opens in a new window ](http://www.youtube.com/watch?v=4cuT-LKcmWs&t=212).
 
 <br/>
-

@@ -1,6 +1,27 @@
 ---
-title: Gemini Spec development tool Conductor
+complexity: Intermediate
+date: 2025-12-21 11:55:00-05:00
 id: 2d09fa3b-8750-80b4-bf11-f9e4aafc0ae5
+processed_by_ai: true
+summary: This document describes a system combining Conductor and Antigravity to enable
+  AI agents for software development, emphasizing persistent project context, brownfield
+  project support, team alignment, and a spec-driven workflow. It outlines how to
+  install and use these tools for setting up projects, planning features, and implementing
+  code.
+title: Gemini Spec development tool Conductor
+tools_mentioned:
+- Gemini CLI
+- Conductor
+- Antigravity
+- npm
+topics:
+- AI Agents
+- Software Development
+- Project Management
+- Code Generation
+- Persistent Context
+- Brownfield Projects
+- Spec-Driven Development
 url: https://www.notion.so/Gemini-Spec-development-tool-Conductor-2d09fa3b875080b4bf11f9e4aafc0ae5
 ---
 
@@ -45,4 +66,3 @@ url: https://www.notion.so/Gemini-Spec-development-tool-Conductor-2d09fa3b875080
 ### Practical Tip for your Management Style
 
 ---
-

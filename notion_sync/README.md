@@ -9,6 +9,7 @@ You must create a `.env` file at the root. Key variables:
 ```env
 NOTION_API_KEY=...
 NOTION_DATABASE_ID=...
+GEMINI_API_KEY=...
 ```
 
 ### Dependency Management (Using `uv`)
@@ -18,4 +19,8 @@ NOTION_DATABASE_ID=...
 * to install all packages in `pyproject.toml`: `uv sync`
 
 ## Running the Application
-* Execute the sync process: `uv run python src/sync.py`
+* Execute the full sync process and the AI knowledge categorizer:
+```powershell
+uv run python src/sync.py
+uv run python src/categorizer.py
+```

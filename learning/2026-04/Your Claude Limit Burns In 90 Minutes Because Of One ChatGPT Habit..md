@@ -1,6 +1,35 @@
 ---
-title: Your Claude Limit Burns In 90 Minutes Because Of One ChatGPT Habit.
+complexity: Intermediate
+date: 2026-04-02 21:12:00-04:00
 id: 3379fa3b-8750-80cf-83ca-e1cf96cc69a7
+processed_by_ai: true
+summary: This document outlines seven common inefficiencies when working with Large
+  Language Models (LLMs), such as inefficient document ingestion, conversation sprawl,
+  and model misuse. It provides practical solutions to optimize token usage, improve
+  agent architecture, and reduce costs through strategies like converting documents
+  to Markdown, tiered model selection, and prompt caching.
+title: Your Claude Limit Burns In 90 Minutes Because Of One ChatGPT Habit.
+tools_mentioned:
+- Markdown
+- Open Brain plugin
+- Google Drive
+- Claude Opus
+- Claude Sonnet
+- Claude Haiku
+- Perplexity
+- MCP (Model Context Protocol)
+- RAG (Retrieval-Augmented Generation)
+- GPT-5.4
+- Grok
+- ChatGPT
+topics:
+- LLM Optimization
+- Token Management
+- Prompt Engineering
+- AI Agent Architecture
+- Cost Efficiency
+- Model Selection
+- Web Research
 url: https://www.notion.so/Your-Claude-Limit-Burns-In-90-Minutes-Because-Of-One-ChatGPT-Habit-3379fa3b875080cf83cae1cf96cc69a7
 ---
 
@@ -85,4 +114,3 @@ url: https://www.notion.so/Your-Claude-Limit-Burns-In-90-Minutes-Because-Of-One-
 - **Grok:** For understanding **current social sentiment** or community discussions (specifically on X) [06:22 Opens in a new window ](http://www.youtube.com/watch?v=5ztI_dbj6ek&t=382).
 
 - **ChatGPT (Thinking Mode):** For analyzing **earnings reports** or complex financial data to generate summaries before starting your "real work" in another model [06:34 Opens in a new window ](http://www.youtube.com/watch?v=5ztI_dbj6ek&t=394).
-

@@ -1,6 +1,38 @@
 ---
-title: Promptmetheus analysis
+complexity: Advanced
+date: 2026-02-01 14:23:00-05:00
 id: 2fa9fa3b-8750-80cc-b7ed-cc7d4f042ba5
+processed_by_ai: true
+summary: This document introduces Promptmetheus, an IDE-based tool for modular prompt
+  composition, multi-model testing, and deploying prompts as APIs (AIPI), emphasizing
+  its integration with n8n for workflow automation. It also compares Promptmetheus
+  with DSPy, a framework-based approach, to help users choose based on their project's
+  needs and architectural preferences.
+title: Promptmetheus analysis
+tools_mentioned:
+- Promptmetheus
+- n8n
+- OpenAI
+- Anthropic
+- Gemini
+- Mistral
+- LiteLLM
+- DSPy
+- Azure
+- AWS
+- GPT-4
+- Claude
+- Java
+- Spring Boot
+- Python
+topics:
+- Prompt Engineering
+- LLM Management
+- API Deployment
+- Workflow Automation
+- Tool Comparison
+- AI Development
+- System Architecture
 url: https://www.notion.so/Promptmetheus-analysis-2fa9fa3b875080ccb7edcc7d4f042ba5
 ---
 
@@ -101,4 +133,3 @@ url: https://www.notion.so/Promptmetheus-analysis-2fa9fa3b875080ccb7edcc7d4f042b
 - **Use DSPy** if you are building a **heavyweight Java/Spring Boot or Python application** where the AI performance is the core product and you have enough data to "train" the system to be more accurate than a human-written prompt.
 
 <br/>
-

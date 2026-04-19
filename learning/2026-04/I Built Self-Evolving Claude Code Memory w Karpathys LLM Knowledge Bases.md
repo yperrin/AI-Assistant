@@ -1,6 +1,25 @@
 ---
-title: I Built Self-Evolving Claude Code Memory w Karpathys LLM Knowledge Bases
+complexity: Intermediate
+date: 2026-04-07 20:28:00-04:00
 id: 33c9fa3b-8750-80dc-ac16-ecaa6515ca03
+processed_by_ai: true
+summary: This document outlines a knowledge management system that uses an LLM-based
+  "compiler" analogy to process raw data into an organized wiki, emphasizing self-correction
+  and cost-effectiveness over traditional RAG methods. It details the architecture,
+  key components, and benefits of this approach for creating evolving, contextual
+  memory systems.
+title: I Built Self-Evolving Claude Code Memory w Karpathys LLM Knowledge Bases
+tools_mentioned:
+- Obsidian
+- Claude Code
+topics:
+- Knowledge Management
+- LLMs
+- Personal Wiki
+- Data Processing
+- System Architecture
+- Cost Optimization
+- Self-Correction
 url: https://www.notion.so/I-Built-Self-Evolving-Claude-Code-Memory-w-Karpathy-s-LLM-Knowledge-Bases-33c9fa3b875080dcac16ecaa6515ca03
 ---
 
@@ -33,4 +52,3 @@ url: https://www.notion.so/I-Built-Self-Evolving-Claude-Code-Memory-w-Karpathy-s
 - **Customization:** Unlike "black box" memory systems, users can modify the underlying prompts and scripts to change how the LLM extracts and promotes knowledge [16:14 Opens in a new window ](http://www.youtube.com/watch?v=7huCP6RkcY4&t=974).
 
 ### References
-

@@ -1,6 +1,24 @@
 ---
-title: Prompt Engineering Is Dead. Context Engineering Is Dying. What Comes Next Changes Everything.
+complexity: Advanced
+date: 2026-03-16
 id: 3259fa3b-8750-8008-95f3-f27a808daacc
+processed_by_ai: true
+summary: 'This document outlines three layers of AI maturity: Unified Context Infrastructure,
+  Coherent AI Worker Toolkit, and Intent Engineering, to address the problem of "successful
+  failure" in AI. It emphasizes that future competitive advantage will lie in organizational
+  intent architecture and predicts the rise of the AI Workflow Architect role.'
+title: Prompt Engineering Is Dead. Context Engineering Is Dying. What Comes Next Changes
+  Everything.
+tools_mentioned:
+- Model Context Protocol
+- Claude
+- ChatGPT
+topics:
+- AI Maturity
+- AI Strategy
+- Intent Engineering
+- AI Agents
+- Organizational AI
 url: https://www.notion.so/Prompt-Engineering-Is-Dead-Context-Engineering-Is-Dying-What-Comes-Next-Changes-Everything-3259fa3b8750800895f3f27a808daacc
 ---
 
@@ -23,4 +41,3 @@ url: https://www.notion.so/Prompt-Engineering-Is-Dead-Context-Engineering-Is-Dyi
 - **The New Role:** The speaker predicts the rise of the **AI Workflow Architect**, a role sitting between engineering, operations, and strategy to map agent-ready vs. human-only workflows [23:39 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=1419).
 
 <br/>
-

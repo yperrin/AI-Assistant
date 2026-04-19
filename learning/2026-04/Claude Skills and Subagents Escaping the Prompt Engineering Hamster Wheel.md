@@ -1,6 +1,25 @@
 ---
-title: Claude Skills and Subagents Escaping the Prompt Engineering Hamster Wheel
+complexity: Advanced
+date: 2026-04-05 14:50:00-04:00
 id: 3399fa3b-8750-8078-8b1a-fff1c39d39d0
+processed_by_ai: true
+summary: This document introduces Claude Skills and Subagents as methods to improve
+  AI agent efficiency and context management, contrasting them with the "Hamster Wheel"
+  of manual prompt rewriting and the Model Context Protocol (MCP). It emphasizes the
+  benefits of Claude Skills for reusable, lazily loaded domain expertise and Subagents
+  for isolated task execution.
+title: Claude Skills and Subagents Escaping the Prompt Engineering Hamster Wheel
+tools_mentioned:
+- Claude
+- MCP
+- GitHub
+topics:
+- AI Agents
+- Context Management
+- Prompt Engineering
+- Efficiency
+- Token Management
+- Reusability
 url: https://www.notion.so/Claude-Skills-and-Subagents-Escaping-the-Prompt-Engineering-Hamster-Wheel-3399fa3b875080788b1afff1c39d39d0
 ---
 
@@ -33,4 +52,3 @@ url: https://www.notion.so/Claude-Skills-and-Subagents-Escaping-the-Prompt-Engin
 ### **Strategic Shifts**
 
 > **The takeaway:** Use MCP for tool access, Skills for domain expertise, and Subagents to maintain a clean, efficient context window.
-

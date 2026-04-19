@@ -1,6 +1,23 @@
 ---
-title: Todays training
+complexity: Advanced
+date: 2025-11-30
 id: 2bc9fa3b-8750-8078-9b10-c3d3aacf997f
+processed_by_ai: true
+summary: This document outlines a significant shift in software architecture, driven
+  by generative AI, from fixed UIs to a three-layer model comprising a durable system
+  of record, an agentic intent planning layer, and disposable, contextual pixels.
+  It details the implications for design, product management, and engineering roles,
+  while also identifying scenarios where traditional UIs will remain essential.
+title: Todays training
+tools_mentioned: []
+topics:
+- Software Architecture
+- Generative AI
+- User Interface (UI) Design
+- Agentic AI
+- Product Management
+- Software Engineering
+- Design
 url: https://www.notion.so/Today-s-training-2bc9fa3b875080789b10c3d3aacf997f
 ---
 
@@ -33,4 +50,3 @@ url: https://www.notion.so/Today-s-training-2bc9fa3b875080789b10c3d3aacf997f
 	- **Losers** are vendors whose only moat is a beautiful interface and who resist being called by higher-level agents, as users will simply use agents to navigate their monolithic software by 2026 [25:26 Opens in a new window ](http://www.youtube.com/watch?v=x-01UrScIrA&t=1526).
 
 <br/>
-

@@ -1,6 +1,27 @@
 ---
-title: LangGraph vs LangChain vs LangFlow vs LangSmith  Which One To Use  Why
+complexity: Intermediate
+date: 2026-02-17 10:27:00-05:00
 id: 30a9fa3b-8750-80b2-b2be-c96d686f8288
+processed_by_ai: true
+summary: 'This document provides an overview of four key tools in the LangChain ecosystem:
+  LangChain, LangGraph, LangFlow, and LangSmith. It details their primary purposes,
+  key features, and ideal use cases for building, orchestrating, prototyping, and
+  monitoring LLM-powered applications.'
+title: LangGraph vs LangChain vs LangFlow vs LangSmith  Which One To Use  Why
+tools_mentioned:
+- LangChain
+- LangGraph
+- LangFlow
+- LangSmith
+- GPT-4
+- Llama 3
+topics:
+- LLM applications
+- AI frameworks
+- Agentic workflows
+- Prototyping
+- Monitoring
+- Debugging
 url: https://www.notion.so/LangGraph-vs-LangChain-vs-LangFlow-vs-LangSmith-Which-One-To-Use-Why-30a9fa3b875080b2b2bec96d686f8288
 ---
 
@@ -45,5 +66,4 @@ url: https://www.notion.so/LangGraph-vs-LangChain-vs-LangFlow-vs-LangSmith-Which
  | **LangChain** | Development | Building standard LLM chains and apps [01:53](https://gemini.google.com/glic?hl=en). | 
  | **LangGraph** | Orchestration | Complex, multi-agent, cyclical workflows [04:05](https://gemini.google.com/glic?hl=en). | 
  | **LangFlow** | Prototyping | Visual, low-code design and testing [05:58](https://gemini.google.com/glic?hl=en). | 
- | **LangSmith** | Operations | Debugging, monitoring, and cost tracking [07:52](https://gemini.google.com/glic?hl=en). | 
-
+ | **LangSmith** | Operations | Debugging, monitoring, and cost tracking [07:52](https://gemini.google.com/glic?hl=en). |

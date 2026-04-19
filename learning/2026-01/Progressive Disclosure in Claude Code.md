@@ -1,6 +1,26 @@
 ---
-title: Progressive Disclosure in Claude Code
+complexity: Intermediate
+date: 2026-01-12 21:04:00-05:00
 id: 2e79fa3b-8750-80c3-8064-e842fa1a304a
+processed_by_ai: true
+summary: This document addresses the problem of "context bloat" in AI models, where
+  sending large tool schemas leads to massive token usage, degraded performance, and
+  higher costs. It proposes "progressive disclosure" as a solution, enabling on-demand
+  tool discovery and significantly reducing token usage, with practical applications
+  in Claude Code using a skills directory and an experimental CLI.
+title: Progressive Disclosure in Claude Code
+tools_mentioned:
+- Anthropic
+- Cloudflare
+- Bash
+- Claude Code
+- MCP CLI
+topics:
+- AI Efficiency
+- Context Management
+- Token Optimization
+- Large Language Models
+- Tooling in AI
 url: https://www.notion.so/Progressive-Disclosure-in-Claude-Code-2e79fa3b875080c38064e842fa1a304a
 ---
 
@@ -25,4 +45,3 @@ url: https://www.notion.so/Progressive-Disclosure-in-Claude-Code-2e79fa3b875080c
 - **Skills Directory:** You can create a `skills` folder where each file contains "front matter" (a brief description) that is disclosed to the model. The full content is only loaded if the model decides it needs that specific skill [11:42 Opens in a new window ](http://www.youtube.com/watch?v=DQHFow2NoQc&t=702).
 
 - **Experimental MCP CLI:** There is an experimental flag in Claude Code to enable tool search capabilities, allowing the agent to manage vast libraries of MCP servers without hitting context limits [07:38 Opens in a new window ](http://www.youtube.com/watch?v=DQHFow2NoQc&t=458).
-

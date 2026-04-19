@@ -1,6 +1,21 @@
 ---
-title: AI Is Improving Your Code and Destroying What Made It Yours
+complexity: Intermediate
+date: 2026-03-03
 id: 3189fa3b-8750-80b3-a58d-fe8c782c0a4a
+processed_by_ai: true
+summary: 'This document addresses the problem of human intent being lost in AI-driven
+  development, where AI optimizes for functional metrics but erodes emotional layers
+  or brand voice. It proposes three habits to prevent this erosion: encoding intent
+  directly into the product, ensuring builders encounter intent documentation, and
+  leading with purpose rather than just features.'
+title: AI Is Improving Your Code and Destroying What Made It Yours
+tools_mentioned: []
+topics:
+- AI Development
+- Human Intent
+- Brand Voice
+- Software Development Practices
+- Product Management
 url: https://www.notion.so/AI-Is-Improving-Your-Code-and-Destroying-What-Made-It-Yours-3189fa3b875080b3a58dfe8c782c0a4a
 ---
 
@@ -19,4 +34,3 @@ url: https://www.notion.so/AI-Is-Improving-Your-Code-and-Destroying-What-Made-It
 1. **Put Intent in the Path of Builders**: Ensure that any person or AI making a change is forced to encounter the intent documentation before they start building.
 
 1. **Lead with Purpose, Not Features**: When requesting changes, describe the desired impact and feeling rather than just technical specifications. The "why" is what guides small choices at the margins.
-

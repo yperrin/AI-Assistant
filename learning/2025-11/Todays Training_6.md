@@ -1,6 +1,46 @@
 ---
-title: Todays Training
+complexity: Beginner
+date: 2025-11-22
 id: 2b39fa3b-8750-8067-a7df-e7019dea4ab9
+processed_by_ai: true
+summary: This document provides a weekly roundup of AI news, highlighting major updates
+  from Google (Gemini 3, Nano Banana Pro, Anti-Gravity IDE), Microsoft (AI agents
+  in Windows, Office integration, Copilot with Claude), xAI (Grok 4.1), Meta (SAM
+  3, SAM 3D), and OpenAI (GPT 5.1 Codex Max, Group Chat). It also mentions updates
+  from Replet, 11 Labs, Manis, and Midjourney.
+title: Todays Training
+tools_mentioned:
+- Gemini 3
+- Gemini web app
+- Gemini API
+- Google Search
+- Anti-Gravity
+- Nano Banana Pro
+- Windows 11
+- File Explorer
+- Word
+- Excel
+- PowerPoint
+- Copilot
+- Claude
+- Grok 4.1
+- Segment Anything Model 3
+- SAM 3D
+- GPT 5.1 Codex Max
+- ChatGPT
+- Replet
+- 11 Labs
+- Manis
+- Midjourney
+topics:
+- AI Models
+- AI Agents
+- Image Generation
+- Multimodal AI
+- AI Integration
+- Developer Tools
+- Natural Language Processing
+- Computer Vision
 url: https://www.notion.so/Today-s-Training-2b39fa3b87508067a7dfe7019dea4ab9
 ---
 
@@ -33,4 +73,3 @@ url: https://www.notion.so/Today-s-Training-2b39fa3b87508067a7dfe7019dea4ab9
 - **Manis:** Released a browser extension for agentic web browsing.
 
 - **Midjourney:** Rolled out new user profiles with social features.
-

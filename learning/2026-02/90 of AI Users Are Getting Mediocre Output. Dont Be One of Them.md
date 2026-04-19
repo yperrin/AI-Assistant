@@ -1,6 +1,26 @@
 ---
-title: 90 of AI Users Are Getting Mediocre Output. Dont Be One of Them
+complexity: Intermediate
+date: 2026-02-08 11:54:00-05:00
 id: 3019fa3b-8750-802d-878c-dcc9299e3370
+processed_by_ai: true
+summary: 'This document outlines four key levers for customizing AI models: Memory,
+  Instructions, Apps and Tools, and Style and Tone Control. It provides examples of
+  how different AI platforms like ChatGPT, Claude, and Gemini implement these customization
+  features.'
+title: 90 of AI Users Are Getting Mediocre Output. Dont Be One of Them
+tools_mentioned:
+- ChatGPT
+- Claude
+- Gemini
+- Google Workspace
+- Model Context Protocol (MCP)
+topics:
+- AI Customization
+- AI Memory
+- AI Instructions
+- AI Tools
+- AI Style Control
+- Large Language Models
 url: https://www.notion.so/90-of-AI-Users-Are-Getting-Mediocre-Output-Don-t-Be-One-of-Them-3019fa3b8750802d878cdcc9299e3370
 ---
 
@@ -33,4 +53,3 @@ url: https://www.notion.so/90-of-AI-Users-Are-Getting-Mediocre-Output-Don-t-Be-O
 	- **Claude:** Features a sophisticated "Custom Style" tool where you can upload samples of your own writing to have Claude mirror your voice and structure [14:11 Opens in a new window ](http://www.youtube.com/watch?v=KX0GurmgAoo&t=851).
 
 ### **The "10x" Workflow**
-

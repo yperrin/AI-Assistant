@@ -1,6 +1,21 @@
 ---
-title: Pick the Right AI Agent Mode in Claude Code
+complexity: Intermediate
+date: 2026-02-13
 id: 3069fa3b-8750-8026-9b7a-e5c569f1349a
+processed_by_ai: true
+summary: 'This document compares three modes of operation: Skills, Sub-agents, and
+  Agent Teams, detailing their features, communication patterns, token costs, and
+  complexity. It provides guidance on when to use each mode and when to transition
+  between them based on task requirements and resource constraints.'
+title: Pick the Right AI Agent Mode in Claude Code
+tools_mentioned: []
+topics:
+- AI Agents
+- Agent Orchestration
+- Context Management
+- Communication Patterns
+- Token Cost Optimization
+- Workflow Management
 url: https://www.notion.so/Pick-the-Right-AI-Agent-Mode-in-Claude-Code-3069fa3b875080269b7ae5c569f1349a
 ---
 
@@ -46,4 +61,3 @@ url: https://www.notion.so/Pick-the-Right-AI-Agent-Mode-in-Claude-Code-3069fa3b8
 - **Shift from Sub-agent → Agent Team:** When workers need to collaborate directly or when the "relay" through the main session becomes a bottleneck [21:32 Opens in a new window ](http://www.youtube.com/watch?v=8Sz7OleIb04&t=1292).
 
 - **Shift Back to Skills/Sub-agents:** If the **token cost** becomes unsustainable or if the coordination overhead exceeds the benefits of parallelism [25:04 Opens in a new window ](http://www.youtube.com/watch?v=8Sz7OleIb04&t=1504).
-

@@ -1,6 +1,22 @@
 ---
-title: How to stop AI from killing your critical thinking
+complexity: Intermediate
+date: 2025-12-31 09:43:00-05:00
 id: 2da9fa3b-8750-807e-bc16-ea658de74a49
+processed_by_ai: true
+summary: This document warns against the dangers of over-relying on AI for cognitive
+  tasks, arguing it reduces creativity, critical thinking, and memory. It advocates
+  for a humanistic approach where AI acts as a "tool for thought" to challenge users
+  and enhance their thinking abilities, rather than simply automating processes.
+title: How to stop AI from killing your critical thinking
+tools_mentioned:
+- Microsoft Research
+topics:
+- AI ethics
+- Critical Thinking
+- Cognitive Science
+- Human-AI Interaction
+- AI Design Principles
+- Human Agency
 url: https://www.notion.so/How-to-stop-AI-from-killing-your-critical-thinking-2da9fa3b8750807ebc16ea658de74a49
 ---
 
@@ -35,4 +51,3 @@ Sarkar presents a prototype from Microsoft Research that follows three core prin
 The talk concludes by addressing why we should care about protecting human thought if AI eventually becomes "better" at it. Sarkar asserts that the ability to think is essential for human agency, empowerment, and flourishing [13:47]. He poses a final reflective question: "What would you rather have: A tool that thinks for you, or a tool that makes you think?" [14:45]
 Video Link: How to Stop AI from Killing Your Critical Thinking
 YouTube video views will be stored in your YouTube History, and your data will be stored and used by YouTube according to its Terms of Service
-

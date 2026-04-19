@@ -1,6 +1,27 @@
 ---
-title: How Smart People Are Using Claude Code Skills to Automate Anything
+complexity: Advanced
+date: 2026-03-20
 id: 3299fa3b-8750-80aa-8210-e03507686b10
+processed_by_ai: true
+summary: 'This document outlines a strategy for building an "Agentic OS" by prioritizing
+  systems over individual skills, detailing four layers: shared brand context, continuous
+  learning, self-maintenance, and chained workflows. It also describes key technical
+  components like `skill.md` and various context files for agent identity and memory.'
+title: How Smart People Are Using Claude Code Skills to Automate Anything
+tools_mentioned:
+- skill.md
+- learnings.md
+- soul.md
+- user.md
+- memory.md
+- MCP servers
+topics:
+- Agentic Systems
+- System Design
+- AI Agents
+- Automation
+- Knowledge Management
+- Workflow Automation
 url: https://www.notion.so/How-Smart-People-Are-Using-Claude-Code-Skills-to-Automate-Anything-3299fa3b875080aa8210e03507686b10
 ---
 
@@ -27,4 +48,3 @@ url: https://www.notion.so/How-Smart-People-Are-Using-Claude-Code-Skills-to-Auto
 - **Context Files**: Includes `soul.md` (agent identity), `user.md` (your preferences), and `memory.md` (long-term knowledge). [05:32 Opens in a new window](http://www.youtube.com/watch?v=5AfSB0sWihw&t=332)
 
 ---
-

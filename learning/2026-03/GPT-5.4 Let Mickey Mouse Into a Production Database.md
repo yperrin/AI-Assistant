@@ -1,6 +1,26 @@
 ---
-title: GPT-5.4 Let Mickey Mouse Into a Production Database
+complexity: Intermediate
+date: 2026-03-08
 id: 31d9fa3b-8750-800e-878b-c05458a57e47
+processed_by_ai: true
+summary: This document provides a detailed comparison of GPT-5.4 with other AI models
+  like Claude and Gemini, highlighting its strengths in quantitative modeling, file
+  processing, and self-awareness, while noting weaknesses in common sense reasoning,
+  writing tone, and speed. It discusses specific test failures and successes to illustrate
+  its capabilities and limitations.
+title: GPT-5.4 Let Mickey Mouse Into a Production Database
+tools_mentioned:
+- GPT-5.4
+- Claude
+- Gemini
+- Claude Opus 4.6
+topics:
+- AI Model Comparison
+- Large Language Models
+- AI Capabilities
+- AI Limitations
+- Quantitative Analysis
+- Data Processing
 url: https://www.notion.so/GPT-5-4-Let-Mickey-Mouse-Into-a-Production-Database-31d9fa3b8750800e878bc05458a57e47
 ---
 
@@ -43,4 +63,3 @@ url: https://www.notion.so/GPT-5-4-Let-Mickey-Mouse-Into-a-Production-Database-3
 - Product strategy and nuanced decision-making.
 
 - Tasks requiring speed and immediate actionability.
-

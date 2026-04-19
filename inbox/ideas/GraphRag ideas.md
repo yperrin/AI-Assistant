@@ -1,6 +1,25 @@
 ---
-title: GraphRag ideas
+complexity: Advanced
+date: 2025-12-14
 id: 2c99fa3b-8750-804d-a835-eb7b74b4f745
+processed_by_ai: true
+summary: The document outlines several project ideas, including categorizing Clarivate
+  products, analyzing GitHub repositories, examining Jira backlogs, creating a graph
+  for R&D data, and mapping domains and services. It discusses the feasibility, potential
+  challenges, and data sources for each idea.
+title: GraphRag ideas
+tools_mentioned:
+- n8n
+- GitHub
+- Jira
+- LLM
+topics:
+- Data Extraction
+- Web Scraping
+- Data Analysis
+- Graph Databases
+- Project Management
+- Life Sciences Data
 url: https://www.notion.so/GraphRag-ideas-2c99fa3b8750804da835eb7b74b4f745
 ---
 
@@ -37,4 +56,3 @@ url: https://www.notion.so/GraphRag-ideas-2c99fa3b8750804da835eb7b74b4f745
 	- Wiki pages for content systems?
 
 	- Running on that on my current machine could be too much and using on-line LLM would use up tokens real fast.
-

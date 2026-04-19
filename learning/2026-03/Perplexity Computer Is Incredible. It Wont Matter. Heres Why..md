@@ -1,6 +1,35 @@
 ---
-title: Perplexity Computer Is Incredible. It Wont Matter. Heres Why.
+complexity: Intermediate
+date: 2026-03-20
 id: 3299fa3b-8750-80f7-8f23-dba4caa09de7
+processed_by_ai: true
+summary: 'This document discusses the "Middleware Trap" faced by AI companies like
+  Perplexity, which rely on foundational model providers and compete with OS giants.
+  It describes Perplexity Computer''s capabilities and outlines four durable positions
+  for AI companies: proprietary context, agent infrastructure, deep workflow integration,
+  and trust/verification.'
+title: Perplexity Computer Is Incredible. It Wont Matter. Heres Why.
+tools_mentioned:
+- Perplexity
+- OpenAI
+- Anthropic
+- Google
+- Claude Co-work
+- Microsoft
+- Apple
+- Perplexity Computer
+- Claude Opus 4.6
+- Gemini
+- Slack
+- Salesforce
+- GitHub
+- Perplexity’s Search API
+topics:
+- AI Business Models
+- Large Language Models
+- AI Agents
+- Competitive Strategy
+- AI Infrastructure
 url: https://www.notion.so/Perplexity-Computer-Is-Incredible-It-Won-t-Matter-Here-s-Why-3299fa3b875080f78f23dba4caa09de7
 ---
 
@@ -33,4 +62,3 @@ url: https://www.notion.so/Perplexity-Computer-Is-Incredible-It-Won-t-Matter-Her
 1. **Trust & Verification:** Providing the audit and governance layer that model providers currently overlook [22:08 Opens in a new window ](http://www.youtube.com/watch?v=3FbqaD1MCUA&t=1328).
 
 ---
-

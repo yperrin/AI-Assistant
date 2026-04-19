@@ -1,6 +1,22 @@
 ---
-title: Todays learning
+complexity: Intermediate
+date: 2025-12-09 13:09:00-05:00
 id: 2c49fa3b-8750-8018-b45a-eb10ab6596a0
+processed_by_ai: true
+summary: 'This document outlines four key strategies for managers to effectively champion
+  AI adoption within their organizations: providing direct support, prioritizing training
+  and skill development, fostering trust and human-centricity, and supporting AI talent
+  and culture.'
+title: Todays learning
+tools_mentioned: []
+topics:
+- AI Adoption
+- Organizational Change
+- Employee Training
+- Skill Development
+- Ethical AI
+- AI Strategy
+- Workforce Transformation
 url: https://www.notion.so/Today-s-learning-2c49fa3b87508018b45aeb10ab6596a0
 ---
 
@@ -39,4 +55,3 @@ url: https://www.notion.so/Today-s-learning-2c49fa3b87508018b45aeb10ab6596a0
 - **Cultivate an Attractive Environment:** Help create an environment that is attractive to technologists by providing them with time to **experiment**, offering **access to cutting-edge tools**, and promoting a **collaborative engineering culture**.
 
 - **Commit to Ethical Benchmarks:** While the focus is often on immediate business outcomes, you should support the use of AI benchmarks, including **ethical ones**, to improve model transparency and accountability.
-

@@ -1,6 +1,25 @@
 ---
-title: Todays Training
+complexity: Intermediate
+date: 2025-11-24
 id: 2b59fa3b-8750-80b5-9f94-c4f19a86e35e
+processed_by_ai: true
+summary: This document outlines a six-stage systematic life cycle for prompt engineering,
+  from intent formation to deployment, emphasizing the importance of treating prompts
+  like code. It also introduces "Hey Presto," a tool designed to assist with the initial
+  intent formation and discovery stage.
+title: Todays Training
+tools_mentioned:
+- Claude
+- ChatGPT
+- LangChain
+- Langsmith
+- Hey Presto
+topics:
+- Prompt Engineering
+- AI Workflows
+- Prompt Life Cycle
+- Tool Development
+- Software Development Life Cycle
 url: https://www.notion.so/Today-s-Training-2b59fa3b875080b59f94c4f19a86e35e
 ---
 
@@ -22,5 +41,4 @@ url: https://www.notion.so/Today-s-Training-2b59fa3b875080b59f94c4f19a86e35e
 
 - **Introducing "Hey Presto"** [08:09 Opens in a new window ](http://www.youtube.com/watch?v=V0YhpeSOuzk&t=489): The speaker introduces a tool he built, Hey Presto, specifically to solve the missing **Intent Formation and Discovery** stage, by helping users turn rough notes into high-grade, structured prompts for specific outcomes like code or presentations.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/800f330d-42f8-47ad-8a9f-47c7834a4d77/25f5703e-02b7-40de-9f11-2d5d572a06d4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662E7QGM4O%2F20260329%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260329T163459Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIA%2BSin8xVg%2FskqFeCS06krUl5qVRKpyQoEWf9mSoyRBiAiEA3XPfpEyEkOsKeyBWLeifQx4hiiHb3u3gNAqIwKiHtRgq%2FwMIERAAGgw2Mzc0MjMxODM4MDUiDKSt6Xx9%2BDI5zc2wmyrcA8d3j%2FUeTmy4FVT64syAoaYoUbIxlxulQdD62jDKm13JVJjSG%2B07ufhdN3jjzESKliGNdZbi7AnaHBr8j7b4DPOw4wgyi9ChLO8fYLZo7UEGhFgllwTY8Wfl6fpRNAZsYNJAPaa0qrmaz%2Bw5gPKY13yt3TK6lcup3bokFHdiiB5M0Gd%2BF4zl%2BkwRYijXYeBjvlagMn7acKhEuFaYVqDoIPb9Gv%2BSHc9316FptTVmP4LjdRjpPEsDnZ8klLdwzEckvbml6JcgH0nN3Aym8awDbKQWWVvc6Ph74c2mRKboK9iWtmKWRJpqLUAyGssfHnFPMJQV4p0BClvV5ttsPkbmYiqlEeuRII8w88pGvSubKP3s2d1cbC7f53SbXDo5i1aJebHDL6vSew5e3ZZJ2u3XHMsCvi4A84S5zZnspXOGj66%2Bmef0SRSfcBGVJt6h8Kc2VH6PAYUjf8kS8KoZc%2BTl3mG30hMVCNtNEJ64i%2FqC5R%2BRR51F6tAGXDUvhnQH2llacC8npkw2f6l5dnVl2zgw%2BhEl1CJ3rgOPfFxJB0npaboxaw2O0vhUHOk3dj3nimE7tJcHGPjzWA9d%2FJp0vIJI1Oh%2FZS3BneJXUta0fFGlvy%2BDXr3Ti6pMwFfTaYblMPaSpc4GOqUBApR8VA%2B%2Bm%2BWX7mahs599eGRUMiCgW0yev7e60MUu9DJdAAOk0VLK1LNap1HJ%2B%2FryFWCHz%2Ba7bACJq%2FZIfXANqIjnY%2BOrXVIhyqorH8m5r8ygVnbV1mBj9GY9o3xE5a88oRt9dDOr3m1iLXuc%2BmdLuz1e2Z9HrtG5BsClatxfTlIJ2M1rBp0FL1GkWLxt5%2BFaH6Oz9cFUMPshTrLVCTvpJky75ovt&X-Amz-Signature=8d1d3a974179a52045f652c7b3f40f2a873f19f4f72dc3afe5570f1b17ac4f23&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/800f330d-42f8-47ad-8a9f-47c7834a4d77/25f5703e-02b7-40de-9f11-2d5d572a06d4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VWJAJNNV%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T141308Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDkaCXVzLXdlc3QtMiJGMEQCIFbDkugXinusYpT2sOFZ0TvgYYvw9DypRba7MKbN%2F01UAiA1B0UEcoD9ZgDqNxhee6OYZGpRtbI4Yq9oi9ZNZ%2BmZxir%2FAwgCEAAaDDYzNzQyMzE4MzgwNSIMYh6GkmBGDepYSgYrKtwDXLkXKPALb35ylJ2S%2BBwO%2FUSFvormrEIJhVIS8xC%2BTdSs%2FS6Oj1l1IHOsZMUN3NAez1ONkFrW21Cy0KO2kVQp%2FNkt8fqfUvdapSGjNTHqLBNeB7pkQfpUOG1W1bpq%2BDRiFKlgEF1GzOhjuekZsllHP7q0wVxyd72TCURX9rRKCHNp3K9Rw0XqtMwCDWYW7e8oJqr3B7Z2a468E2sXj8XzyLyoVrlBFWdm6pleTmVtqHlk0ZdMI2eNhxsmJVMUVY1nK2OEPRhBLk8B2caypRWBDY2PrVDSlfwnyKl6WtqdxktPnVTX8iuf%2BnlYOoK%2B2O6b9W08jZJi1pnc%2F85oEH6V1mU5IbbMpPo1JGBiwxPwh%2BcPjSFffhtWZs%2F7qulvGmp%2BOBNkX6CXVzv8eg7It%2BlQvst0nMWgCvc8xOBfAMcwQOZPuVQpghUOEkbKznyrbUirdIzCCIcFCjnRMY0L5KADyJIlJgdcjIhye%2Bk1tnAKG4PfiquOnRvfOKt28X1lOSwGjugzD1G9mrNANIWaDTI2EUFr3uXkcSR5WcqfXmnXfEImfAnuu7VHAw7pwaiYdgwwrhLMToxfV%2FJKI%2FX87%2FjOjH%2FpjFMw6Nr4ihy2rnKA%2F8tw8eiGksbeo118Rsww9K2SzwY6pgF67xvRm2f95CfafkC6i1Nbx0pdZHRPh7m%2FpT7sK0dYUwZ3WOQt%2F7Owp9Py6CmYxW5sQ%2F21An2rvRFsMXguCcXOObLY2f3kYUy7WYv3HqnKD6eeEIdb7FefhWsn6oOIzX3QOLFPj35PwnpNHSmSpOPEe9YSxa%2B5PvhL0OxAY5PBe7FkoZSNCMXYnX%2BMhkHS01%2BBRCRUrADO9ZATFDYiOIQ6Zv3u61X1&X-Amz-Signature=79fc8d42d67d9cc394f44e83c418a5723e7672ac8f7ddf46cdd22a9ca0d1babd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)

@@ -1,6 +1,24 @@
 ---
-title: The People Getting Promoted All Have This One Thing in Common AI Is Supercharging this Mindset
+complexity: Intermediate
+date: 2026-01-22
 id: 2f09fa3b-8750-80db-ba49-dcdcdf40a43a
+processed_by_ai: true
+summary: This document explores how AI is eliminating entry-level jobs by automating
+  training tasks and introduces the concept of "High Agency," defined by an internal
+  locus of control, as a way to leverage AI to create value and overcome obstacles.
+  It outlines a framework for high agency, emphasizing action, value creation, and
+  treating AI as an extension of one's capacity.
+title: The People Getting Promoted All Have This One Thing in Common AI Is Supercharging
+  this Mindset
+tools_mentioned:
+- AI
+topics:
+- AI Impact on Jobs
+- High Agency
+- Locus of Control
+- Career Development
+- Value Creation
+- Future of Work
 url: https://www.notion.so/The-People-Getting-Promoted-All-Have-This-One-Thing-in-Common-AI-Is-Supercharging-this-Mindset-2f09fa3b875080dbba49dcdcdf40a43a
 ---
 
@@ -21,4 +39,3 @@ url: https://www.notion.so/The-People-Getting-Promoted-All-Have-This-One-Thing-i
 - **AI Native Thinking:** Passive users treat AI as an answer engine, while high-agency users treat it as an extension of their own capacity to prototype, research, and execute at scale [14:45 Opens in a new window ](http://www.youtube.com/watch?v=HZ9iL_lFYgQ&t=885).
 
 ### **Key Takeaway**
-

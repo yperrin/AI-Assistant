@@ -1,6 +1,35 @@
 ---
-title: Todays learning
+complexity: Advanced
+date: 2025-12-03
 id: 2bf9fa3b-8750-8033-9bfd-c3137cd51caf
+processed_by_ai: true
+summary: This document details the features of an advanced AI agent platform called
+  Anti-gravity, which focuses on agent control, asynchronous feedback, and multimodal
+  iteration using models like Gemini 3 Pro. It also provides an update on n8n's upcoming
+  major version release, highlighting new features like autosave, UI/UX improvements,
+  and important migration information.
+title: Todays learning
+tools_mentioned:
+- n8n
+- OpenAI
+- Gemini 3 Pro
+- Claude Sonnet 4.5
+- GPT-OSS
+- VS Code
+- Google Docs
+- GitHub
+- Figma
+- Chrome
+topics:
+- AI Agents
+- Workflow Automation
+- Software Development
+- Platform Design
+- Large Language Models
+- Product Updates
+- Human-in-the-Loop AI
+- Browser Automation
+- Multimodal AI
 url: https://www.notion.so/Today-s-learning-2bf9fa3b875080339bfdc3137cd51caf
 ---
 
@@ -105,4 +134,3 @@ url: https://www.notion.so/Today-s-learning-2bf9fa3b875080339bfdc3137cd51caf
 - **Version 2.0.0 (Beta):** Scheduled for **early December** (e.g., Dec 8th).14
 
 - **Version 2.0.x (Stable):15** Scheduled for **mid-December** (e.g., Dec 15th).16
-

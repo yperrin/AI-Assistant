@@ -1,6 +1,22 @@
 ---
-title: 9 Context Engineering Mistakes That Are Killing Your AI Agents  How to Fix Them at Scale
+complexity: Advanced
+date: 2025-12-09
 id: 2c49fa3b-8750-8042-a333-e920a3705bbb
+processed_by_ai: true
+summary: This document outlines 9 principles for effective context engineering in
+  LLM applications, focusing on optimizing context windows, memory management, and
+  agent design. It also details 9 common mistakes to avoid, such as blind summarization
+  and treating context as unlimited RAM.
+title: 9 Context Engineering Mistakes That Are Killing Your AI Agents  How to Fix
+  Them at Scale
+tools_mentioned: []
+topics:
+- Context Engineering
+- LLMs
+- Prompt Engineering
+- Memory Management
+- Agent Design
+- System Design
 url: https://www.notion.so/9-Context-Engineering-Mistakes-That-Are-Killing-Your-AI-Agents-How-to-Fix-Them-at-Scale-2c49fa3b87508042a333e920a3705bbb
 ---
 
@@ -45,4 +61,3 @@ url: https://www.notion.so/9-Context-Engineering-Mistakes-That-Are-Killing-Your-
 - **Over-structuring:** Rigid harnesses can box in capable models and kill emergent capabilities [14:07 Opens in a new window ](http://www.youtube.com/watch?v=Udc19q1o6Mg&t=847).
 
 - **Ignoring Prefix Discipline:** Failing to stabilize the prompt prefix leads to unpredictable latency and high costs [14:48 Opens in a new window ](http://www.youtube.com/watch?v=Udc19q1o6Mg&t=888).
-

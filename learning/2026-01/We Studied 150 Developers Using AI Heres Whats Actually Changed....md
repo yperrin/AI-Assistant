@@ -1,6 +1,21 @@
 ---
-title: We Studied 150 Developers Using AI Heres Whats Actually Changed...
+complexity: Intermediate
+date: 2026-01-28 17:10:00-05:00
 id: 2f69fa3b-8750-80b8-90e9-d0c1550ae0bb
+processed_by_ai: true
+summary: This document summarizes findings on the impact of AI on software development,
+  indicating that AI-assisted code does not increase maintenance costs and significantly
+  boosts initial development speed. It also highlights that AI amplifies existing
+  engineering habits and poses risks such as code bloat and cognitive debt.
+title: We Studied 150 Developers Using AI Heres Whats Actually Changed...
+tools_mentioned: []
+topics:
+- AI in software development
+- Code maintenance
+- Development speed
+- Code quality
+- Software engineering practices
+- Cognitive debt
 url: https://www.notion.so/We-Studied-150-Developers-Using-AI-Here-s-What-s-Actually-Changed-2f69fa3b875080b890e9d0c1550ae0bb
 ---
 
@@ -21,4 +36,3 @@ url: https://www.notion.so/We-Studied-150-Developers-Using-AI-Here-s-What-s-Actu
 - **Cognitive Debt:** There is a long-term risk of skills atrophying if developers stop deeply thinking about the problems they are solving [09:49 Opens in a new window ](http://www.youtube.com/watch?v=b9EbCb5A408&t=589).
 
 ### Conclusion
-

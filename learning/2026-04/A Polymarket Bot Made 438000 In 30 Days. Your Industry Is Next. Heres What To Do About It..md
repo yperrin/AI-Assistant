@@ -1,6 +1,24 @@
 ---
-title: A Polymarket Bot Made 438000 In 30 Days. Your Industry Is Next. Heres What To Do About It.
+complexity: Intermediate
+date: 2026-04-07 20:27:00-04:00
 id: 33c9fa3b-8750-80a1-8a2d-f623f1dd557c
+processed_by_ai: true
+summary: 'This document introduces the concept of "Intelligence Arbitrage," explaining
+  how AI can close five types of gaps: speed, reasoning, fragmentation, discipline,
+  and knowledge asymmetry. It provides strategic advice for professionals to adapt
+  by moving upstream, identifying structural gaps, and rebuilding workflows around
+  AI capabilities.'
+title: A Polymarket Bot Made 438000 In 30 Days. Your Industry Is Next. Heres What
+  To Do About It.
+tools_mentioned:
+- Polymarket bot
+topics:
+- Intelligence Arbitrage
+- Artificial Intelligence
+- Automation
+- Business Strategy
+- Productivity
+- Digital Transformation
 url: https://www.notion.so/A-Polymarket-Bot-Made-438-000-In-30-Days-Your-Industry-Is-Next-Here-s-What-To-Do-About-It-33c9fa3b875080a18a2df623f1dd557c
 ---
 
@@ -31,4 +49,3 @@ url: https://www.notion.so/A-Polymarket-Bot-Made-438-000-In-30-Days-Your-Industr
 ### **The "Mythos" Warning**
 
 ---
-

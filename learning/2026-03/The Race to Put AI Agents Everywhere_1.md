@@ -1,6 +1,30 @@
 ---
-title: The Race to Put AI Agents Everywhere
+complexity: Intermediate
+date: 2026-03-22 16:09:00-04:00
 id: 32b9fa3b-8750-805d-8f1f-c285611fe562
+processed_by_ai: true
+summary: The document highlights a shift towards AI agents with broad machine access,
+  driven by experiments like OpenClaw, and discusses NVIDIA's entry into enterprise
+  AI with NemoClaw. It also covers new desktop agents bridging cloud LLMs with local
+  systems and OpenAI's refocus on enterprise and coding with an updated Codex.
+title: The Race to Put AI Agents Everywhere
+tools_mentioned:
+- OpenClaw
+- Opus 4.5
+- Opus 4.6
+- NemoClaw
+- Manus
+- Perplexity Computer
+- Adaptive
+- Codex
+- Notion Custom Agents
+topics:
+- AI Agents
+- Enterprise AI
+- Desktop AI
+- Large Language Models
+- Software Development
+- Security
 url: https://www.notion.so/The-Race-to-Put-AI-Agents-Everywhere-32b9fa3b8750805d8f1fc285611fe562
 ---
 
@@ -24,4 +48,3 @@ url: https://www.notion.so/The-Race-to-Put-AI-Agents-Everywhere-32b9fa3b8750805d
  | **Notion Custom Agents** | Deeply integrates agentic workflows directly into existing company wikis and docs [02:43 Opens in a new window ](http://www.youtube.com/watch?v=zjcjT6BukQA&t=163). | 
 
 ---
-

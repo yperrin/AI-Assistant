@@ -1,6 +1,27 @@
 ---
-title: Learning Today
+complexity: Intermediate
+date: 2025-11-15 16:26:00-05:00
 id: 2ac9fa3b-8750-807a-b5fe-cf9624da122a
+processed_by_ai: true
+summary: This document highlights the release of OpenAI's GPT 5.1, detailing its new
+  features like sharper instruction following, "Dual Brain" functionality, configurable
+  behavior, and agentic focus. It also briefly touches on Chinese state hackers using
+  AI for espionage, AI coding company Cursor raising funds, and Google's Gemini 3.0
+  and Collab Extension for VS Code.
+title: Learning Today
+tools_mentioned:
+- OpenAI GPT 5.1
+- Cursor
+- Gemini 3.0
+- VS Code
+- Collab Extension
+topics:
+- AI Models
+- Large Language Models
+- AI Features
+- AI Espionage
+- AI Development
+- Software Development Tools
 url: https://www.notion.so/Learning-Today-2ac9fa3b8750807ab5fecf9624da122a
 ---
 
@@ -27,5 +48,3 @@ url: https://www.notion.so/Learning-Today-2ac9fa3b8750807ab5fecf9624da122a
 	- Google Appears to "Shadow Release" Gemini 3.0
 
 	- Google Launches Collab Extension for VS Code
-
-	

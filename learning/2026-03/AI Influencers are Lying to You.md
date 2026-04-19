@@ -1,6 +1,27 @@
 ---
-title: AI Influencers are Lying to You
+complexity: Intermediate
+date: 2026-03-20
 id: 3299fa3b-8750-80e1-b6d8-cd28d388ea03
+processed_by_ai: true
+summary: This document critiques OpenClaw, an AI agent, highlighting its high cost
+  due to continuous LLM sessions ("token tax") and its inefficiency compared to specialized
+  tools. It debunks common influencer claims, suggesting that dedicated applications
+  like Obsidian or n8n are often superior for tasks like "Second Brain" or "Content
+  Factory."
+title: AI Influencers are Lying to You
+tools_mentioned:
+- OpenClaw
+- Telegram
+- Slack
+- Obsidian
+- n8n
+- Claude Code
+topics:
+- AI Agents
+- Large Language Models
+- Productivity Tools
+- Cost Efficiency
+- Tool Comparison
 url: https://www.notion.so/AI-Influencers-are-Lying-to-You-3299fa3b875080e1b6d8cd28d388ea03
 ---
 
@@ -26,4 +47,3 @@ url: https://www.notion.so/AI-Influencers-are-Lying-to-You-3299fa3b875080e1b6d8c
  | **App Replacement** | Get rid of all your other apps. | Inefficient and expensive to have "the blind lead the blind" via LLM-generated code [09:01 Opens in a new window ](http://www.youtube.com/watch?v=WHtyjjDnTfM&t=541). | 
 
 <br/>
-

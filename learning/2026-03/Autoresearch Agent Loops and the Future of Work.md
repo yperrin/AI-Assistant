@@ -1,6 +1,22 @@
 ---
-title: Autoresearch Agent Loops and the Future of Work
+complexity: Advanced
+date: 2026-03-16
 id: 3259fa3b-8750-8019-b027-df5ab1218aa4
+processed_by_ai: true
+summary: This document introduces the concept of "Autoresearch" where an AI agent
+  autonomously edits and runs experiments, committing changes only if they improve
+  a specific metric. It expands on this idea to "Agentic Loops" for iterative software
+  development and applies it to various fields like marketing, sales, and business
+  operations, outlining key requirements for successful implementation.
+title: Autoresearch Agent Loops and the Future of Work
+tools_mentioned:
+- Karpathy's GitHub repository
+topics:
+- AI Agents
+- Autonomous Research
+- Iterative Development
+- Business Automation
+- Machine Learning
 url: https://www.notion.so/Autoresearch-Agent-Loops-and-the-Future-of-Work-3259fa3b87508019b027df5ab1218aa4
 ---
 
@@ -35,4 +51,3 @@ url: https://www.notion.so/Autoresearch-Agent-Loops-and-the-Future-of-Work-3259f
 1. **Low Cost of Failure:** Bad iterations shouldn't cause significant damage [14:14 Opens in a new window ](http://www.youtube.com/watch?v=nt9j1k2IhUY&t=854).
 
 ### **The Future: Collaborative Swarms**
-

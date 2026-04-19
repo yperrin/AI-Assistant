@@ -1,6 +1,24 @@
 ---
-title: Training Video Ilya vs. Google Is the Scaling Era Over
+complexity: Advanced
+date: 2025-12-01
 id: 2bc9fa3b-8750-8008-85d6-dc0cf20ae7d9
+processed_by_ai: true
+summary: This document outlines Ilya Sutskever's perspective on the future of AI,
+  arguing that the era of simply scaling models is over and that novel research is
+  needed to address issues like generalization and sample efficiency. It contrasts
+  his views with Google's, discusses the limitations of current AI, and introduces
+  his approach to Safe Superintelligence and AGI.
+title: Training Video Ilya vs. Google Is the Scaling Era Over
+tools_mentioned:
+- Gemini 3
+topics:
+- AI Research
+- Artificial General Intelligence (AGI)
+- Machine Learning
+- AI Safety
+- Generalization
+- Sample Efficiency
+- Reinforcement Learning
 url: https://www.notion.so/Training-Video-Ilya-vs-Google-Is-the-Scaling-Era-Over-2bc9fa3b8750800885d6dc0cf20ae7d9
 ---
 
@@ -19,4 +37,3 @@ url: https://www.notion.so/Training-Video-Ilya-vs-Google-Is-the-Scaling-Era-Over
 - **Safe Superintelligence (SSI) Strategy:** Ilya’s new company is "research-first" with no immediate consumer products. The goal is to solve the generalization problem first rather than just building a slightly better chatbot [07:46 Opens in a new window ](http://www.youtube.com/watch?v=DcrXHTOxi3I&t=466).
 
 - **Incremental Deployment:** Despite his focus on safety, Ilya argues for "incremental deployment." We cannot reason about a superintelligence we haven't built yet, so we must release increasingly powerful systems to learn how to manage them fundamentally [09:56 Opens in a new window ](http://www.youtube.com/watch?v=DcrXHTOxi3I&t=596).
-

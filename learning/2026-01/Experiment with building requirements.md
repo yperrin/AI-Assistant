@@ -1,6 +1,27 @@
 ---
-title: Experiment with building requirements
+complexity: Advanced
+date: 2026-01-13 14:28:00-05:00
 id: 2e79fa3b-8750-804f-a46b-f0f1f7845cd2
+processed_by_ai: true
+summary: This document details experiments comparing various AI models and methods
+  for generating software, highlighting that the planning phase acts as a filter,
+  making the initial model less critical than expected. The key challenge identified
+  is the loss of intent and requirements during the handoff from PRD to planning,
+  emphasizing the importance of iterative verification and intent preservation for
+  successful AI-driven development.
+title: Experiment with building requirements
+tools_mentioned:
+- GPT-5.2 Instant
+- GPT-5.2 Pro
+- Claude Code
+- Opus 4.5
+topics:
+- AI Model Comparison
+- Software Development
+- Product Requirement Documents (PRDs)
+- AI Planning
+- Intent Preservation
+- Iterative Verification
 url: https://www.notion.so/Experiment-with-building-requirements-2e79fa3b8750804fa46bf0f1f7845cd2
 ---
 
@@ -25,4 +46,3 @@ url: https://www.notion.so/Experiment-with-building-requirements-2e79fa3b8750804
 - **Verification is Critical:** The most successful build came from **iterative verification**—explicitly asking the AI to find what it missed in its plan and updating it before starting the code [14:36 Opens in a new window ](http://www.youtube.com/watch?v=G7I9VAgUgxw&t=876).
 
 - **Intent Preservation:** Using a model that can preserve the "why" (like Opus 4.5, which scored 99% on requirement preservation in his test) leads to a product that feels more like the author's original vision rather than a "sterile" checklist [12:17 Opens in a new window ](http://www.youtube.com/watch?v=G7I9VAgUgxw&t=737).
-

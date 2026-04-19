@@ -1,6 +1,33 @@
 ---
-title: Run code generation in the background with GitHub Copilot coding agents  GitHub Checkout
+complexity: Intermediate
+date: 2026-03-31 21:36:00-04:00
 id: 3359fa3b-8750-8023-af2b-e682630ec580
+processed_by_ai: true
+summary: This document outlines key features and updates for an agent system, emphasizing
+  cloud-based execution via GitHub Actions, advanced model selection (e.g., Claude
+  3.5 Sonnet), integrated quality and security checks, custom agent definitions, and
+  multi-interface support. It also details seamless transitions between cloud and
+  local environments and hints at future capabilities like private drafting and non-coding
+  tasks.
+title: Run code generation in the background with GitHub Copilot coding agents  GitHub
+  Checkout
+tools_mentioned:
+- GitHub Actions
+- Claude 3.5 Sonnet
+- Claude 3 Opus
+- Copilot Code Review
+- GitHub CodeQL
+- GitHub Advisory Database
+- GitHub.com
+- VS Code
+- GitHub CLI
+topics:
+- AI Agents
+- Cloud Computing
+- Software Development
+- Code Quality
+- Security Scanning
+- GitHub Actions
 url: https://www.notion.so/Run-code-generation-in-the-background-with-GitHub-Copilot-coding-agents-GitHub-Checkout-3359fa3b87508023af2be682630ec580
 ---
 
@@ -31,4 +58,3 @@ url: https://www.notion.so/Run-code-generation-in-the-background-with-GitHub-Cop
 - **Non-Coding Tasks:** Expansion into repository reporting, bug summarization, and work planning [12:04 Opens in a new window ](http://www.youtube.com/watch?v=S1ch_6fjp5M&t=724).
 
 ---
-

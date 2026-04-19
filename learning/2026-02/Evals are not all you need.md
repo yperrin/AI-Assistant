@@ -1,6 +1,23 @@
 ---
-title: Evals are not all you need
+complexity: Intermediate
+date: 2026-02-01 10:05:00-05:00
 id: 2fa9fa3b-8750-8018-ba91-d3343b016c37
+processed_by_ai: true
+summary: This document discusses the challenges of evaluating AI/LLM systems, distinguishing
+  between offline and online quality, and how traditional testing methods often fall
+  short. It emphasizes the importance of continuous improvement through a feedback
+  loop, highlighting how real user behavior can surprise developers and necessitate
+  a robust evaluation "flywheel."
+title: Evals are not all you need
+tools_mentioned: []
+topics:
+- AI System Evaluation
+- Offline Quality
+- Online Quality
+- Continuous Improvement
+- LLM Evaluation
+- User Behavior
+- Product Testing
 url: https://www.notion.so/Evals-are-not-all-you-need-2fa9fa3b87508018ba91d3343b016c37
 ---
 
@@ -70,4 +87,3 @@ offline metrics. Might or might not make sense based on product.
 - “How are GPT-5.2 evals looking?“ → These are model benchmarks, often not useful for product builders.
 
 - “How many evals do you have?“ → Might refer to data samples, metrics… We don’t know what.
-

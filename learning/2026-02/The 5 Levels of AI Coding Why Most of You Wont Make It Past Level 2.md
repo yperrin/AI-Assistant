@@ -1,6 +1,29 @@
 ---
-title: The 5 Levels of AI Coding Why Most of You Wont Make It Past Level 2
+complexity: Advanced
+date: 2026-02-18 19:53:00-05:00
 id: 30c9fa3b-8750-80f3-a51c-e4c2906020c3
+processed_by_ai: true
+summary: This document outlines five levels of AI coding, from basic autocomplete
+  to autonomous "Dark Factories," and discusses the profound impact of AI on developer
+  productivity, company structure, and the evolving roles of developers and managers.
+  It highlights a "J-Curve" productivity dip, the shift from implementation speed
+  to specification quality, and the hollowing out of junior and middle management
+  roles.
+title: The 5 Levels of AI Coding Why Most of You Wont Make It Past Level 2
+tools_mentioned:
+- GitHub Copilot
+- StrongDM
+- Cursor
+- Midjourney
+- Kubernetes
+topics:
+- AI in Software Development
+- Developer Productivity
+- Organizational Change
+- Future of Work
+- Software Engineering Management
+- AI Ethics
+- Career Development
 url: https://www.notion.so/The-5-Levels-of-AI-Coding-Why-Most-of-You-Won-t-Make-It-Past-Level-2-30c9fa3b875080f3a51ce4c2906020c3
 ---
 
@@ -73,4 +96,3 @@ url: https://www.notion.so/The-5-Levels-of-AI-Coding-Why-Most-of-You-Won-t-Make-
 - **Specialized "Implementation" Roles:** Developers who function as "adequate" implementers—those who can write a CRUD endpoint but lack broader system or business intuition—are being replaced by models that can do the same work for the cost of tokens.
 
 ### **The Structural Change**
-

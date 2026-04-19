@@ -1,6 +1,36 @@
 ---
-title: Building Agents in 2026
+complexity: Intermediate
+date: 2026-02-14 11:26:00-05:00
 id: 3079fa3b-8750-808a-b3db-cfa1f82ffd20
+processed_by_ai: true
+summary: This document highlights the increasing viability of open-source models for
+  local, private AI agent development, detailing the six core components of agentic
+  systems. It demonstrates practical applications like financial and email agents,
+  while also stressing the critical importance of security practices for autonomous
+  agents.
+title: Building Agents in 2026
+tools_mentioned:
+- GPT 5.2
+- Claude 4.6
+- Qwen
+- GLM
+- n8n
+- Ollama
+- OpenAI Agents SDK
+- OpenClaw
+- Warp
+- Docker
+- Qdrant
+- PostgreSQL
+topics:
+- AI Agents
+- Open-source Models
+- Local AI Development
+- Large Language Models
+- Workflow Automation
+- Data Privacy
+- AI Security
+- Python Development
 url: https://www.notion.so/Building-Agents-in-2026-3079fa3b8750808ab3dbcfa1f82ffd20
 ---
 
@@ -31,5 +61,4 @@ url: https://www.notion.so/Building-Agents-in-2026-3079fa3b8750808ab3dbcfa1f82ff
  | [Warp](http://www.youtube.com/watch?v=D-d4Y6v-pDs) | An AI-integrated terminal used for managing the Python-based email agent and execution environment [39:16 Opens in a new window ](http://www.youtube.com/watch?v=D-d4Y6v-pDs&t=2356). | 
  | [Docker](http://www.youtube.com/watch?v=D-d4Y6v-pDs) | Used for self-hosting n8n and Ollama, and recommended for isolating agents for security [29:02 Opens in a new window ](http://www.youtube.com/watch?v=D-d4Y6v-pDs&t=1742). | 
  | [OpenClaw](http://www.youtube.com/watch?v=D-d4Y6v-pDs) | A viral, autonomous AI agent that runs 24/7 on local hardware to manage calendars, files, and emails [48:55 Opens in a new window ](http://www.youtube.com/watch?v=D-d4Y6v-pDs&t=2935). | 
- | [Self-Hosted AI Starter Kit](http://www.youtube.com/watch?v=D-d4Y6v-pDs) | A bundle including n8n, Ollama, [Qdrant](http://www.youtube.com/watch?v=D-d4Y6v-pDs) (vector store), and [PostgreSQL](http://www.youtube.com/watch?v=D-d4Y6v-pDs) for local AI development [29:11 Opens in a new window ](http://www.youtube.com/watch?v=D-d4Y6v-pDs&t=1751). | 
-
+ | [Self-Hosted AI Starter Kit](http://www.youtube.com/watch?v=D-d4Y6v-pDs) | A bundle including n8n, Ollama, [Qdrant](http://www.youtube.com/watch?v=D-d4Y6v-pDs) (vector store), and [PostgreSQL](http://www.youtube.com/watch?v=D-d4Y6v-pDs) for local AI development [29:11 Opens in a new window ](http://www.youtube.com/watch?v=D-d4Y6v-pDs&t=1751). |

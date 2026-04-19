@@ -1,6 +1,27 @@
 ---
-title: Todays training
+complexity: Advanced
+date: 2025-11-04 10:58:00-05:00
 id: 2a19fa3b-8750-80ea-bf22-fbd1ef7d00d7
+processed_by_ai: true
+summary: This document outlines a three-step process for evaluating and improving
+  AI products, starting with detailed error analysis, then building and calibrating
+  LLM judges using binary scores and a confusion matrix, and finally deploying these
+  judges for continuous monitoring and iteration. It also briefly mentions using Notion
+  for recording training sessions and `openspec` commands for feature proposals.
+title: Todays training
+tools_mentioned:
+- openspec
+- Notion
+- LLM
+topics:
+- AI Product Evaluation
+- Error Analysis
+- LLM Judges
+- AI Debugging
+- Continuous Improvement
+- Confusion Matrix
+- True Positive Rate
+- True Negative Rate
 url: https://www.notion.so/Today-s-training-2a19fa3b875080eabf22fbd1ef7d00d7
 ---
 
@@ -50,4 +71,3 @@ openspec show <change-name>
 	- **Run Judges in Production:** Deploy the specific, calibrated LLM judges to run on samples of production traces for continuous monitoring and to help you debug errors [36:26 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=2186).
 
 	- **Continuous Improvement:** Continue to manually review traces (error analysis) on a regular cadence to ensure you are not missing new or subtle failures [39:39 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=2379).
-

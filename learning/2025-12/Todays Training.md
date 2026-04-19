@@ -1,6 +1,25 @@
 ---
-title: Todays Training
+complexity: Intermediate
+date: 2025-12-01
 id: 2bc9fa3b-8750-803f-bc3e-edf32f84ec8f
+processed_by_ai: true
+summary: 'The document describes three personal applications developed by the author:
+  a catalog application for visualizing domains and services, an AWS cost application
+  for team cost breakdown, and a prompt catalog library built with Electron and React.'
+title: Todays Training
+tools_mentioned:
+- JPharm/CMS
+- Synaptik
+- AWS
+- Electron
+- React
+- n8n
+topics:
+- Software Development
+- Data Flow
+- Cost Management
+- Prompt Engineering
+- Application Development
 url: https://www.notion.so/Today-s-Training-2bc9fa3b8750803fbc3eedf32f84ec8f
 ---
 
@@ -11,4 +30,3 @@ url: https://www.notion.so/Today-s-Training-2bc9fa3b8750803fbc3eedf32f84ec8f
 - A prompt catalog library. I have a table library of prompts but it is not very convenient. This was develop using Electron and React (I don’t know either one, but now I know a little more). I still need to populate it with my prompts and so far implemented static ones, parameterized ones and soon I will add interaction with n8n in some ways I have not yet defined.
 
 <br/>
-

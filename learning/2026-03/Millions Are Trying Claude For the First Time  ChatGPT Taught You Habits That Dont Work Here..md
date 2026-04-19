@@ -1,6 +1,31 @@
 ---
-title: Millions Are Trying Claude For the First Time  ChatGPT Taught You Habits That Dont Work Here.
+complexity: Intermediate
+date: 2026-03-05 12:28:00+05:30
 id: 31a9fa3b-8750-80bf-845e-efb7f8019b21
+processed_by_ai: true
+summary: This document outlines the core philosophical and behavioral differences
+  between ChatGPT and Claude, emphasizing Claude's Constitutional AI approach and
+  its tendency to prioritize correctness. It also provides seven principles for effectively
+  using Claude, including accepting pushback, describing situations, using it as an
+  editor, asking for reasoning, building workspaces, utilizing "Co-work," and understanding
+  its trade-offs.
+title: Millions Are Trying Claude For the First Time  ChatGPT Taught You Habits That
+  Dont Work Here.
+tools_mentioned:
+- ChatGPT
+- Claude
+- Sora video
+- GPT Store
+- Claude Projects
+- Co-work
+topics:
+- AI Models
+- Large Language Models
+- AI Comparison
+- Prompt Engineering
+- Constitutional AI
+- Reinforcement Learning from Human Feedback
+- AI Ethics
 url: https://www.notion.so/Millions-Are-Trying-Claude-For-the-First-Time-ChatGPT-Taught-You-Habits-That-Don-t-Work-Here-31a9fa3b875080bf845eefb7f8019b21
 ---
 
@@ -25,4 +50,3 @@ url: https://www.notion.so/Millions-Are-Trying-Claude-For-the-First-Time-ChatGPT
 1. **Utilize "Co-work":** Unlike ChatGPT, Claude has a desktop agent ("Co-work") that can autonomously open, read, and edit files on your computer [16:27 Opens in a new window ](http://www.youtube.com/watch?v=O7SSQfiPDXA&t=987).
 
 1. **Know the Trade-offs:** By switching to Claude, you lose features like native image generation, Sora video, and the ChatGPT GPT Store [17:42 Opens in a new window ](http://www.youtube.com/watch?v=O7SSQfiPDXA&t=1062).
-

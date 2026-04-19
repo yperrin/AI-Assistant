@@ -1,6 +1,30 @@
 ---
-title: Lookup some of the AI workflow tools
+complexity: Intermediate
+date: 2025-12-04
 id: 2c09fa3b-8750-80d5-894c-f2d1c9948dcc
+processed_by_ai: true
+summary: This document provides a detailed overview of n8n, a low-code visual workflow
+  editor, highlighting its features like extensive integrations and flexible deployment,
+  alongside critical concerns such as its new execution-based pricing model and limitations
+  in testing and CI/CD. It also includes a SWOT analysis for n8n and a comparison
+  with other workflow and AI orchestration tools.
+title: Lookup some of the AI workflow tools
+tools_mentioned:
+- n8n
+- Temporal
+- Factory AI
+- FabrikAI
+- Flowchestra
+- Peak.ai Factory
+topics:
+- Workflow Automation
+- Low-code Development
+- Integration
+- Pricing Models
+- DevOps
+- CI/CD
+- Open Source
+- SWOT Analysis
 url: https://www.notion.so/Lookup-some-of-the-AI-workflow-tools-2c09fa3b875080d5894cf2d1c9948dcc
 ---
 
@@ -91,5 +115,4 @@ url: https://www.notion.so/Lookup-some-of-the-AI-workflow-tools-2c09fa3b875080d5
  | ---- | ---- | ---- | ---- | ---- | ---- | 
 
  | **Peak.ai Factory** | Enterprise license | **Medium–High** | **Medium** (platform abstractions) | 3 (code + UI) | **Limited** (platform constraints) | 
- | ---- | ---- | ---- | ---- | ---- | ---- | 
-
+ | ---- | ---- | ---- | ---- | ---- | ---- |

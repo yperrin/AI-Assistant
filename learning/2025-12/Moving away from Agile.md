@@ -1,6 +1,24 @@
 ---
-title: Moving away from Agile
+complexity: Intermediate
+date: 2025-12-13 10:50:00-05:00
 id: 2c89fa3b-8750-808f-8217-e84a61679728
+processed_by_ai: true
+summary: This document explains why large enterprises struggle to achieve significant
+  productivity gains from AI due to bottlenecks in existing Agile models. It proposes
+  an "AI-Native Operating Model" that involves continuous planning, spec-driven development,
+  smaller cross-functional teams, and new engineering roles focused on orchestration,
+  along with comprehensive change management for successful scaling.
+title: Moving away from Agile
+tools_mentioned: []
+topics:
+- AI
+- Enterprise Productivity
+- Agile Methodologies
+- Software Development
+- Organizational Change Management
+- Team Structure
+- Product Management
+- Engineering Roles
 url: https://www.notion.so/Moving-away-from-Agile-2c89fa3b8750808f8217e84a61679728
 ---
 
@@ -19,4 +37,3 @@ url: https://www.notion.so/Moving-away-from-Agile-2c89fa3b8750808f8217e84a616797
 - **Scaling Requires Change Management:** To scale these gains, organizations must implement a comprehensive change management approach that includes hands-on upskilling, new incentive structures, and a measurement system that prioritizes business outcomes (time-to-market, quality, cost reduction) over just tool adoption [15:58 Opens in a new window ](http://www.youtube.com/watch?v=SZStlIhyTCY&t=958), [18:33 Opens in a new window ](http://www.youtube.com/watch?v=SZStlIhyTCY&t=1113).
 
 <br/>
-

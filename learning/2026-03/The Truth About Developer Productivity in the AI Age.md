@@ -1,6 +1,21 @@
 ---
-title: The Truth About Developer Productivity in the AI Age
+complexity: Advanced
+date: 2026-03-12 07:02:00+05:30
 id: 3219fa3b-8750-8089-a6ce-db8be22e84ad
+processed_by_ai: true
+summary: This document critiques common AI productivity metrics, arguing that activity
+  and output metrics are misleading. It advocates for outcome-based metrics, specifically
+  the "Accelerate" model (DORA metrics), to truly measure engineering and AI impact,
+  advising leaders to focus on team-level outcomes and contextualize AI activity.
+title: The Truth About Developer Productivity in the AI Age
+tools_mentioned: []
+topics:
+- AI Productivity
+- Software Engineering Metrics
+- DevOps
+- Continuous Delivery
+- Business Outcomes
+- Goodhart's Law
 url: https://www.notion.so/The-Truth-About-Developer-Productivity-in-the-AI-Age-3219fa3b87508089a6cedb8be22e84ad
 ---
 
@@ -43,4 +58,3 @@ url: https://www.notion.so/The-Truth-About-Developer-Productivity-in-the-AI-Age-
 - [Accelerate by Dr. Nicole Forsgren](https://www.google.com/search?q=Accelerate%20book%20Nicole%20Forsgren)
 
 - [Measuring Continuous Delivery by Steve Smith](https://leanpub.com/measuringcontinuousdelivery)
-

@@ -1,6 +1,34 @@
 ---
-title: I Built an 11-Tab Financial Model in 10 Minutes
+complexity: Intermediate
+date: 2026-01-27 19:24:00-05:00
 id: 2f69fa3b-8750-8033-9990-cffcc36a6873
+processed_by_ai: true
+summary: This document details the capabilities, performance, and strategic context
+  of Claude, an AI tool for financial analysis, highlighting its structural awareness
+  of Excel workbooks, integration with proprietary financial data providers, and built-in
+  agent skills for common analyst tasks. It emphasizes its efficiency in building
+  complex models and its ability to work with local Excel files, differentiating it
+  from other tools.
+title: I Built an 11-Tab Financial Model in 10 Minutes
+tools_mentioned:
+- Claude
+- Model Context Protocol (MCP)
+- LSEG
+- Moody's
+- S&P Capital IQ
+- FactSet
+- PitchBook
+- Opus 4.5
+- Excel
+- Microsoft Copilot for Excel
+- OneDrive/AutoSave
+topics:
+- AI for Finance
+- Financial Modeling
+- Data Integration
+- Excel Automation
+- Financial Analysis
+- Artificial Intelligence
 url: https://www.notion.so/I-Built-an-11-Tab-Financial-Model-in-10-Minutes-2f69fa3b875080339990cffcc36a6873
 ---
 
@@ -33,4 +61,3 @@ url: https://www.notion.so/I-Built-an-11-Tab-Financial-Model-in-10-Minutes-2f69f
 - **Local File Support:** Notably, it works with local Excel files without requiring OneDrive/AutoSave, a key differentiator from Microsoft’s own Copilot for Excel [13:17 Opens in a new window ](http://www.youtube.com/watch?v=f-v0fJgBqhk&t=797).
 
 - **Impact:** Norway’s sovereign wealth fund has already reported saving **213,000 hours** using the tool [01:48 Opens in a new window ](http://www.youtube.com/watch?v=f-v0fJgBqhk&t=108).
-

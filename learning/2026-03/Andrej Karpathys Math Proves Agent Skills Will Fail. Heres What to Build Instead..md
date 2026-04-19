@@ -1,6 +1,29 @@
 ---
-title: Andrej Karpathys Math Proves Agent Skills Will Fail. Heres What to Build Instead.
+complexity: Advanced
+date: 2026-03-22 15:45:00-04:00
 id: 32b9fa3b-8750-80f6-866a-de4b48989641
+processed_by_ai: true
+summary: This document addresses the challenge of compounding failures in multi-step
+  AI agentic workflows, proposing "Harness Engineering" as a solution to build highly
+  reliable agents. It outlines key components like specialized state machines, virtual
+  file systems, sub-agent delegation, and validation loops to achieve professional-grade
+  reliability.
+title: Andrej Karpathys Math Proves Agent Skills Will Fail. Heres What to Build Instead.
+tools_mentioned:
+- Gemini Flash
+- Gemini Pro
+- Supabase
+topics:
+- AI Agents
+- Agentic Workflows
+- LLM Reliability
+- Harness Engineering
+- State Machines
+- Virtual File Systems
+- Sub-Agent Delegation
+- Validation Loops
+- Context Management
+- AI Architecture
 url: https://www.notion.so/Andrej-Karpathy-s-Math-Proves-Agent-Skills-Will-Fail-Here-s-What-to-Build-Instead-32b9fa3b875080f6866ade4b48989641
 ---
 
@@ -49,5 +72,4 @@ url: https://www.notion.so/Andrej-Karpathy-s-Math-Proves-Agent-Skills-Will-Fail-
  | **Code Execution** | Utilizing secure sandboxes for tool calling. | 
  | **Context Mgmt** | Compacting or summarizing to keep the supervisor lean. | 
  | **Human Loop** | Strategic touchpoints for guidance or approval. | 
- | **Validation** | Iterative loops to guarantee high-quality results. | 
-
+ | **Validation** | Iterative loops to guarantee high-quality results. |

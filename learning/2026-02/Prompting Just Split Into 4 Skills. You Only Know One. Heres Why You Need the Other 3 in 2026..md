@@ -1,6 +1,24 @@
 ---
-title: Prompting Just Split Into 4 Skills. You Only Know One. Heres Why You Need the Other 3 in 2026.
+complexity: Advanced
+date: 2026-02-28 22:44:00+05:30
 id: 3159fa3b-8750-8098-96e8-ee1a1dd04aba
+processed_by_ai: true
+summary: 'This document outlines the four disciplines of the 2026 prompting stack:
+  Prompt Craft, Context Engineering, Intent Engineering, and Specification Engineering.
+  It also details core primitives for creating better specifications, such as self-contained
+  problem statements, acceptance criteria, and evaluation design, to enable autonomous
+  AI agents.'
+title: Prompting Just Split Into 4 Skills. You Only Know One. Heres Why You Need the
+  Other 3 in 2026.
+tools_mentioned: []
+topics:
+- Prompt Engineering
+- AI Agents
+- Context Engineering
+- Intent Engineering
+- Specification Engineering
+- AI Strategy
+- AI System Design
 url: https://www.notion.so/Prompting-Just-Split-Into-4-Skills-You-Only-Know-One-Here-s-Why-You-Need-the-Other-3-in-2026-3159fa3b8750809896e8ee1a1dd04aba
 ---
 
@@ -43,4 +61,3 @@ url: https://www.notion.so/Prompting-Just-Split-Into-4-Skills-You-Only-Know-One-
 - **Evaluation Design:** Build test cases with known good outputs to prove the AI's work is actually correct [33:34 Opens in a new window ](http://www.youtube.com/watch?v=BpibZSMGtdY&t=2014).
 
 <br/>
-

@@ -1,6 +1,32 @@
 ---
-title: How To Use Spec-Driven Development For Brownfield Code Exploration
+complexity: Advanced
+date: 2026-04-09 17:14:00-04:00
 id: 33d9fa3b-8750-80de-8e59-f476841a8499
+processed_by_ai: true
+summary: This document outlines a structured, AI-assisted software development workflow
+  using a tool called Spec Kit, emphasizing the importance of a "constitution" for
+  consistent code generation and a phased approach to feature implementation. It details
+  principles for effective LLM integration, task management, and quality assurance
+  in development.
+title: How To Use Spec-Driven Development For Brownfield Code Exploration
+tools_mentioned:
+- Spec Kit
+- JIRA
+- express.js
+- Knex
+- Backstage
+- Zod
+- Copilot
+- Claude Sonnet 4.5
+topics:
+- AI-assisted code generation
+- Software Development Workflow
+- System Design
+- Architectural Principles
+- LLM Integration
+- Quality Assurance
+- Code Standards
+- Technical Documentation
 url: https://www.notion.so/How-To-Use-Spec-Driven-Development-For-Brownfield-Code-Exploration-33d9fa3b875080de8e59f476841a8499
 ---
 
@@ -193,4 +219,3 @@ Responses
 - **Iterate to correct small deviations: **Re-run the same command to regenerate partial outputs when dealing with limited-scope issues like clarifying specifications, refining edge cases, or adjusting minor design details. Iteration helps align outputs without disrupting downstream phases. Be selective, though. Routine technical maintenance (for example, code cleanups or deprecating old APIs) rarely benefits from Spec Kit. For such tasks, local tools or Copilot’s agent mode are faster and more precise. Focus Spec Kit on medium-to-large features where design structure and context matter.
 
 - **Restart to recover from foundational flaws: **When architectural assumptions, system requirements, or constitution definitions are wrong, iteration magnifies the error chain. Restart the step after manually fixing the last validated .md file, or start the entire process from the beginning if upstream artifacts are compromised. Clean restarts realign design logic and restore phase consistency.
-

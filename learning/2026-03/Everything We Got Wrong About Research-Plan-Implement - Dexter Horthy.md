@@ -1,6 +1,23 @@
 ---
-title: Everything We Got Wrong About Research-Plan-Implement - Dexter Horthy
+complexity: Advanced
+date: 2026-03-29 17:19:00-04:00
 id: 3329fa3b-8750-8012-9164-d0487e16bc69
+processed_by_ai: true
+summary: This document critiques early AI agentic workflows, highlighting issues like
+  LLM instruction budget limits, over-specification by users, and the "slop" factor
+  in automated code generation. It introduces the "CRISPY" framework as a solution,
+  advocating for a structured, human-in-the-loop approach to agent-assisted software
+  development.
+title: Everything We Got Wrong About Research-Plan-Implement - Dexter Horthy
+tools_mentioned:
+- Frontier LLMs
+topics:
+- AI Agents
+- Software Development Workflows
+- LLMs
+- Prompt Engineering
+- Code Quality
+- Software Engineering Best Practices
 url: https://www.notion.so/Everything-We-Got-Wrong-About-Research-Plan-Implement-Dexter-Horthy-3329fa3b875080129164d0487e16bc69
 ---
 
@@ -43,4 +60,3 @@ url: https://www.notion.so/Everything-We-Got-Wrong-About-Research-Plan-Implement
 ### Final Takeaway
 
 <br/>
-

@@ -1,6 +1,23 @@
 ---
-title: Unlocking Business Value with fine-tuning
+complexity: Advanced
+date: 2025-12-24 15:08:00-05:00
 id: 2d39fa3b-8750-8021-a451-f9eab583a386
+processed_by_ai: true
+summary: This document explains when to fine-tune Large Language Models (LLMs), detailing
+  techniques like Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO),
+  and Distillation. It emphasizes the importance of high-quality data and the benefits
+  of fine-tuning, such as lower latency, cost efficiency, and specialization.
+title: Unlocking Business Value with fine-tuning
+tools_mentioned:
+- GPT-4o
+- Phi-3
+topics:
+- Fine-tuning
+- Large Language Models
+- Retrieval Augmented Generation
+- Supervised Fine-Tuning
+- Direct Preference Optimization
+- Model Distillation
 url: https://www.notion.so/Unlocking-Business-Value-with-fine-tuning-2d39fa3b87508021a451f9eab583a386
 ---
 
@@ -29,4 +46,3 @@ url: https://www.notion.so/Unlocking-Business-Value-with-fine-tuning-2d39fa3b875
 1. **Specialization:** Improved handling of edge cases and "industry-speak" (e.g., medical, legal, or agricultural terms).
 
 ---
-

@@ -1,6 +1,23 @@
 ---
-title: No Vibes Allowed Solving Hard Problems in Complex Codebases
+complexity: Advanced
+date: 2026-03-25 22:03:00-04:00
 id: 32f9fa3b-8750-80da-b045-cd35723ad90f
+processed_by_ai: true
+summary: This document outlines common challenges when using AI agents for software
+  development, such as context pollution and outsourced thinking, and proposes the
+  R.P.I. (Research, Plan, Implement) framework and other strategies like "Intentional
+  Compaction" to improve agent effectiveness and code quality.
+title: No Vibes Allowed Solving Hard Problems in Complex Codebases
+tools_mentioned:
+- grep
+- list-files
+topics:
+- AI Agents
+- Software Development
+- Prompt Engineering
+- Context Management
+- Code Quality
+- Software Architecture
 url: https://www.notion.so/No-Vibes-Allowed-Solving-Hard-Problems-in-Complex-Codebases-32f9fa3b875080dab045cd35723ad90f
 ---
 
@@ -51,4 +68,3 @@ url: https://www.notion.so/No-Vibes-Allowed-Solving-Hard-Problems-in-Complex-Cod
 ---
 
 ---
-

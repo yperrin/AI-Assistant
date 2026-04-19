@@ -1,6 +1,24 @@
 ---
-title: AI native company
+complexity: Advanced
+date: 2025-12-20 15:37:00-05:00
 id: 2cf9fa3b-8750-8010-ab78-d4fbb377150b
+processed_by_ai: true
+summary: This document outlines Every's strategy for building an AI-native company,
+  emphasizing the 10x difference of 100% AI adoption, the concept of "vibe coding,"
+  and a "compounding engineering" process. It highlights key metrics like a 1-to-1
+  engineer-to-product ratio and 99% AI-generated code, alongside benefits such as
+  democratized contributions and instant onboarding.
+title: AI native company
+tools_mentioned:
+- Claude
+- Codeium
+topics:
+- AI-native workflows
+- Software Engineering
+- Organizational Adoption of AI
+- Productivity
+- Team Structure
+- AI Agents
 url: https://www.notion.so/AI-native-company-2cf9fa3b87508010ab78d4fbb377150b
 ---
 
@@ -33,4 +51,3 @@ Second-Order Effects of AI-Native Teams
 - Instant Onboarding: New hires can be productive on day one because environmental setup and PR standards are already codified into the agent's instructions [12:18].
 Watch the full video: Dispatch from the Future: building an AI-native Company
 YouTube video views will be stored in your YouTube History, and your data will be stored and used by YouTube according to its Terms of Service
-

@@ -1,6 +1,24 @@
 ---
-title: Effective Harnesses for Long-Running Agents
+complexity: Intermediate
+date: 2025-12-06 14:52:00-05:00
 id: 2c19fa3b-8750-80b3-98cf-cc097cfcb073
+processed_by_ai: true
+summary: This document outlines a multi-session agentic workflow designed to tackle
+  long development tasks by addressing the limitations of single-session agents. It
+  proposes an Initializer Agent to set up the environment and a Coding Agent to make
+  incremental progress, maintain memory, and ensure a clean state after each session.
+title: Effective Harnesses for Long-Running Agents
+tools_mentioned:
+- JSON
+- init.sh
+- git
+- Puppeteer MCP
+topics:
+- AI Agents
+- Agentic Workflows
+- Software Development
+- Incremental Development
+- Persistent Memory
 url: https://www.notion.so/Effective-Harnesses-for-Long-Running-Agents-2c19fa3b875080b398cfcc097cfcb073
 ---
 
@@ -21,4 +39,3 @@ url: https://www.notion.so/Effective-Harnesses-for-Long-Running-Agents-2c19fa3b8
 		- Leaving the environment in a "clean state" by committing progress with descriptive messages and updating the progress file.
 
 ---
-
