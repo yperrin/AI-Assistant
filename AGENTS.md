@@ -7,12 +7,12 @@ This is the root agent guide for the Brain repository.
 - **Synchronization with Notion**: 
   Use the [`notion-sync`](.agents/skills/notion-sync/SKILL.md) skill to fetch the latest journal entries and ideas.
 - **Idea Processing**: 
-  Workflows in `langgraph_workflows/` analyze ideas fetched from Notion.
+  Workflows in `experiments/langgraph_workflows/` analyze ideas fetched from Notion.
 
 ## Project Structure
 
-- `notion_sync/`: Python tool to sync Notion data.
-- `langgraph_workflows/`: Agents and graphs to process ideas.
+- `tools/notion_sync/`: Python tool to sync Notion data.
+- `experiments/langgraph_workflows/`: Agents and graphs to process ideas.
 - `inbox/`: Temporary storage for synced ideas.
 - `learning/`: Categorized training materials.
 

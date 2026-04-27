@@ -11,7 +11,7 @@ Use this skill to run the synchronization process that fetches entries from the 
 
 ## Workflow
 
-1. Navigate to the `notion_sync` directory.
+1. Navigate to the `tools/notion_sync` directory.
 2. Ensure the environment variables in `.env` are set (NOTION_API_KEY, NOTION_DATABASE_ID, GEMINI_API_KEY).
 3. Run the synchronization and categorization commands using `uv`.
 

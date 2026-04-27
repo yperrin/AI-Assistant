@@ -8,16 +8,22 @@ This repository is a personal learning project designed to create agentic workfl
 Over time, this system is expected to learn, adapt, and become more personalized to the user's specific workflow.
 
 ## Repository Structure & Architecture
-The repository relies on a polyglot, micro-project architecture, choosing the best language and tool for each specific job:
-- **`langgraph_workflows/`**: A Python-based project utilizing LangGraph to analyze ideas and orchestrate LLM workflows.
-- **`notion_sync/`**: A Python project to download data from Notion to local markdown files.
+The repository relies on a polyglot, micro-project architecture, choosing the best language and tool for each specific job.
+**CRITICAL IP RULE:** Do not commit proprietary company code anywhere in this repository. All actionable company code belongs in separate external repositories.
+- **`work/`**: A strict silo for professional data. Contains personal logs, drafts, and strategies for company projects (e.g., `work/ai_strategy/`).
+- **`projects/`**: Knowledge hub for personal external projects (e.g., `langfuse`, `ai-repo`). Holds personal dev journals and scratchpads, not the actual code.
+- **`experiments/`**: Sandbox for code prototypes and tool ideas before they mature. Contains the `langgraph_workflows/` project.
+- **`experiments/langgraph_workflows/`**: A Python-based project utilizing LangGraph to analyze ideas and orchestrate LLM workflows.
+- **`tools/`**: Directory for mature, ready-to-use scripts and tools.
+- **`tools/notion_sync/`**: A Python project to download data from Notion to local markdown files.
 - **`learning/`**: Categorized training materials organized by date (YYYY-MM).
-- **`blogs/ai/`**: Professional blog posts about AI created for work.
+- **`inbox/`**: Temporary storage for synced ideas.
+- **`work/blogs/ai/`**: Professional blog posts about AI created for work.
 - **Prompt Prototyping**: Prompts will be prototyped and optionally traced using **Langfuse**.
 - **Expansion**: The project may later incorporate tools built with Java, Angular, or n8n based on what is the best fit for future agentic pipelines.
 
 ## Knowledge Management & Prioritization
-- **Recent Knowledge First**: When retrieving information from the `learning/` or `blogs/ai/` folders, always prioritize the most recent knowledge in case of conflicting information.
+- **Recent Knowledge First**: When retrieving information from the `learning/` or `work/blogs/ai/` folders, always prioritize the most recent knowledge in case of conflicting information.
 - **Date-Based Organization**: Use the YYYY-MM subfolder structure to determine recency.
 
 ## Coding Standards
