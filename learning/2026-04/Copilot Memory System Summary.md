@@ -1,3 +1,22 @@
+---
+complexity: Advanced
+processed_by_ai: true
+summary: This document provides a comprehensive overview of GitHub Copilot's multi-tiered
+  memory system (User, Repo, Session) as of April 2026, detailing its architecture,
+  explicit learning mechanisms, operational commands, and strategic recommendations
+  for effective context management.
+tools_mentioned:
+- GitHub Copilot
+- Gemini 3 Flash
+topics:
+- GitHub Copilot
+- AI Memory Systems
+- Context Management
+- AI Agents
+- System Architecture
+- Data Persistence
+---
+
 # GitHub Copilot Memory System: Comprehensive Summary
 
 This document summarizes the memory layers and functionality available in GitHub Copilot (Gemini 3 Flash) as of April 2026.
