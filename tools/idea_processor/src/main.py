@@ -20,6 +20,15 @@ def process_file(filepath: str, graph) -> None:
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
 
+    # Inject soul.md as context for the agents
+    soul_path = r"d:\Projects\brain\soul.md"
+    soul_content = ""
+    if os.path.exists(soul_path):
+        with open(soul_path, "r", encoding="utf-8") as f:
+            soul_content = f.read()
+
+    idea_with_context = f"{content}\n\n---\n### SYSTEM DIRECTIVE (SOUL CONTEXT)\nThe following is the personal 'Soul' file governing your preferences and ecosystem architecture. You MUST adhere to these principles and constraints when debating, researching, or architecting this idea:\n\n{soul_content}"
+
     run_id = uuid.uuid4().hex[:8]
     filename = os.path.basename(filepath)
 
@@ -28,7 +37,7 @@ def process_file(filepath: str, graph) -> None:
             {
                 "run_id": run_id,
                 "source_file": filepath,
-                "idea": content,
+                "idea": idea_with_context,
                 "current_thought": "",
                 "current_dissent": "",
                 "additional_information": "",
@@ -43,40 +52,47 @@ def process_file(filepath: str, graph) -> None:
         
         decision = result.get("decision", "REJECTED")
         rationale = result.get("rationale", "No rationale provided.")
-        
-        # Get the technical spec artifact
-        tech_spec_path = None
-        for artifact in result.get("artifacts", []):
-            if artifact.get("description") == "Final Technical Specification":
-                tech_spec_path = artifact.get("file_path")
-                break
 
         print(f"Decision: {decision}")
 
-        if decision == "APPROVED":
-            # Move source file to projects
-            target_project_dir = os.path.join(APPROVED_DIR, filename.replace(".md", ""))
-            os.makedirs(target_project_dir, exist_ok=True)
-            
-            new_source_path = os.path.join(target_project_dir, filename)
-            shutil.move(filepath, new_source_path)
-            print(f"Moved idea to {new_source_path}")
-            
-            if tech_spec_path and os.path.exists(tech_spec_path):
-                tech_spec_dest = os.path.join(target_project_dir, "technical_specification.md")
-                shutil.copy2(tech_spec_path, tech_spec_dest)
-                print(f"Copied tech spec to {tech_spec_dest}")
-                
-        else: # REJECTED
-            os.makedirs(REJECTED_DIR, exist_ok=True)
-            new_source_path = os.path.join(REJECTED_DIR, filename)
-            
-            # Append rationale to file
+        # Determine base directory based on decision
+        base_dir = APPROVED_DIR if decision == "APPROVED" else REJECTED_DIR
+        target_idea_dir = os.path.join(base_dir, filename.replace(".md", ""))
+        os.makedirs(target_idea_dir, exist_ok=True)
+
+        # Move original source file
+        new_source_path = os.path.join(target_idea_dir, filename)
+        
+        if decision == "REJECTED":
+            # Append rationale to file for historical context
             with open(filepath, "a", encoding="utf-8") as f:
                 f.write(f"\n\n### AI Evaluation Rationale\n**Decision**: {decision}\n\n{rationale}\n")
+            # Also save rationale as a standalone conclusion file
+            rationale_path = os.path.join(target_idea_dir, "evaluation_rationale.md")
+            with open(rationale_path, "w", encoding="utf-8") as f:
+                f.write(f"# AI Evaluation Rationale\n**Decision**: {decision}\n\n{rationale}\n")
                 
-            shutil.move(filepath, new_source_path)
-            print(f"Moved idea to {new_source_path}")
+        shutil.move(filepath, new_source_path)
+        print(f"Moved idea to {new_source_path}")
+
+        # Copy the final tech spec to the root conclusion folder if it exists
+        for artifact in result.get("artifacts", []):
+            if artifact.get("description") == "Final Technical Specification":
+                artifact_src = artifact.get("file_path")
+                if artifact_src and os.path.exists(artifact_src):
+                    tech_spec_dest = os.path.join(target_idea_dir, "technical_specification.md")
+                    shutil.copy2(artifact_src, tech_spec_dest)
+                    print(f"Copied tech spec to {tech_spec_dest}")
+
+        # Move the entire artifacts run folder to the target idea folder
+        run_artifacts_dir = os.path.join(ARTIFACTS_DIR, run_id)
+        artifacts_dest_dir = os.path.join(target_idea_dir, "artifacts")
+        
+        if os.path.exists(run_artifacts_dir):
+            if os.path.exists(artifacts_dest_dir):
+                shutil.rmtree(artifacts_dest_dir)
+            shutil.move(run_artifacts_dir, artifacts_dest_dir)
+            print(f"Moved all artifacts to {artifacts_dest_dir}")
 
     except Exception as e:
         print(f"Error processing {filepath}: {e}")

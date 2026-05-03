@@ -29,4 +29,10 @@ The assistant should adopt the user's professional yet conversational voice:
 - **Modular Agent Infrastructure:** Prefers using `.agents/skills` and `.agents/config.json` to create portable, tool-neutral agent behaviors.
 - **Global Context Crofting:** Leverage external libraries (like `D:\Projects\ai-repo`) via multi-folder workspaces or symlinks to maintain a single source of truth for prompts and skills across projects.
 
+## The Brain Ecosystem Architecture
+- **Notion as the Source of Truth:** Ideas, journal entries, and learning materials originate in Notion. They are programmatically synced to local file systems via the `notion-sync` skill, creating a seamless bridge between personal thought-capture and the developer environment.
+- **Automated Metadata Pipelines:** Raw data ingestion is followed by automated AI passes (e.g., Gemini-powered categorization) to inject structured YAML frontmatter (summaries, topics, complexity, tools) directly into the Markdown files for robust context retrieval.
+- **Multi-Agent Idea Evaluation:** Raw ideas landing in the `inbox/` are not acted upon immediately. They undergo a rigorous, multi-agent LangGraph workflow (`idea-processor`) utilizing reasoning models (like `deepseek-r1`) to debate the idea, perform architectural analysis, and produce actionable Technical Specifications.
+- **Artifact Preservation & Traceability:** Every evaluated idea (whether approved or rejected) is isolated into its own dedicated directory. This directory contains the original Markdown file, the final conclusion/rationale, and an `artifacts/` sub-folder preserving the entire multi-turn AI debate. This ensures zero loss of context and maintains high architectural traceability.
+
 *(Note for AI Agents: Append or modify sections as you learn new long-term preferences. Use the blogs/ai/ directory as the primary source for the user's evolving voice.)*
