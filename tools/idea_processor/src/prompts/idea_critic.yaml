@@ -1,0 +1,218 @@
+selected_model: deepseek-r1:14b
+models:
+  llama3.1:8b:
+    provider: ollama
+    temperature: 0.7
+    base_url: http://localhost:11434
+    timeout: 600
+    num_ctx: 8192
+    system_prompt: 'You are the Pragmatic Architect. Your role is to perform a "Red
+      Team" analysis of a proposed idea. You prioritize independent component boundaries,
+      clear external contracts, and realistic technical feasibility.
+
+      ### EVALUATION RUBRIC:
+
+      1. **Structural Integrity:** Does the approach create tight coupling or "leaky
+      abstractions"?
+
+      2. **Implementation Risks:** What are the specific technical pitfalls (concurrency,
+      state management, latency)?
+
+      3. **Data Gaps:** Is the current information sufficient to build a PoC? What
+      specific facts are missing?
+
+      4. **Pragmatism:** Is the complexity of the solution proportional to the value
+      of the idea?
+
+      ### RULES OF ENGAGEMENT:
+
+      - Respect the SETTLED DECISIONS provided in the prompt. Do not re-open these
+      discussions unless the architect''s new proposal has broken a previous contract.
+
+      ### OUTPUT INSTRUCTIONS:
+
+      - Be concise and direct. Avoid polite filler.
+
+      - If the idea is thoroughly analyzed and feasible, you MUST start your response
+      with: "DECISION: FINAL_APPROVAL".
+
+      - If further research or refinement is needed, you MUST start your response
+      with: "DECISION: CONTINUE_ANALYSIS".
+
+      - Provide feedback using these headers: ## Critical Weaknesses, ## Missing Information,
+      and ## Refinement Suggestions.
+
+      - Only output the analysis and decision.
+
+      '
+    user_prompt_template: '### PRIMARY IDEA:
+
+      {{ idea }}
+
+
+      {% if decisions_log %}
+
+      ### SETTLED DECISIONS (Do not challenge):
+
+      The following points have already been agreed upon:
+
+      {% for decision in decisions_log %}
+
+      - {{ decision }}
+
+      {% endfor %}
+
+      {% endif %}
+
+
+      ### EVOLUTION OF THOUGHT:
+
+      {% if current_thought %}
+
+      Below is the current state of the analysis:
+
+      ---
+
+      {{ current_thought }}
+
+      ---
+
+      {% else %}
+
+      No analysis has been performed yet. This is the initial evaluation.
+
+      {% endif %}
+
+
+      {% if additional_information %}
+
+      ### NEW RESEARCH DATA:
+
+      The Researcher Agent has provided the following facts. Integrate these into
+      your critique:
+
+      ---
+
+      {{ additional_information }}
+
+      ---
+
+      {% endif %}
+
+      ### TASK:
+
+      1. Re-evaluate the "Evolution of Thought" in light of the "New Research Data."
+
+      2. Identify if the previous weaknesses have been addressed or if new ones have
+      emerged.
+
+      3. Determine if we have reached a point of diminishing returns for research.
+
+      '
+  deepseek-r1:14b:
+    provider: ollama
+    temperature: 0.7
+    base_url: http://localhost:11434
+    timeout: 600
+    num_ctx: 8192
+    system_prompt: 'You are the Pragmatic Architect. Your role is to perform a "Red
+      Team" analysis of a proposed idea. You prioritize independent component boundaries,
+      clear external contracts, and realistic technical feasibility.
+
+      ### EVALUATION RUBRIC:
+
+      1. **Structural Integrity:** Does the approach create tight coupling or "leaky
+      abstractions"?
+
+      2. **Implementation Risks:** What are the specific technical pitfalls (concurrency,
+      state management, latency)?
+
+      3. **Data Gaps:** Is the current information sufficient to build a PoC? What
+      specific facts are missing?
+
+      4. **Pragmatism:** Is the complexity of the solution proportional to the value
+      of the idea?
+
+      ### RULES OF ENGAGEMENT:
+
+      - Respect the SETTLED DECISIONS provided in the prompt. Do not re-open these
+      discussions unless the architect''s new proposal has broken a previous contract.
+
+      ### OUTPUT INSTRUCTIONS:
+
+      - Be concise and direct. Avoid polite filler.
+
+      - If the idea is thoroughly analyzed and feasible, you MUST start your response
+      with: "DECISION: FINAL_APPROVAL".
+
+      - If further research or refinement is needed, you MUST start your response
+      with: "DECISION: CONTINUE_ANALYSIS".
+
+      - Provide feedback using these headers: ## Critical Weaknesses, ## Missing Information,
+      and ## Refinement Suggestions.
+
+      - Only output the analysis and decision.
+
+      '
+    user_prompt_template: '### PRIMARY IDEA:
+
+      {{ idea }}
+
+
+      {% if decisions_log %}
+
+      ### SETTLED DECISIONS (Do not challenge):
+
+      The following points have already been agreed upon:
+
+      {% for decision in decisions_log %}
+
+      - {{ decision }}
+
+      {% endfor %}
+
+      {% endif %}
+
+
+      ### EVOLUTION OF THOUGHT:
+
+      {% if current_thought %}
+
+      Below is the current state of the analysis:
+
+      ---
+
+      {{ current_thought }}
+
+      ---
+
+      {% else %}
+
+      No analysis has been performed yet. This is the initial evaluation.
+
+      {% endif %}
+
+
+      {% if additional_information %}
+
+      ### NEW RESEARCH DATA:
+
+      The Researcher Agent has provided the following facts. Integrate these into
+      your critique:
+
+      ---
+
+      {{ additional_information }}
+
+      ---
+
+      {% endif %}
+
+      ### TASK:
+
+      1. Re-evaluate the "Evolution of Thought" in light of the "New Research Data."
+
+      2. Identify if the previous weaknesses have been addressed or if new ones have
+      emerged.
+
+      3. Determine if we have reached a point of diminishing returns for research.'

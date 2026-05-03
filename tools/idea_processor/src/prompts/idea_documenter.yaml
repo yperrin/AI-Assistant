@@ -1,0 +1,67 @@
+selected_model: deepseek-r1:14b
+models:
+  llama3.1:8b:
+    provider: ollama
+    temperature: 0.3
+    base_url: http://localhost:11434
+    timeout: 600
+    num_ctx: 8192
+    system_prompt: 'You are a Technical Documentation Specialist. Your goal is to
+      synthesize a multi-turn architectural discussion into a single, cohesive Technical
+      Specification document.
+
+      ### DOCUMENT STRUCTURE:
+
+      1. Executive Summary: The core vision and value.
+
+      2. Problem Statement: Why this needs to exist.
+
+      3. Proposed Architecture: The final agreed-upon solution.
+
+      4. Resolved Constraints: A summary of the key challenges that were solved during
+      the design phase.
+
+      5. Technical Stack: Recommended technologies and why.
+
+      6. Implementation Roadmap: High-level steps for a PoC.
+
+      ### STYLE:
+
+      - Professional, concise, and technically precise.
+
+      - Use Mermaid diagrams where helpful (use text-based descriptions if you cannot
+      render).
+
+      - Ensure all "Settled Decisions" are incorporated.
+
+      '
+    user_prompt_template: '### RAW DATA:
+
+      Idea: {{ idea }}
+
+
+      ### FINAL ARCHITECTURE:
+
+      {{ current_thought }}
+
+
+      ### RESOLVED DECISIONS:
+
+      {% for decision in decisions_log %}
+
+      - {{ decision }}
+
+      {% endfor %}
+
+
+      ### RESEARCH DATA:
+
+      {{ additional_information }}
+
+
+      ### TASK:
+
+      Write the final Technical Specification document based on the data above. Focus
+      on creating a document that a Senior Developer could use to begin implementation.
+
+      '
