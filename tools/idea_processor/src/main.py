@@ -63,14 +63,14 @@ def process_file(filepath: str, graph) -> None:
         # Move original source file
         new_source_path = os.path.join(target_idea_dir, filename)
         
-        if decision == "REJECTED":
-            # Append rationale to file for historical context
-            with open(filepath, "a", encoding="utf-8") as f:
-                f.write(f"\n\n### AI Evaluation Rationale\n**Decision**: {decision}\n\n{rationale}\n")
-            # Also save rationale as a standalone conclusion file
-            rationale_path = os.path.join(target_idea_dir, "evaluation_rationale.md")
-            with open(rationale_path, "w", encoding="utf-8") as f:
-                f.write(f"# AI Evaluation Rationale\n**Decision**: {decision}\n\n{rationale}\n")
+        # Append rationale to file for historical context
+        with open(filepath, "a", encoding="utf-8") as f:
+            f.write(f"\n\n### AI Evaluation Rationale\n**Decision**: {decision}\n\n{rationale}\n")
+        
+        # Also save rationale as a standalone conclusion file
+        rationale_path = os.path.join(target_idea_dir, "evaluation_rationale.md")
+        with open(rationale_path, "w", encoding="utf-8") as f:
+            f.write(f"# AI Evaluation Rationale\n**Decision**: {decision}\n\n{rationale}\n")
                 
         shutil.move(filepath, new_source_path)
         print(f"Moved idea to {new_source_path}")
