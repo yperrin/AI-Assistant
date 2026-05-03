@@ -9,10 +9,20 @@ from src.graphs.idea import build_idea_graph
 def main():
     run_id = uuid.uuid4().hex[:8]   
     graph = build_idea_graph()
+    base_idea = "I want to create a process to review coding ideas for feasibility and eventually propose the top 2 possible implementations that would allow to implement the solution. Make sure to describe the technology to use for the solutions"
+    
+    soul_path = r"d:\Projects\brain\soul.md"
+    soul_content = ""
+    if os.path.exists(soul_path):
+        with open(soul_path, "r", encoding="utf-8") as f:
+            soul_content = f.read()
+
+    idea_with_context = f"{base_idea}\n\n---\n### SYSTEM DIRECTIVE (SOUL CONTEXT)\nThe following is the personal 'Soul' file governing your preferences and ecosystem architecture. You MUST adhere to these principles and constraints when debating, researching, or architecting this idea:\n\n{soul_content}"
+
     result = graph.invoke(
         {
             "run_id": run_id,
-            "idea": "I want to create a process to review coding ideas for feasibility and eventually propose the top 2 possible implementations that would allow to implement the solution. Make sure to describe the technology to use for the solutions",
+            "idea": idea_with_context,
             "current_thought": "",
             "current_dissent": "",
             "additional_information": "",
