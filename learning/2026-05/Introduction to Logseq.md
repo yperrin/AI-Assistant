@@ -1,12 +1,12 @@
 ---
-complexity: Intermediate
+complexity: Beginner
 date: 2026-05-03 10:55:00-04:00
 id: 3559fa3b-8750-80fd-b940-c86a5fb914e5
 processed_by_ai: true
 summary: This document provides an overview of Logseq, a local-first note-taking application
-  that organizes information using a graph concept with bidirectional linking. It
-  highlights features such as daily journaling, task management, and a visual graph
-  view, emphasizing user ownership of data.
+  that organizes information using a graph-based structure rather than traditional
+  folders. It highlights features like bidirectional linking, daily journaling, task
+  management, and a visual graph view for interconnected knowledge.
 title: Introduction to Logseq
 tools_mentioned:
 - Logseq
@@ -14,14 +14,17 @@ tools_mentioned:
 - Org-mode
 - Roam Research
 - Building a Second Brain
+- Tiago Forte
+- Ali Abdaal
+- CombiningMinds
 topics:
 - Note-taking
 - Knowledge Management
 - Personal Wiki
 - Graph Databases
 - Task Management
-- Digital Privacy
-- Journaling
+- Digital Journaling
+- Data Ownership
 url: https://www.notion.so/Introduction-to-Logseq-3559fa3b875080fdb940c86a5fb914e5
 ---
 

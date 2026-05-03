@@ -3,28 +3,34 @@ complexity: Advanced
 date: 2025-12-05 17:51:00-05:00
 id: 2c09fa3b-8750-80aa-a334-f317edb02d60
 processed_by_ai: true
-summary: This document outlines advanced tool use features on the Claude Developer
-  Platform, focusing on solutions for context window management, programmatic tool
-  calling with Python scripts, and improving tool accuracy with input examples. It
-  also details the benefits of code execution with MCP for efficiency, on-demand tool
-  access, complex logic handling, and enhanced privacy.
+summary: Anthropic has released new beta features for advanced tool use on Claude,
+  including Tool Search, Programmatic Tool Calling, and Tool Use Examples, to improve
+  efficiency and reduce context window usage. Additionally, Code Execution with MCP
+  is introduced as a method for AI agents to interact with tools more efficiently
+  by writing and executing code.
 title: Learning from Anthropic
 tools_mentioned:
 - Claude
-- Python
-- MCP
+- Model Context Protocol
 topics:
-- Advanced Tool Use
-- Large Language Models
+- AI Agents
+- Tool Use
 - Context Window Management
+- AI Efficiency
 - Code Execution
-- Developer Platform
-- Efficiency
-- Privacy
+- Model Context Protocol
 url: https://www.notion.so/Learning-from-Anthropic-2c09fa3b875080aaa334f317edb02d60
 ---
 
+Reading about Anthropic formal last 2 posts
+
 ### Advanced Tool Use on Claude Developer Platform
+
+The Update:
+
+Anthropic has released three new beta features designed to help AI agents work efficiently with hundreds or thousands of tools by allowing them to discover, learn, and execute tools dynamically.
+
+**Key Features:**
 
 - **Tool Search Tool**
 
@@ -50,7 +56,23 @@ url: https://www.notion.so/Learning-from-Anthropic-2c09fa3b875080aaa334f317edb02
 
 	- **Benefit:** drastically reduces malformed tool calls, improving accuracy from 72% to 90% on complex tasks.
 
+Getting Started:
+
+These features are available in beta now using the advanced-tool-use-2025-11-20 header.
+
+Would you like to see a specific example of how **Programmatic Tool Calling** orchestrates multiple tools?
+
 ### Code Execution with MCP
+
+The Problem:
+
+As AI agents connect to more tools via the Model Context Protocol (MCP), they become inefficient. Loading thousands of tool definitions and passing raw intermediate data (like large spreadsheets) through the model's context window spikes costs and latency.
+
+The Solution:
+
+Code Execution with MCP. Instead of standard tool calling, agents write and execute code to interact with MCP servers. Tools are presented as code APIs (e.g., files in a directory) that the agent can import and use programmatically.
+
+**Key Benefits:**
 
 - **Massive Efficiency:** Agents can filter and process data in the code environment, sending only the final result to the model (e.g., reducing 10,000 rows to 5). This can cut token usage by over 98%.
 

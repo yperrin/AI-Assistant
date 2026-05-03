@@ -3,10 +3,11 @@ complexity: Advanced
 date: 2026-03-25 22:03:00-04:00
 id: 32f9fa3b-8750-80da-b045-cd35723ad90f
 processed_by_ai: true
-summary: This document outlines common challenges when using AI agents for software
-  development, such as context pollution and outsourced thinking, and proposes the
-  R.P.I. (Research, Plan, Implement) framework and other strategies like "Intentional
-  Compaction" to improve agent effectiveness and code quality.
+summary: Dex Horthy from HumanLayer introduces the R.P.I. (Research, Plan, Implement)
+  framework to effectively use AI agents in complex, production-grade codebases, addressing
+  issues like "context pollution" and "vibe coding" through intentional context compaction
+  and detailed planning. The framework emphasizes treating context as a scarce resource
+  and ensuring human oversight on the plan before mechanical implementation.
 title: No Vibes Allowed Solving Hard Problems in Complex Codebases
 tools_mentioned:
 - grep
@@ -14,16 +15,23 @@ tools_mentioned:
 topics:
 - AI Agents
 - Software Development
-- Prompt Engineering
 - Context Management
-- Code Quality
+- Codebase Management
 - Software Architecture
+- Development Workflow
+- Problem Solving
 url: https://www.notion.so/No-Vibes-Allowed-Solving-Hard-Problems-in-Complex-Codebases-32f9fa3b875080dab045cd35723ad90f
 ---
 
+This video features **Dex Horthy** from **HumanLayer** discussing how to move beyond "vibe coding" (relying on intuition and AI magic) to solve hard problems in complex, production-grade codebases.
+
 ### The Problem: The "Dumb Zone"
 
+Horthy identifies **Context Pollution** as the primary reason AI agents fail in large repos. As a chat history fills with noisy logs, wandering exploration, and corrections, the model enters a "Dumb Zone" where it starts producing "slop" instead of useful code.
+
 ### The Solution: The R.P.I. Framework
+
+To maintain high-quality output, he proposes a structured loop designed to treat context as a scarce resource:
 
 - **RESEARCH (Compress Truth):** Use the agent to scan files and establish ground truth. Trust the code, not the documentation.
 
@@ -32,6 +40,14 @@ url: https://www.notion.so/No-Vibes-Allowed-Solving-Hard-Problems-in-Complex-Cod
 - **IMPLEMENT (Execute Mechanically):** Execute the approved plan, ideally in a **fresh context window** to keep the model in its "smart zone."
 
 ### Key Takeaway: "Intentional Compaction"
+
+Instead of letting one chat run forever, frequently ask the agent to summarize the current state and "compact" the context. Start a **new chat** with that summary to keep the model sharp and focused on the next task.
+
+You can watch the full presentation here: **[No Vibes Allowed: Solving Hard Problems in Complex Codebases](https://www.youtube.com/watch?v=rmvDxxNubIg)**.
+
+In his presentation, **[No Vibes Allowed: Solving Hard Problems in Complex Codebases](https://www.youtube.com/watch?v=rmvDxxNubIg)**, Dex Horthy identifies that the primary failure of AI agents isn't a lack of "intelligence," but rather a failure of **Process and Context Management**.
+
+Here is a detailed breakdown of the challenges he encountered and the specific strategies used to address them:
 
 ---
 
@@ -66,5 +82,7 @@ url: https://www.notion.so/No-Vibes-Allowed-Solving-Hard-Problems-in-Complex-Cod
 - **The Address:** **Agent-Ready Codebase Patterns.** This involves flattening directory structures and using clear, explicit file headers. By making the architecture "legible" to a model with a limited context window, you reduce the "reasoning hop" required for the agent to make a correct decision.
 
 ---
+
+**Would you like me to create a checklist or a "Definition of Done" that you can provide to your teams to ensure they are following this Research-Plan-Implement (RPI) framework?**
 
 ---

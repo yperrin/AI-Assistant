@@ -3,26 +3,30 @@ complexity: Intermediate
 date: 2026-03-09
 id: 31e9fa3b-8750-80cc-ad7c-e48cdfad7655
 processed_by_ai: true
-summary: This document outlines a core philosophy and seven principles for education
-  in the AI age, emphasizing the importance of foundational knowledge, critical thinking,
-  and active engagement with AI tools to prevent cognitive offloading and foster discernment.
-  It highlights that students must develop the ability to specify tasks, curate outputs,
-  and identify AI errors rather than passively relying on technology.
+summary: This document explores the paradox of raising children who are proficient
+  in AI ("vibe coding") yet grounded in traditional skills, arguing that foundational
+  knowledge is crucial for effectively directing AI. It outlines seven principles
+  for AI-age education, emphasizing critical thinking, specification, and building
+  over passive consumption.
 title: My 10-Year-Old Vibe Codes. She Also Does Math by Hand. Why Thats the Only Strategy
   That Works.
 tools_mentioned:
 - Claude
 topics:
-- AI-Age Education
-- Learning Principles
-- Cognitive Offloading
+- AI Education
+- Foundational Skills
 - Critical Thinking
-- AI Ethics in Education
-- Metacognition
+- Parenting
+- Artificial General Intelligence (AGI)
+- Cognitive Offloading
 url: https://www.notion.so/My-10-Year-Old-Vibe-Codes-She-Also-Does-Math-by-Hand-Why-That-s-the-Only-Strategy-That-Works-31e9fa3b875080ccad7ce48cdfad7655
 ---
 
+In this video, [Nate B Jones](http://www.youtube.com/watch?v=2ghhiPLg-jg) explores the paradox of raising children who are both proficient in AI ("vibe coding") and grounded in traditional manual skills like long division. He argues that as Artificial General Intelligence (AGI) arrives, the most critical skill is not just knowing how to use AI, but having the foundational knowledge to direct it effectively.
+
 ### Core Philosophy: The "Calculator Moment" for Everything
+
+Nate compares the current AI revolution to the introduction of calculators in the 1970s. The goal isn't to ban the tool, but to ensure the foundation (mechanics) is built first [04:29 Opens in a new window ](http://www.youtube.com/watch?v=2ghhiPLg-jg&t=269).
 
 - **Foundation before Leverage:** Students must understand the domain manually (reading physical books, doing math by hand) to develop the "taste" and "discernment" needed to evaluate AI output [23:48 Opens in a new window ](http://www.youtube.com/watch?v=2ghhiPLg-jg&t=1428).
 

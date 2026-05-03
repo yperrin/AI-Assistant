@@ -3,28 +3,35 @@ complexity: Advanced
 date: 2026-05-03 09:49:00-04:00
 id: 3559fa3b-8750-8004-bf88-d4bef2bf9890
 processed_by_ai: true
-summary: 'This document addresses the inherent problems with AI agents, such as unpredictability
-  and faulty directability, proposing a shift from in-band to out-of-band governance.
-  It outlines a robust management framework, dubbed "digital HR," built on four pillars:
-  Identity, Authorization, Observability & Explainability, and Accountability & Control,
-  to safely orchestrate imperfect agents.'
+summary: 'This article argues that the enterprise adoption of AI agents is hindered
+  by a lack of "HR" or governance infrastructure, not by the agents'' capabilities.
+  It proposes an "out-of-band" governance framework with four pillars: identity, authorization,
+  observability, and accountability, to manage imperfect agents safely in production.'
 title: Posthuman We All Built Agents. Nobody Built HR.
 tools_mentioned:
 - OAuth 2.0 Token Exchange
 topics:
 - AI Agents
-- Agent Governance
+- Enterprise AI
+- AI Governance
+- Infrastructure
 - Security
-- Accountability
-- Observability
-- Authorization
 - Identity Management
+- Authorization
+- Observability
+- Accountability
+- Prompt Injection
+- Microservices
 url: https://www.notion.so/Posthuman-We-All-Built-Agents-Nobody-Built-HR-3559fa3b87508004bf88d4bef2bf9890
 ---
+
+This article, [Posthuman: We All Built Agents. Nobody Built HR.](https://www.oreilly.com/radar/posthuman-we-all-built-agents-nobody-built-hr/), by Tyler Akidau, explores the critical infrastructure gap in enterprise AI. While the industry has focused on building more capable agents, it has neglected the "HR" or governance frameworks required to manage them safely in production environments.
 
 ---
 
 ## 1. Executive Summary
+
+The core thesis is that **AI agents are a fundamentally new kind of coworker**: unpredictable like humans, capable like software, and directable to a fault. Current enterprise adoption has faltered not because models are poor, but because we lack the infrastructure to trust them.
 
 - **The Problem:** Agents combine the worst traits of humans (unpredictability/hallucinations) and software (speed/scale) without the human judgment to push back on bad plans.
 
@@ -36,9 +43,15 @@ url: https://www.notion.so/Posthuman-We-All-Built-Agents-Nobody-Built-HR-3559fa3
 
 ## 2. Detailed Transcription
 
+*Note: The following is a faithful representation of the full content provided in the article transcript.*
+
 ### Introduction: The Agentic Wasteland
 
+The "Anthropocene" is ending as AI wins, yet enterprise agentic AI—software that autonomously performs meaningful tasks in production—remains a wasteland of sandboxed demos and "snake oil." Akidau argues this isn't a model problem. Human organizations function with imperfect people because of management frameworks; agents need the same.
+
 ### Why Agents are Different
+
+Agents differ from humans in three vital ways:
 
 1. **Unpredictability:** They hallucinate in ways that are structurally indistinguishable from truth and are susceptible to prompt injection.
 
@@ -47,6 +60,8 @@ url: https://www.notion.so/Posthuman-We-All-Built-Agents-Nobody-Built-HR-3559fa3
 1. **Faulty Directability:** They lack human judgment and will faithfully execute a bad or underspecified plan without pushing back.
 
 ### The Missing HR Infrastructure
+
+We are in a "panic-in-between" phase. Just as microservices required a service mesh, agents require a governance layer. Akidau proposes the **Out-of-Band Metadata** principle: Governance must be enforced via channels agents cannot access, modify, or circumvent. It must be agent-inaccessible, deterministic, and interoperable.
 
 ### The Four Pillars of Agent Governance
 
@@ -59,6 +74,8 @@ url: https://www.notion.so/Posthuman-We-All-Built-Agents-Nobody-Built-HR-3559fa3
 1. **Accountability & Control:** Establishing clear responsibility chains and "kill switches" (surgical revocation of a specific instance) to contain damage and manage costs.
 
 ### Conclusion: The Posthuman Workforce
+
+The era defined by how humans shape the world hasn't changed; we are simply onboarding new "agentic coworkers." By building the right infrastructure, we can manage imperfect agents just as we have managed imperfect humans for decades.
 
 ---
 

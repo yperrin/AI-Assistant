@@ -1,27 +1,34 @@
 ---
-complexity: Intermediate
+complexity: Advanced
 date: 2026-02-21 06:43:00-05:00
 id: 30e9fa3b-8750-80e2-84cb-d88450f690c4
 processed_by_ai: true
-summary: This document outlines five principles for creating effective AI agent specifications,
-  emphasizing a structured, iterative, and human-in-the-loop approach to ensure robust
-  and maintainable AI-assisted engineering. It also provides key takeaways for senior
-  leadership on avoiding common pitfalls and maintaining architectural health in AI-driven
-  projects.
+summary: This document outlines a framework for creating "smart specs" to effectively
+  guide AI agents like Claude Code and Gemini, emphasizing clarity, pragmatic management,
+  and a structured approach to AI-assisted software development. It details five principles
+  for AI agent specs, including high-level vision, professional PRD structure, attention
+  budget management, spec-driven development, and iterative refinement.
 title: How to write a good direct for AI Agents
 tools_mentioned:
-- RAG
+- Claude Code
+- Gemini
+- npm
+- Git
 - Plan Mode
 topics:
 - AI Agents
-- Software Specifications
-- Software Development Workflow
+- Software Specification
 - System Design
+- AI-assisted Development
+- Architectural Health
 - Retrieval-Augmented Generation
-- Code Quality
-- Project Management
+- Prompt Engineering
 url: https://www.notion.so/How-to-write-a-good-direct-for-AI-Agents-30e9fa3b875080e284cbd88450f690c4
 ---
+
+In the article [How to Write a Good Spec for AI Agents](https://www.oreilly.com/radar/how-to-write-a-good-spec-for-ai-agents/), Addy Osmani outlines a framework for creating "smart specs" that guide AI agents like [Claude Code](https://www.anthropic.com/claude-code) and [Gemini](https://www.google.com/search?q=https%3A%2F%2Fai.google%2Fgemini%2F) without overwhelming their context windows.
+
+The core philosophy mirrors your own interest in **AI-assisted systems** and **architectural health**, prioritizing clarity and pragmatic management over rigid, over-engineered documentation.
 
 ### 5 Principles for AI Agent Specs
 

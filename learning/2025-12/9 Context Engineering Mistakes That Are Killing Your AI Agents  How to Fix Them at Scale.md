@@ -3,24 +3,30 @@ complexity: Advanced
 date: 2025-12-09
 id: 2c49fa3b-8750-8042-a333-e920a3705bbb
 processed_by_ai: true
-summary: This document outlines 9 principles for effective context engineering in
-  LLM applications, focusing on optimizing context windows, memory management, and
-  agent design. It also details 9 common mistakes to avoid, such as blind summarization
-  and treating context as unlimited RAM.
+summary: This document argues that effective AI agents require memory to be engineered
+  as a complex runtime system with tiered memory and structured context, rather than
+  simply a large context window. It details 9 principles for fixing context engineering
+  and 9 common mistakes to avoid when building scalable, long-running agents.
 title: 9 Context Engineering Mistakes That Are Killing Your AI Agents  How to Fix
   Them at Scale
 tools_mentioned: []
 topics:
+- AI Agents
+- Agentic Memory
 - Context Engineering
-- LLMs
-- Prompt Engineering
+- LLM Prompt Design
 - Memory Management
-- Agent Design
-- System Design
+- Scalable AI Systems
+- Sub-Agents
+- Caching
 url: https://www.notion.so/9-Context-Engineering-Mistakes-That-Are-Killing-Your-AI-Agents-How-to-Fix-Them-at-Scale-2c49fa3b87508042a333e920a3705bbb
 ---
 
+The video argues that for AI agents to be effective at scale, "memory" must be engineered as a complex runtime system rather than just treated as a large context window. The presenter outlines specific principles to fix context engineering and common mistakes to avoid.
+
 ### **Core Concept**
+
+Agentic memory is a system, not just a prompt. To build long-running agents, you must stop trying to stuff everything into the context window and start engineering memory as a tiered, compiled environment.
 
 ### **9 Principles to Fix Context Engineering**
 

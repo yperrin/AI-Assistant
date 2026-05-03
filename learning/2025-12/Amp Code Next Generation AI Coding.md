@@ -3,23 +3,25 @@ complexity: Advanced
 date: 2025-12-23 21:26:00-05:00
 id: 2d39fa3b-8750-80e8-8ea0-df6dec8ec785
 processed_by_ai: true
-summary: Amp Code utilizes a sub-agent architecture with specialized agents like Finder,
-  Oracle, and Librarian, alongside dual-mode operation with Smart and Rush agents.
-  It features a custom terminal and VS Code extension for code review, experimental
-  agents like Kraken for refactoring, and collaboration tools for sharing workflows.
+summary: Beyang Liu introduces Amp Code, an "opinionated frontier agent" for coding
+  that uses a sub-agent architecture and dual-mode operation. The platform focuses
+  on high-level orchestration, code review, and navigating complex codebases, shifting
+  developers towards reviewing agent-generated code.
 title: Amp Code Next Generation AI Coding
 tools_mentioned:
-- VS Code
+- Amp Code
 - Gemini 3 Flash
+- VS Code
 topics:
-- AI Agents
-- Software Architecture
+- AI Coding
+- Agent Architecture
 - Code Generation
+- Software Development
 - Code Review
-- Collaboration Tools
-- Developer Tools
 url: https://www.notion.so/Amp-Code-Next-Generation-AI-Coding-2d39fa3b875080e88ea0df6dec8ec785
 ---
+
+In this video, **Beyang Liu** introduces **Amp Code**, an "opinionated frontier agent" for coding that focuses on high-level orchestration and sub-agent architecture.
 
 ### Key Features of Amp Code:
 
@@ -34,3 +36,7 @@ url: https://www.notion.so/Amp-Code-Next-Generation-AI-Coding-2d39fa3b875080e88e
 - **Collaboration Tools:** Includes the ability to **share threads** with teammates to exchange prompting techniques and debug agent workflows together.
 
 ### Strategic Takeaways:
+
+Liu argues that as developers move toward becoming **reviewers** of agent-generated code, the focus must shift from "model selection" to building robust, agent-oriented architectures that can effectively navigate complex codebases.
+
+For more details, you can view the full video: [Amp Code: Next Generation AI Coding – Beyang Liu](http://www.youtube.com/watch?v=gvIAkmZUEZY).

@@ -1,33 +1,37 @@
 ---
-complexity: Advanced
+complexity: Intermediate
 date: 2026-05-02 15:40:00-04:00
 id: 3549fa3b-8750-80aa-8072-dd43e17ad801
 processed_by_ai: true
-summary: This document redefines code reviews, moving beyond traditional bottlenecks
-  to address specific purposes like policy adherence, knowledge sharing, and design
-  alignment. It explores how practices like pair programming and AI-generated code
-  shift the focus of human review towards intent verification and high-level critiques.
+summary: This document re-evaluates the necessity and purpose of code reviews in modern
+  software development, considering high-performing teams, XP practices, and the impact
+  of AI agents. It identifies a shift from gatekeeping to more collaborative, purpose-driven
+  review activities, categorizing them into Policy, Show and Tell, and Critique.
 title: Are code reviews even necessary
 tools_mentioned:
-- linters
-- static analysis
-- Architecture Decision Record (ADR)
-- PHP
 - WordPress
+- PHP
 topics:
-- Code Review
-- Software Development Practices
+- Code Reviews
+- Extreme Programming (XP)
 - Pair Programming
 - AI in Software Development
-- Regulatory Compliance
+- Software Development Practices
 - Team Collaboration
-- Architecture Decision Records
+- Regulatory Compliance
+- Mentorship
 url: https://www.notion.so/Are-code-reviews-even-necessary-3549fa3b875080aa8072dd43e17ad801
 ---
+
+This document analyzes the [Are Code Reviews Even Necessary?](http://www.youtube.com/watch?v=6AxuSfSe4BA) video featuring **Trisha Gee** and **Daniel North**.
 
 ---
 
 ### 1. Executive Summary
+
+The central theme of this discussion is a re-evaluation of code reviews in the context of high-performing teams, [XP (Extreme Programming)](http://www.youtube.com/watch?v=6AxuSfSe4BA) practices, and the rise of [AI agents](http://www.youtube.com/watch?v=6AxuSfSe4BA). The speakers identify a shift from code reviews as "gatekeeping" to more collaborative, purpose-driven activities.
+
+**Key Takeaways:**
 
 - **The "Purpose" Problem:** Many teams perform code reviews out of "cargo cultism" or regulatory boxes without understanding the specific goal, leading to significant bottlenecks.
 
@@ -43,17 +47,33 @@ url: https://www.notion.so/Are-code-reviews-even-necessary-3549fa3b875080aa8072d
 
 > **Note:** This transcription captures the full body of the conversation as provided in the [original source](http://www.youtube.com/watch?v=6AxuSfSe4BA).
 
+**Defining Purpose & The Pairing Debate** [00:00 Opens in a new window ](http://www.youtube.com/watch?v=6AxuSfSe4BA&t=0) **Trisha Gee:** Welcome to one big question. I'm chatting with Daniel North about code reviews. Are they necessary?
+
+[00:25 Opens in a new window ](http://www.youtube.com/watch?v=6AxuSfSe4BA&t=25) **Daniel North:** Let's start with purpose. One trope I've heard is: if you're pairing, you don't need a code review. What's your take?
+
+[01:11 Opens in a new window ](http://www.youtube.com/watch?v=6AxuSfSe4BA&t=71) **Trisha Gee:** In XP teams, we didn't do code reviews because we paired. Pairing is about finding the best design iteratively. Traditional code reviews are often gatekeeping—a senior architect asking, "Are there any bugs?" with a default mindset of "no, this code is not ready."
+
+**The Three Patterns of Code Review** [12:06 Opens in a new window ](http://www.youtube.com/watch?v=6AxuSfSe4BA&t=726) **Trisha Gee:** I've identified three main reasons for code reviews:
+
 1. **Gateway Reviews:** Checking if code is safe for the next level (common in finance).
 
 1. **Knowledge Sharing:** Reviewing after merging to share changes across the team.
 
 1. **Collaborative Evolution:** Reviewing iteratively as you commit, evolving the design together.
 
+[20:23 Opens in a new window ](http://www.youtube.com/watch?v=6AxuSfSe4BA&t=1223) **Daniel North:** I have similar names for these:
+
 - **Policy:** "Rules of the road"—checking against regulatory or local idioms.
 
 - **Show and Tell:** "Harvest and amplify"—spotting cool solutions and broadcasting them to become the new policy.
 
 - **Critique:** Used for alignment on big new features or risky design approaches, not for every bug fix.
+
+**The Role of AI & "Embarrassment Driven Refactoring"** [14:19 Opens in a new window ](http://www.youtube.com/watch?v=6AxuSfSe4BA&t=859) **Trisha Gee:** With AI agents, we are collaborating on individual commits. We're learning to review in a way that's more like pairing.
+
+[18:12 Opens in a new window ](http://www.youtube.com/watch?v=6AxuSfSe4BA&t=1092) **Daniel North:** I call it "Embarrassment Driven Refactoring." You start with janky code, then iterate until you're no longer embarrassed to hand it over. AI is a sophisticated "rubber duck." It's great for "technology adjacent" problems—things like modern CSS or PHP that I could learn but can't be bothered to.
+
+**The Bottleneck Problem** [34:51 Opens in a new window ](http://www.youtube.com/watch?v=6AxuSfSe4BA&t=2091) **Trisha Gee:** If AI creates 10x more code, code reviews become a huge bottleneck if we require humans to read every line. We must ask: "In order to what?" If it's just to check a box, we're doing it wrong.
 
 ---
 

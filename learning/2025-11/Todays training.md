@@ -1,73 +1,123 @@
 ---
 complexity: Advanced
-date: 2025-11-04 10:58:00-05:00
-id: 2a19fa3b-8750-80ea-bf22-fbd1ef7d00d7
+date: 2025-11-23
+id: 2b49fa3b-8750-8057-a1ed-ed9230a34677
 processed_by_ai: true
-summary: This document outlines a three-step process for evaluating and improving
-  AI products, starting with detailed error analysis, then building and calibrating
-  LLM judges using binary scores and a confusion matrix, and finally deploying these
-  judges for continuous monitoring and iteration. It also briefly mentions using Notion
-  for recording training sessions and `openspec` commands for feature proposals.
-title: Todays training
+summary: This document discusses using AI tools like GitHub Copilot and Gemini for
+  Angular development and AWS cost review, highlights new Angular 21 features, and
+  summarizes a presentation on AI as a major platform shift. It also details advanced
+  strategies for automating GitHub issue resolution and code reviews using GitHub
+  Actions with various AI agents like Claude, OpenAI Codex, and Cursor.
+title: Todays Training
 tools_mentioned:
-- openspec
-- Notion
-- LLM
+- Angular
+- Observable
+- GitHub Copilot
+- GPT 5.1 mini
+- Gemini 3.0
+- Signal Forms
+- OpenAI
+- GitHub
+- GitHub Actions
+- Claude Code
+- OpenAI Codex
+- Cursor
+- GitHub CLI
+- SonarQube
 topics:
-- AI Product Evaluation
-- Error Analysis
-- LLM Judges
-- AI Debugging
-- Continuous Improvement
-- Confusion Matrix
-- True Positive Rate
-- True Negative Rate
-url: https://www.notion.so/Today-s-training-2a19fa3b875080eabf22fbd1ef7d00d7
+- Web Development
+- Angular
+- AWS Cost Management
+- AI-assisted Development
+- UI/UX Design
+- AI Strategy
+- Technology Trends
+- DevOps
+- Automation
+- Code Review
+- AI Agents
+- Version Control
+url: https://www.notion.so/Today-s-Training-2b49fa3b87508057a1eded9230a34677
 ---
 
-> Before coding anything:
+# Vibe coding
 
-> /openspec:proposal [your feature description]
+Used Antigravity to vibe code angular application to review AWS costs. Created a dashboard and breaking down the costs by owners. The Observable code was really good and retrieving the data in parallel as well as solving the CORS issue in development mode using proxy configuration.
 
-> Review and iterate:
+Not too happy about the overall implementation and not using SignalStore and defining too much logic in the UI component.
 
-> openspec validate <change-name>
-openspec show <change-name>
+Using github Copilot to move the code over the way I like it while not typing any code. One function at a time. Not quite vibe coding, much more controlled but still not writing code. Because of the iterative and small step approach I am able to use GPT 5.1 mini (so not running out of tokens).
 
-> When ready:
+I switched to Gemini 3.0 for UI design once the back end was done. UI is ok and clean, not wow but not bad. Gemini was able to go back to the class getting the data to process the additional data necessary for the UI components I wanted.
 
-> /openspec:apply <change-name>
+# Angular 21
 
-> After completion:
+Watched a few videos and listen to some podcasts on the new Angular 21 features. What we mostly care about would be Signal Forms are released in experimental mode. This looks really good.
 
-> /openspec:archive <change-name>
+# Some executive comment on AI Eats the World presentation
 
-> 
+Here is the TL;DR of the video "Here's the 90 Slide 'AI Eats the World' Talk in 15 Minutes":
 
-> Decided Notion would be a good way to record the training sessions and then have a summary at the end of the week for my teams post.
+The Gist
 
-<br/>
+Host Nate B. Jones summarizes a 90-slide presentation by tech strategist Benedict Evans (formerly of a16z). The core argument is that AI is a major platform shift—similar to the PC, Web, and Smartphone—that will reshape industries without necessarily "deleting" the technologies that came before it.
 
----
+**Benedict Evans' Core Arguments**
 
-- **1. Error Analysis (The Most Valuable Step):**
+- **AI is a "Moving Target":** We tend to stop calling technology "AI" once it actually works (e.g., databases, search). Today's LLMs are just the current frontier of a long evolution [01:21 Opens in a new window ](http://www.youtube.com/watch?v=iGvJpBWWGOU&t=81).
 
-	- **Collect and Review Traces:** Look at a minimum of 100 interaction logs (traces) with your AI product (like the property management assistant "Nurture Boss") and write down notes (open codes) about what is going wrong [05:00 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=300).
+- **The "Add, Don't Delete" Pattern:** Just as smartphones didn't eliminate laptops, AI will likely layer on top of existing tech stacks rather than replace them entirely [02:17 Opens in a new window ](http://www.youtube.com/watch?v=iGvJpBWWGOU&t=137).
 
-	- **Categorize Problems:** Use an LLM or a tool to analyze your notes and group them into categories (axial codes) like "Human Handoff/Transfer Issue" or "Conversational Flow Issues" [11:03 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=663).
+- **Models are Commodities:** The AI models themselves are becoming commodity inputs rather than competitive moats. The real value lies in how they are applied, not just in having the "best" model [03:16 Opens in a new window ](http://www.youtube.com/watch?v=iGvJpBWWGOU&t=196).
 
-	- **Prioritize Fixes:** Count the frequency of the categorized issues to identify the most painful problems to fix first [14:18 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=858).
+**Nate’s 4 Strategic Takeaways**
 
-- **2. Building an LLM Judge:**
+- **From Miracle to Utility:** We have crossed the threshold where AI is no longer a research experiment but "inevitable infrastructure." It shouldn't be treated as optional R&D anymore [07:02 Opens in a new window ](http://www.youtube.com/watch?v=iGvJpBWWGOU&t=422).
 
-	- **Focus on Binary Scores:** When creating a specific LLM judge for a problem (e.g., human handoff), prompt it to return a **binary score (True/False)** rather than a subjective rating scale (1-5) [24:38 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=1478). Scores like 3.2 vs. 3.7 are not actionable and lead to a lack of trust in the evaluation [25:10 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=1510).
+- **Adoption is Path-Dependent:** Where you choose to deploy AI first (your "beachhead") constrains your future options. Don't just pick random tasks; pick workflows that reorganize information flow and unlock downstream possibilities [08:56 Opens in a new window ](http://www.youtube.com/watch?v=iGvJpBWWGOU&t=536).
 
-	- **Calibrate the Judge (Meta-Evaluation):** Use a **confusion matrix** to test the LLM judge against your human-labeled data (ground truth) [31:06 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=1866). This step is critical to ensure your judge is trustworthy.
+- **Buyers Have Leverage:** Since models are commodities, companies should avoid "vendor lock-in." The smart play is to build architectures that let you swap models (arbitrage) based on cost and performance rather than marrying one provider like OpenAI [11:04 Opens in a new window ](http://www.youtube.com/watch?v=iGvJpBWWGOU&t=664).
 
-	- **Avoid "Agreement" as a Metric:** Agreement is misleading. Instead, focus on **True Positive Rate** (correctly identifying a failure) and **True Negative Rate** (correctly identifying a non-failure) [30:23 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=1823).
+- **AI "Eats the Org Chart":** AI doesn't just automate tasks; it changes who needs to talk to whom. Roles centered on coordination and synthesis may shrink, while decision-making structures will flatten, similar to how spreadsheets empowered finance teams in the 80s [12:13 Opens in a new window ](http://www.youtube.com/watch?v=iGvJpBWWGOU&t=733).
 
-- **3. Deployment and Iteration:**
+# How to use Github actions to automatically address issues
 
-	- **Run Judges in Production:** Deploy the specific, calibrated LLM judges to run on samples of production traces for continuous monitoring and to help you debug errors [36:26 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=2186).
+Here is the TL;DR of the video "GitHub is the Future of AI Coding (Here's Why)" by Cole Medin:
 
-	- **Continuous Improvement:** Continue to manually review traces (error analysis) on a regular cadence to ensure you are not missing new or subtle failures [39:39 Opens in a new window ](http://www.youtube.com/watch?v=uiza7wp1KrE&t=2379).
+The Core Argument
+
+Cole Medin argues that while AI will handle most coding in the future, we still need an "orchestration layer" to manage tasks, version control, and track changes. He posits that GitHub (or similar platforms like GitLab) is the perfect solution for this, serving as the central hub where human developers manage a team of AI coding agents.
+
+This is how to use different AI Agents (CLIs I think) to do something similar to Github Copilot Agent and using Github actions to coordinate the steps to run to address Github Issues with varying degrees of human in the loop.
+
+The Strategy: 3 Approaches to AI Integration
+
+Medin demonstrates how to integrate AI coding assistants directly into GitHub Actions to fix issues and review Pull Requests (PRs). He showcases three different "agents" to illustrate three distinct workflow philosophies:
+
+- **Hybrid Approach (Claude Code):**
+
+	- **How it works:** You trigger Claude with a comment (e.g., `@claude-fix`). Claude analyzes the issue and creates a fix in a new branch, but *does not* automatically create a PR. Instead, it posts a comment with a button for the human to click to create the PR.
+
+	- **Philosophy:** Keeps the human in the loop for final validation before the PR stage. [05:08 Opens in a new window](http://www.youtube.com/watch?v=upwbqZ67UBA&t=308)
+
+- **Deterministic Approach (OpenAI Codex):**
+
+	- **How it works:** The workflow logic (YAML) handles the heavy lifting—creating the branch, committing changes, and opening the PR. The AI (Codex) is only called to generate the specific code patch.
+
+	- **Philosophy:** Offers the most control. The AI is restricted to writing code, while the rigid workflow handles the process management. [10:33 Opens in a new window](http://www.youtube.com/watch?v=upwbqZ67UBA&t=633)
+
+- **Autonomous Approach (Cursor):**
+
+	- **How it works:** A "headless" Cursor agent is given full rein. It uses the GitHub CLI to create the branch, write the code, commit the changes, *and* open the PR entirely on its own.
+
+	- **Philosophy:** "Hands-off" automation. The agent handles the entire lifecycle from issue to PR. [13:21 Opens in a new window](http://www.youtube.com/watch?v=upwbqZ67UBA&t=801)
+
+**Key Features & Takeaways**
+
+- **AI Code Reviews:** Medin also sets up workflows where agents review each other's code (e.g., `@claude-review` checks a PR made by Cursor), creating a system of AI peer review. [21:35 Opens in a new window](http://www.youtube.com/watch?v=upwbqZ67UBA&t=1295)
+
+- **Security:** He emphasizes restricting these actions to specific users (e.g., maintainers) so random public users can't trigger your AI agents and drain your API credits. [07:21 Opens in a new window](http://www.youtube.com/watch?v=upwbqZ67UBA&t=441)
+
+- **Cost Efficiency:** For Claude, he demonstrates using a session token from a standard subscription rather than an expensive API key, making the setup much more affordable for individuals. [09:27 Opens in a new window](http://www.youtube.com/watch?v=upwbqZ67UBA&t=567)
+
+- **SonarQube Integration:** He briefly mentions using SonarQube with an MCP (Model Context Protocol) server to let agents run security and quality scans on their own code. [15:13 Opens in a new window](http://www.youtube.com/watch?v=upwbqZ67UBA&t=913)

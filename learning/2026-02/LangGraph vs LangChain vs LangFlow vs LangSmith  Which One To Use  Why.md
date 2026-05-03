@@ -3,10 +3,9 @@ complexity: Intermediate
 date: 2026-02-17 10:27:00-05:00
 id: 30a9fa3b-8750-80b2-b2be-c96d686f8288
 processed_by_ai: true
-summary: 'This document provides an overview of four key tools in the LangChain ecosystem:
-  LangChain, LangGraph, LangFlow, and LangSmith. It details their primary purposes,
-  key features, and ideal use cases for building, orchestrating, prototyping, and
-  monitoring LLM-powered applications.'
+summary: This document explains the differences and use cases for LangChain, LangGraph,
+  LangFlow, and LangSmith, which are key frameworks within the LangChain ecosystem
+  for building and managing Large Language Model (LLM) applications.
 title: LangGraph vs LangChain vs LangFlow vs LangSmith  Which One To Use  Why
 tools_mentioned:
 - LangChain
@@ -16,16 +15,16 @@ tools_mentioned:
 - GPT-4
 - Llama 3
 topics:
-- LLM applications
-- AI frameworks
-- Agentic workflows
-- Prototyping
-- Monitoring
-- Debugging
+- Large Language Models
+- LLM Application Development
+- LangChain Ecosystem
+- Framework Comparison
 url: https://www.notion.so/LangGraph-vs-LangChain-vs-LangFlow-vs-LangSmith-Which-One-To-Use-Why-30a9fa3b875080b2b2bec96d686f8288
 ---
 
 <br/>
+
+Building applications with Large Language Models (LLMs) often involves using a combination of frameworks from the LangChain ecosystem. Here is a breakdown of the differences and use cases for [LangGraph](https://gemini.google.com/glic?hl=en), [LangChain](https://gemini.google.com/glic?hl=en), [LangFlow](https://gemini.google.com/glic?hl=en), and [LangSmith](https://gemini.google.com/glic?hl=en) based on the video:
 
 ### **1. LangChain: The Core Framework**
 
@@ -66,4 +65,6 @@ url: https://www.notion.so/LangGraph-vs-LangChain-vs-LangFlow-vs-LangSmith-Which
  | **LangChain** | Development | Building standard LLM chains and apps [01:53](https://gemini.google.com/glic?hl=en). | 
  | **LangGraph** | Orchestration | Complex, multi-agent, cyclical workflows [04:05](https://gemini.google.com/glic?hl=en). | 
  | **LangFlow** | Prototyping | Visual, low-code design and testing [05:58](https://gemini.google.com/glic?hl=en). | 
- | **LangSmith** | Operations | Debugging, monitoring, and cost tracking [07:52](https://gemini.google.com/glic?hl=en). |
+ | **LangSmith** | Operations | Debugging, monitoring, and cost tracking [07:52](https://gemini.google.com/glic?hl=en). | 
+
+For more details, you can watch the full video: [LangGraph vs LangChain vs LangFlow vs LangSmith](https://gemini.google.com/glic?hl=en).

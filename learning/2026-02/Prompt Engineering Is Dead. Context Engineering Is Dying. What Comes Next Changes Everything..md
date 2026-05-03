@@ -1,13 +1,13 @@
 ---
-complexity: Intermediate
+complexity: Advanced
 date: 2026-02-24 17:54:00-05:00
 id: 3119fa3b-8750-80c4-9c4d-ca6bea2eeabf
 processed_by_ai: true
-summary: This document introduces "Intent Engineering" as a critical evolution beyond
-  prompt and context engineering, focusing on aligning AI agents with organizational
-  purpose and actionable parameters. It uses the Klarna case study to illustrate the
-  pitfalls of AI optimizing for measurable metrics over unmeasured intent, outlining
-  three layers of AI maturity and predicting the rise of the AI Workflow Architect.
+summary: The document argues that the AI industry is moving from Prompt and Context
+  Engineering to Intent Engineering, which involves making organizational goals and
+  values machine-readable to prevent enterprise AI project failures. It highlights
+  that encoding organizational purpose is crucial for AI agents to align with company
+  objectives, using Klarna's AI as a cautionary tale.
 title: Prompt Engineering Is Dead. Context Engineering Is Dying. What Comes Next Changes
   Everything.
 tools_mentioned:
@@ -16,19 +16,22 @@ tools_mentioned:
 - Gemini 3
 topics:
 - Intent Engineering
-- AI Agents
-- Organizational Strategy
+- AI Strategy
+- Enterprise AI
 - Prompt Engineering
 - Context Engineering
-- AI Maturity
-- RAG pipelines
-- AI Workflow Architect
+- Organizational Alignment
+- AI Workflow Architecture
 url: https://www.notion.so/Prompt-Engineering-Is-Dead-Context-Engineering-Is-Dying-What-Comes-Next-Changes-Everything-3119fa3b875080c49c4dca6bea2eeabf
 ---
 
 <br/>
 
+The video argues that the industry is shifting from **Prompt Engineering** (how to talk to AI) and **Context Engineering** (what AI needs to know) toward **Intent Engineering**—the discipline of making organizational goals, values, and trade-offs machine-readable.
+
 ### **Core Thesis: The Rise of Intent Engineering**
+
+The author posits that the current failure of many enterprise AI projects isn't due to bad models, but an "intent gap" [10:52 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=652).
 
 - **Prompt Engineering ****[05:01 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=301)****:** Individual, session-based skill (Instruction).
 
@@ -37,6 +40,8 @@ url: https://www.notion.so/Prompt-Engineering-Is-Dead-Context-Engineering-Is-Dyi
 - **Intent Engineering ****[06:20 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=380)****:** Encoding organizational purpose and structured actionable parameters so agents "want" what the company wants (Direction).
 
 ### **The Klarna Cautionary Tale**
+
+Klarna's AI agent reportedly replaced 853 employees and saved $60 million, but the CEO later admitted it harmed customer relationships [00:00 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=0).
 
 - **The Problem:** The AI optimized for "resolution speed" (measurable) rather than "customer relationship quality" (unmeasured intent) [02:11 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=131).
 
@@ -55,3 +60,5 @@ url: https://www.notion.so/Prompt-Engineering-Is-Dead-Context-Engineering-Is-Dyi
 - **New Role:** The video predicts the rise of the **AI Workflow Architect** [23:39 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=1419), a role sitting between engineering, operations, and strategy.
 
 - **The Bottleneck:** Models (GPT-5, Gemini 3, etc.) are no longer the bottleneck; the race is now an "intent race" to build the best organizational infrastructure [26:04 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=1564).
+
+[Watch the full video here](https://www.youtube.com/watch?v=QWzLPn164w0)

@@ -1,30 +1,31 @@
 ---
-complexity: Intermediate
+complexity: Advanced
 date: 2026-03-08
 id: 31d9fa3b-8750-800e-878b-c05458a57e47
 processed_by_ai: true
-summary: This document provides a detailed comparison of GPT-5.4 with other AI models
-  like Claude and Gemini, highlighting its strengths in quantitative modeling, file
-  processing, and self-awareness, while noting weaknesses in common sense reasoning,
-  writing tone, and speed. It discusses specific test failures and successes to illustrate
-  its capabilities and limitations.
+summary: GPT-5.4 is an "Agentic" powerhouse designed for executing long-running, complex
+  tasks and managing infrastructure, but it suffers from a "judgment gap" in common-sense
+  logic, often failing where competitors like Claude Opus 4.6 and Gemini 3.1 Pro succeed.
 title: GPT-5.4 Let Mickey Mouse Into a Production Database
 tools_mentioned:
 - GPT-5.4
-- Claude
-- Gemini
 - Claude Opus 4.6
+- Gemini 3.1 Pro
 topics:
-- AI Model Comparison
+- AI Models
 - Large Language Models
-- AI Capabilities
-- AI Limitations
+- AI Performance Comparison
+- Agentic AI
 - Quantitative Analysis
 - Data Processing
 url: https://www.notion.so/GPT-5-4-Let-Mickey-Mouse-Into-a-Production-Database-31d9fa3b8750800e878bc05458a57e47
 ---
 
+Based on the video, here is the TL;DR for **GPT-5.4** and its performance against competitors like **Claude Opus 4.6** and **Gemini 3.1 Pro**:
+
 ### **The Core Takeaway**
+
+GPT-5.4 is positioned as an **"Agentic" powerhouse**—designed to execute long-running, complex tasks and manage infrastructure rather than just answering chat prompts. However, it suffers from a "judgment gap," often failing at common-sense logic that simpler models (and even children) get right [01:06 Opens in a new window ](http://www.youtube.com/watch?v=-_vL1KXd2rc&t=66).
 
 ---
 
@@ -52,11 +53,15 @@ url: https://www.notion.so/GPT-5-4-Let-Mickey-Mouse-Into-a-Production-Database-3
 
 ### **Summary Verdict**
 
+Use **GPT-5.4 (Thinking Mode)** for:
+
 - Building complex agentic systems.
 
 - Deep quantitative/analytical work.
 
 - Processing massive, "shoe box" style data dumps.
+
+Use **Claude Opus 4.6** for:
 
 - High-quality writing and executive communications.
 

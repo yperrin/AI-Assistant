@@ -3,29 +3,31 @@ complexity: Advanced
 date: 2026-03-28 22:38:00-04:00
 id: 3329fa3b-8750-80e0-9b63-f5b00be0e050
 processed_by_ai: true
-summary: This document outlines the 8 Levels of AI Adoption, discusses the 'Vampiric
-  Effect' of AI on productivity, and introduces 'Gas Town' as an open-source agent
-  orchestrator. It also predicts the death of big tech monoliths, the end of manual
-  coding, and the democratization of programming, while offering career advice for
-  engineers navigating these changes, including advancements in tools like Copilot
-  and Claude Code.
+summary: This document analyzes an interview with Steve Yegge on the shift to AI-driven
+  agentic workflows in software development, covering key concepts like AI adoption
+  levels and industry predictions. It also updates on GitHub Copilot's evolution,
+  arguing it has moved beyond basic autocomplete to include agentic capabilities,
+  though its design philosophy still differs from high-level autonomous agents.
 title: From IDEs to AI Agents with Steve Yegge
 tools_mentioned:
+- The Pragmatic Engineer Podcast
 - Gas Town
 - Copilot
 - Claude Code
-- GitHub Copilot
-- Visual Studio
+- Visual Studio 2026
+- JetBrains IDEs
 topics:
-- AI Adoption
-- Developer Productivity
-- AI Agents
+- AI in Software Development
+- Agentic Workflows
 - Future of Programming
-- Software Development Industry
-- Career Advice for Engineers
-- AI Orchestration
+- Software Engineering Productivity
+- AI Adoption
+- Developer Tools
+- Career Advice
 url: https://www.notion.so/From-IDEs-to-AI-Agents-with-Steve-Yegge-3329fa3b875080e09b63f5b00be0e050
 ---
+
+This [interview with Steve Yegge](http://www.youtube.com/watch?v=aFsAOu2bgFk) on **The Pragmatic Engineer Podcast** explores the shift from traditional IDE-based coding to AI-driven agentic workflows. Yegge, a tech veteran (Amazon, Google), argues that we are entering a "steep" part of the exponential curve that will fundamentally change the software industry.
 
 ### 🔑 Key Concepts
 
@@ -59,9 +61,19 @@ url: https://www.notion.so/From-IDEs-to-AI-Agents-with-Steve-Yegge-3329fa3b87508
 
 - **Capture Your Value:** If you are 100x more productive, Yegge suggests you must learn to "say no" and negotiate a new work-life balance, as traditional companies will simply extract that extra value until you break [01:31:26 Opens in a new window ](http://www.youtube.com/watch?v=aFsAOu2bgFk&t=5486).
 
+Would you like me to dive deeper into his **8 Levels of AI Adoption** or explain more about the **Gas Town architecture**?
+
 <br/>
 
+A little something about using Copilot
+
+In 2026, the argument that GitHub Copilot is "stuck at Level 1" is indeed becoming outdated due to the release of **Copilot Coding Agents**, **Background Delegation**, and the **Copilot SDK**.
+
+While Steve Yegge’s original critique focused on the "autocomplete" paradigm, Copilot has evolved into a multi-agent platform. However, the distinction between Copilot and "Level 6+" tools like [Gas Town](https://www.youtube.com/watch?v=aFsAOu2bgFk) or [Claude Code](https://morphllm.com/comparisons/claude-code-vs-copilot) now lies in **autonomy** and **architectural depth** rather than just a lack of agents.
+
 ### 🤖 Why Copilot is Moving Beyond Level 1
+
+GitHub has introduced several features that satisfy the technical requirements for higher levels of AI adoption:
 
 - **Background Agents:** You can now delegate complex tasks (e.g., "write comprehensive integration tests for this module") to a [cloud-based coding agent](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/) that works independently while you continue coding in the foreground [02:00:00 Opens in a new window ](https://www.youtube.com/watch?v=S1ch_6fjp5M&vl=en&t=7200).
 
@@ -75,6 +87,8 @@ url: https://www.notion.so/From-IDEs-to-AI-Agents-with-Steve-Yegge-3329fa3b87508
 
 ### ⚖️ The Remaining "Level 1" Arguments
 
+Despite these upgrades, critics like Yegge argue that Copilot still feels "Level 1" because of its **design philosophy**:
+
  | **Feature** | **Copilot 2026 Philosophy** | **High-Level Agent Philosophy (e.g., Claude Code)** | 
  | ---- | ---- | ---- | 
  | **Primary UI** | **IDE-First:** Optimized for the "flow state" and reducing keystrokes [04:03:00 Opens in a new window ](https://www.youtube.com/watch?v=S1ch_6fjp5M&vl=en&t=14580). | **Terminal/Task-First:** Optimized for hours eliminated from a migration [04:03:00 Opens in a new window ](https://www.youtube.com/watch?v=S1ch_6fjp5M&vl=en&t=14580). | 
@@ -83,3 +97,9 @@ url: https://www.notion.so/From-IDEs-to-AI-Agents-with-Steve-Yegge-3329fa3b87508
  | **Verification** | **Inline Review:** You "Tab" to accept or reject changes in real-time [04:01:00 Opens in a new window ](https://www.youtube.com/watch?v=S1ch_6fjp5M&vl=en&t=14460). | **PR-Ready Diffs:** You review a finished body of work after the agent is done [04:03:00 Opens in a new window ](https://www.youtube.com/watch?v=S1ch_6fjp5M&vl=en&t=14580). | 
 
 ### 🏁 Summary: Is it Level 1?
+
+Technically, **no**. With [background delegation](https://www.youtube.com/watch?v=S1ch_6fjp5M) and [sub-agents](https://medium.com/@onu.khatri/copilot-squad-in-vs-2026-ca882162fa62), Copilot is comfortably in the **Level 3–5 range**.
+
+The argument for it being "Level 1" is now more of a **behavioral critique**: because it is so good at autocomplete, many developers *use* it in a Level 1 way (line-by-line). To reach the higher levels Yegge describes, you have to stop "tab-completing" and start **"dispatching"**—using the [Agents tab](https://github.com/orgs/community/discussions/186497) to manage background tasks while you focus on system design.
+
+Would you like to see a comparison of how to trigger a **background agent task** in Copilot versus a **parallel swarm** in Claude Code?

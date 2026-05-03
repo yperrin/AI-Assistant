@@ -3,24 +3,25 @@ complexity: Intermediate
 date: 2025-12-06 14:52:00-05:00
 id: 2c19fa3b-8750-80b3-98cf-cc097cfcb073
 processed_by_ai: true
-summary: This document outlines a multi-session agentic workflow designed to tackle
-  long development tasks by addressing the limitations of single-session agents. It
-  proposes an Initializer Agent to set up the environment and a Coding Agent to make
-  incremental progress, maintain memory, and ensure a clean state after each session.
+summary: This document describes a two-fold solution for AI agents, specifically the
+  Claude Agent SDK, to manage complex, long-running tasks across multiple limited
+  context windows. It involves an Initializer Agent for setup and a Coding Agent for
+  incremental progress, leveraging structured feature lists and git history.
 title: Effective Harnesses for Long-Running Agents
 tools_mentioned:
-- JSON
-- init.sh
-- git
+- Claude Agent SDK
 - Puppeteer MCP
+- Git
 topics:
 - AI Agents
-- Agentic Workflows
 - Software Development
-- Incremental Development
-- Persistent Memory
+- Context Management
+- Incremental Progress
+- Task Management
 url: https://www.notion.so/Effective-Harnesses-for-Long-Running-Agents-2c19fa3b875080b398cfcc097cfcb073
 ---
+
+This Anthropic blog post discusses a two-fold solution to enable AI agents (specifically the [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)) to effectively handle complex, long-running tasks across multiple limited context windows:
 
 - **The Problem:** Agents struggle with long tasks because each session starts without memory of previous work, leading to them trying to do too much at once, running out of context, leaving buggy code, or declaring the project complete prematurely.
 
@@ -38,4 +39,8 @@ url: https://www.notion.so/Effective-Harnesses-for-Long-Running-Agents-2c19fa3b8
 
 		- Leaving the environment in a "clean state" by committing progress with descriptive messages and updating the progress file.
 
+The key insight is providing agents with the artifacts and processes (like feature lists and git history) that help them quickly understand the state of the work, much like effective human software engineers.
+
 ---
+
+Would you like a deeper dive into either the **Initializer Agent** or the **Coding Agent**'s specific behaviors?

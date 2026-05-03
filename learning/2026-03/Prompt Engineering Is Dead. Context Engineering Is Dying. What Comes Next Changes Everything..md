@@ -3,28 +3,36 @@ complexity: Advanced
 date: 2026-03-16
 id: 3259fa3b-8750-8008-95f3-f27a808daacc
 processed_by_ai: true
-summary: 'This document outlines three layers of AI maturity: Unified Context Infrastructure,
-  Coherent AI Worker Toolkit, and Intent Engineering, to address the problem of "successful
-  failure" in AI. It emphasizes that future competitive advantage will lie in organizational
-  intent architecture and predicts the rise of the AI Workflow Architect role.'
+summary: The document highlights a crucial shift in the AI industry towards "Intent
+  Engineering," which focuses on aligning AI agents with organizational goals and
+  values to prevent "successful failures" like Klarna's. It proposes a three-layered
+  approach to AI maturity, emphasizing unified context, coherent toolkits, and machine-readable
+  intent for autonomous agent systems.
 title: Prompt Engineering Is Dead. Context Engineering Is Dying. What Comes Next Changes
   Everything.
 tools_mentioned:
-- Model Context Protocol
+- Model Context Protocol (MCP)
 - Claude
 - ChatGPT
 topics:
-- AI Maturity
 - AI Strategy
 - Intent Engineering
-- AI Agents
-- Organizational AI
+- AI Agent Development
+- Organizational AI Maturity
+- Prompt Engineering
+- Context Engineering
 url: https://www.notion.so/Prompt-Engineering-Is-Dead-Context-Engineering-Is-Dying-What-Comes-Next-Changes-Everything-3259fa3b8750800895f3f27a808daacc
 ---
 
+The video argues that the AI industry is shifting from **Prompt Engineering** (how to talk to AI) and **Context Engineering** (what AI needs to know) toward a new, critical discipline: **Intent Engineering** (what the AI should want) [27:56 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=1676).
+
 ### The Core Problem: "Successful" Failure
 
+The speaker uses **Klarna** as a cautionary tale. While their AI agent did the work of 853 employees and saved $60 million, it optimized for the wrong objective—resolving tickets fast—at the expense of customer trust and relationship quality [01:02 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=62), [02:11 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=131). The AI lacked the "tacit knowledge" and judgment that human agents gain over years of experience [02:50 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=170).
+
 ### The Three Layers of AI Maturity
+
+To move from individual "activity" to organizational "fluency," companies must build infrastructure across three altitudes [11:06 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=666):
 
 1. **Unified Context Infrastructure:** Moving away from "shadow agents" and fragmented data silos. The **Model Context Protocol (MCP)** is cited as a key emerging standard for connecting agents to organizational knowledge [12:17 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=737).
 
@@ -39,5 +47,7 @@ url: https://www.notion.so/Prompt-Engineering-Is-Dead-Context-Engineering-Is-Dyi
 - **Agentic Systems:** As agents begin to run for weeks or months autonomously, they must be explicitly aligned with "decision boundaries" and "resolution hierarchies" because they cannot absorb company culture through osmosis [16:52 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=1012), [18:43 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=1123).
 
 - **The New Role:** The speaker predicts the rise of the **AI Workflow Architect**, a role sitting between engineering, operations, and strategy to map agent-ready vs. human-only workflows [23:39 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=1419).
+
+The ultimate goal is to ensure that when an agent faces a trade-off—like speed versus quality—it makes a decision that is strategically coherent with the company's long-term purpose [26:49 Opens in a new window ](http://www.youtube.com/watch?v=QWzLPn164w0&t=1609).
 
 <br/>

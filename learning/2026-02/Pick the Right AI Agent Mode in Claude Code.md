@@ -3,23 +3,25 @@ complexity: Intermediate
 date: 2026-02-13
 id: 3069fa3b-8750-8026-9b7a-e5c569f1349a
 processed_by_ai: true
-summary: 'This document compares three modes of operation: Skills, Sub-agents, and
-  Agent Teams, detailing their features, communication patterns, token costs, and
-  complexity. It provides guidance on when to use each mode and when to transition
-  between them based on task requirements and resource constraints.'
+summary: This document breaks down the three primary execution modes in Claude Code—Skills,
+  Sub-agents, and Agent Teams—explaining their characteristics, ideal use cases, and
+  when to transition between them to optimize AI workflows and avoid over-engineering.
 title: Pick the Right AI Agent Mode in Claude Code
-tools_mentioned: []
+tools_mentioned:
+- Claude Code
 topics:
-- AI Agents
+- AI Workflows
 - Agent Orchestration
+- Claude Code
+- Execution Modes
 - Context Management
-- Communication Patterns
 - Token Cost Optimization
-- Workflow Management
 url: https://www.notion.so/Pick-the-Right-AI-Agent-Mode-in-Claude-Code-3069fa3b875080269b7ae5c569f1349a
 ---
 
 <br/>
+
+In this video, [Daron Vener](https://www.google.com/search?q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8Sz7OleIb04) breaks down the three primary execution modes in Claude Code—**Skills**, **Sub-agents**, and **Agent Teams**—to help users avoid over-engineering their AI workflows.
 
 ### **The Three Modes at a Glance**
 
@@ -36,17 +38,23 @@ url: https://www.notion.so/Pick-the-Right-AI-Agent-Mode-in-Claude-Code-3069fa3b8
 
 ### **1. Skills (The Starting Point)** [00:42 Opens in a new window](http://www.youtube.com/watch?v=8Sz7OleIb04&t=42)
 
+Best for **repeatable, sequential tasks** that fit within a single context window.
+
 - **Ideal for:** One-shot tasks, methodology-based workflows (e.g., standard research or coding patterns), and when speed is a priority [06:13 Opens in a new window ](http://www.youtube.com/watch?v=8Sz7OleIb04&t=373).
 
 - **Pro Tip:** Use skills by default until you hit context limits or need specialized tool restrictions [13:18 Opens in a new window ](http://www.youtube.com/watch?v=8Sz7OleIb04&t=798).
 
 ### **2. Sub-agents (Isolated Workers)** [01:50 Opens in a new window](http://www.youtube.com/watch?v=8Sz7OleIb04&t=110)
 
+Best for **specialized, verbose tasks** where you want to keep the main chat clean.
+
 - **Ideal for:** Heavy file reads, independent research, or tasks requiring specific tool permissions [08:22 Opens in a new window ](http://www.youtube.com/watch?v=8Sz7OleIb04&t=502).
 
 - **Constraint:** Sub-agents **cannot** talk to each other; they only report back to the main "orchestrator" session [02:43 Opens in a new window ](http://www.youtube.com/watch?v=8Sz7OleIb04&t=163).
 
 ### **3. Agent Teams (Collaborative Specialists)** [03:43 Opens in a new window](http://www.youtube.com/watch?v=8Sz7OleIb04&t=223)
+
+Best for **creative or iterative work** that requires feedback loops.
 
 - **Ideal for:** Researching and challenging hypotheses, building new modules, or scenarios where specialists need to debate [09:33 Opens in a new window ](http://www.youtube.com/watch?v=8Sz7OleIb04&t=573).
 
@@ -61,3 +69,5 @@ url: https://www.notion.so/Pick-the-Right-AI-Agent-Mode-in-Claude-Code-3069fa3b8
 - **Shift from Sub-agent → Agent Team:** When workers need to collaborate directly or when the "relay" through the main session becomes a bottleneck [21:32 Opens in a new window ](http://www.youtube.com/watch?v=8Sz7OleIb04&t=1292).
 
 - **Shift Back to Skills/Sub-agents:** If the **token cost** becomes unsustainable or if the coordination overhead exceeds the benefits of parallelism [25:04 Opens in a new window ](http://www.youtube.com/watch?v=8Sz7OleIb04&t=1504).
+
+For more details, you can find the source video here: [Pick the Right AI Agent Mode in Claude Code](https://www.google.com/search?q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8Sz7OleIb04).

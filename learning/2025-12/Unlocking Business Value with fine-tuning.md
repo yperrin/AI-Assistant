@@ -3,23 +3,28 @@ complexity: Advanced
 date: 2025-12-24 15:08:00-05:00
 id: 2d39fa3b-8750-8021-a451-f9eab583a386
 processed_by_ai: true
-summary: This document explains when to fine-tune Large Language Models (LLMs), detailing
-  techniques like Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO),
-  and Distillation. It emphasizes the importance of high-quality data and the benefits
-  of fine-tuning, such as lower latency, cost efficiency, and specialization.
+summary: This document from Microsoft Azure explains how enterprises can leverage
+  fine-tuning to enhance AI performance beyond generic models, moving from prompt
+  engineering to more specialized and efficient solutions. It details when to fine-tune,
+  hybrid approaches like RAFT, techniques such as SFT, DPO, and Distillation, and
+  the benefits of lower latency, cost efficiency, and specialization.
 title: Unlocking Business Value with fine-tuning
 tools_mentioned:
 - GPT-4o
 - Phi-3
 topics:
 - Fine-tuning
-- Large Language Models
-- Retrieval Augmented Generation
-- Supervised Fine-Tuning
-- Direct Preference Optimization
+- Prompt Engineering
+- Retrieval Augmented Generation (RAG)
+- Supervised Fine-Tuning (SFT)
+- Direct Preference Optimization (DPO)
 - Model Distillation
+- Large Language Models
+- AI Optimization
 url: https://www.notion.so/Unlocking-Business-Value-with-fine-tuning-2d39fa3b87508021a451f9eab583a386
 ---
+
+This document from [Microsoft Azure](https://marketingassets.microsoft.com/gdc/gdcaQpL2m/original?ocid=eml_pg488409_gdc_comm_az&mkt_tok=MTU3LUdRRS0zODIAAAGb8JgQSnAvR94R_ieK6OJxP5ChxmoCC_qLi3SYxWK2SYGzyJtxGZBUBW4UWbiE5rrkNgtfV9wASntCiFuftyZR1EAWBSe9d4_GB3fA0K7FsorTgmXGIfLB3JVF) outlines how enterprises can use **fine-tuning** to move beyond generic AI performance. It emphasizes a transition from prompt engineering to more specialized, efficient models.
 
 ---
 
@@ -46,3 +51,5 @@ url: https://www.notion.so/Unlocking-Business-Value-with-fine-tuning-2d39fa3b875
 1. **Specialization:** Improved handling of edge cases and "industry-speak" (e.g., medical, legal, or agricultural terms).
 
 ---
+
+Would you like me to dive deeper into the **Direct Preference Optimization (DPO)** section or the specific **Bayer case study** mentioned in the report?

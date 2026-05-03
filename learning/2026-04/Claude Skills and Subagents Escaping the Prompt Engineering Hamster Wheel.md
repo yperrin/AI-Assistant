@@ -3,25 +3,27 @@ complexity: Advanced
 date: 2026-04-05 14:50:00-04:00
 id: 3399fa3b-8750-8078-8b1a-fff1c39d39d0
 processed_by_ai: true
-summary: This document introduces Claude Skills and Subagents as methods to improve
-  AI agent efficiency and context management, contrasting them with the "Hamster Wheel"
-  of manual prompt rewriting and the Model Context Protocol (MCP). It emphasizes the
-  benefits of Claude Skills for reusable, lazily loaded domain expertise and Subagents
-  for isolated task execution.
+summary: This article explores how to move beyond repetitive manual prompting by using
+  Claude Skills and Subagents to manage context and costs effectively. It details
+  how Skills offer reusable, markdown-based instructions with progressive disclosure,
+  and Subagents provide specialized, isolated context windows to improve efficiency
+  and reduce token usage.
 title: Claude Skills and Subagents Escaping the Prompt Engineering Hamster Wheel
 tools_mentioned:
 - Claude
-- MCP
 - GitHub
+- MCP
 topics:
 - AI Agents
-- Context Management
 - Prompt Engineering
-- Efficiency
-- Token Management
-- Reusability
+- Context Management
+- Cost Optimization
+- Large Language Models
+- Software Architecture
 url: https://www.notion.so/Claude-Skills-and-Subagents-Escaping-the-Prompt-Engineering-Hamster-Wheel-3399fa3b875080788b1afff1c39d39d0
 ---
+
+The article "[Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel](https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/)" by [Ruben Broekx](https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/) explores how to move beyond repetitive manual prompting by using **Skills** and **Subagents** to manage context and costs effectively.
 
 ---
 
@@ -51,4 +53,8 @@ url: https://www.notion.so/Claude-Skills-and-Subagents-Escaping-the-Prompt-Engin
 
 ### **Strategic Shifts**
 
+The author argues that AI development has shifted from building "better models" to building **better infrastructure**. By treating agents as "functions"—self-contained units with specific inputs, tools, and outputs—developers can build complex, maintainable, and cost-efficient AI systems.
+
 > **The takeaway:** Use MCP for tool access, Skills for domain expertise, and Subagents to maintain a clean, efficient context window.
+
+Would you like me to dive deeper into the technical structure of a `skill.md` file or explain how to set up the subagent workflow mentioned in the article?

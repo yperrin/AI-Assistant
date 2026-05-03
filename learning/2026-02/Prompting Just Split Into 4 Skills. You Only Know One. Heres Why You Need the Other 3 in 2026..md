@@ -3,24 +3,23 @@ complexity: Advanced
 date: 2026-02-28 22:44:00+05:30
 id: 3159fa3b-8750-8098-96e8-ee1a1dd04aba
 processed_by_ai: true
-summary: 'This document outlines the four disciplines of the 2026 prompting stack:
-  Prompt Craft, Context Engineering, Intent Engineering, and Specification Engineering.
-  It also details core primitives for creating better specifications, such as self-contained
-  problem statements, acceptance criteria, and evaluation design, to enable autonomous
-  AI agents.'
+summary: This document outlines a new four-layer prompting stack for 2026, shifting
+  from session-based prompting to comprehensive communication for autonomous AI workers.
+  It details disciplines like Context, Intent, and Specification Engineering, along
+  with five core primitives for creating precise AI specifications.
 title: Prompting Just Split Into 4 Skills. You Only Know One. Heres Why You Need the
   Other 3 in 2026.
 tools_mentioned: []
 topics:
+- AI
 - Prompt Engineering
-- AI Agents
-- Context Engineering
-- Intent Engineering
-- Specification Engineering
+- Autonomous Agents
+- AI Development
 - AI Strategy
-- AI System Design
 url: https://www.notion.so/Prompting-Just-Split-Into-4-Skills-You-Only-Know-One-Here-s-Why-You-Need-the-Other-3-in-2026-3159fa3b8750809896e8ee1a1dd04aba
 ---
+
+As AI transitions from being a "chat partner" to an autonomous "worker" that can run for days or weeks, the traditional skill of session-based prompting is becoming obsolete. To remain effective in 2026, you must master a four-layer stack of disciplines that shift the focus from real-time iteration to up-front, comprehensive communication.
 
 ### The 4 Disciplines of the 2026 Prompting Stack
 
@@ -50,6 +49,8 @@ url: https://www.notion.so/Prompting-Just-Split-Into-4-Skills-You-Only-Know-One-
 
 ### Core Primitives for Better Specifications
 
+To bridge the gap between human sloppy communication and AI precision, you should practice these five primitives:
+
 - **Self-Contained Problem Statements:** State problems so completely that no further context is needed for a solution [27:38 Opens in a new window ](http://www.youtube.com/watch?v=BpibZSMGtdY&t=1658).
 
 - **Acceptance Criteria:** Define exactly what "done" looks like so the agent knows when to stop [28:57 Opens in a new window ](http://www.youtube.com/watch?v=BpibZSMGtdY&t=1737).
@@ -59,5 +60,7 @@ url: https://www.notion.so/Prompting-Just-Split-Into-4-Skills-You-Only-Know-One-
 - **Decomposition:** Break large projects into independently verifiable subtasks (ideally under 2 hours each) [31:28 Opens in a new window ](http://www.youtube.com/watch?v=BpibZSMGtdY&t=1888).
 
 - **Evaluation Design:** Build test cases with known good outputs to prove the AI's work is actually correct [33:34 Opens in a new window ](http://www.youtube.com/watch?v=BpibZSMGtdY&t=2014).
+
+For more details and specific prompt examples, you can visit the [full story on Substack](https://natesnewsletter.substack.com/p/prompting-just-split-into-4-different?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true).
 
 <br/>

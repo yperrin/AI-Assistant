@@ -3,27 +3,36 @@ complexity: Intermediate
 date: 2026-04-07 20:28:00-04:00
 id: 33c9fa3b-8750-80dc-ac16-ecaa6515ca03
 processed_by_ai: true
-summary: This document outlines a knowledge management system that uses an LLM-based
-  "compiler" analogy to process raw data into an organized wiki, emphasizing self-correction
-  and cost-effectiveness over traditional RAG methods. It details the architecture,
-  key components, and benefits of this approach for creating evolving, contextual
-  memory systems.
+summary: This document describes LLM knowledge bases, a self-evolving wiki system
+  popularized by Andrej Karpathy, which uses Large Language Models to organize research
+  and notes in structured Markdown files with interconnected links and LLM-managed
+  indexes, offering a cheaper and more customizable alternative to traditional RAG
+  systems. It outlines a "compiler"-like architecture and highlights tools like Obsidian
+  and Claude Code.
 title: I Built Self-Evolving Claude Code Memory w Karpathys LLM Knowledge Bases
 tools_mentioned:
 - Obsidian
 - Claude Code
+- RAG
 topics:
+- LLM Knowledge Bases
 - Knowledge Management
-- LLMs
-- Personal Wiki
-- Data Processing
-- System Architecture
-- Cost Optimization
-- Self-Correction
+- Large Language Models
+- Information Organization
+- Self-Evolving Systems
+- Markdown
+- Retrieval-Augmented Generation (RAG)
+- Software Engineering Analogy
+- Cost-Effectiveness
+- Contextual Evolution
 url: https://www.notion.so/I-Built-Self-Evolving-Claude-Code-Memory-w-Karpathy-s-LLM-Knowledge-Bases-33c9fa3b875080dcac16ecaa6515ca03
 ---
 
+LLM knowledge bases, a concept popularized by [Andrej Karpathy](https://www.google.com/search?q=https%3A%2F%2Fx.com%2Fkarpathy%2Fstatus%2F1892645856426868884), are personal, self-evolving wiki systems that use Large Language Models (LLMs) to organize research, code documentation, or personal notes. Instead of traditional retrieval methods like [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) (which uses vector databases), these systems rely on structured Markdown files, interconnected links, and LLM-managed indexes.
+
 ### Core Architecture: The "Compiler" Analogy
+
+The system treats knowledge management like software engineering, following a pipeline from raw data to a queryable "executable."
 
  | **Stage** | **Component** | **Description** | 
  | ---- | ---- | ---- | 
@@ -51,4 +60,14 @@ url: https://www.notion.so/I-Built-Self-Evolving-Claude-Code-Memory-w-Karpathy-s
 
 - **Customization:** Unlike "black box" memory systems, users can modify the underlying prompts and scripts to change how the LLM extracts and promotes knowledge [16:14 Opens in a new window ](http://www.youtube.com/watch?v=7huCP6RkcY4&t=974).
 
+Would you like me to help you draft a product requirement document (PRD) to set up your own knowledge base using these principles?
+
 ### References
+
+Gist to build your own Karpathy LLM knowledge base:
+
+[https://gist.github.com/karpathy/442a...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTBpR3Y1dkR2bUNwZk82bmVGek9mZ1VkRDZnUXxBQ3Jtc0tucGMyM3lJMkNQb1l4SXZhU3h0MzBYbjlXMUc4VjJhZkJiWGZJNVcweGNROUdXeE95N2dZWlV4RFpUVngzMzZmU0k2WEY3aE5aWE1xWno2U1Z4cXg1V1lJRFVybDhUVVA5R2tGTGlQVm1uTDl5dTlZWQ&q=https%3A%2F%2Fgist.github.com%2Fkarpathy%2F442a6bf555914893e9891c11519de94f&v=7huCP6RkcY4)
+
+Karpathy inspired Claude Code memory system repo:
+
+[https://github.com/coleam00/claude-me...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbmJuTlk1amdCbmEzcDRaeDlvc244V2xJa2U4Z3xBQ3Jtc0trejVWaTMtSkE0ZmpBX2lnbFJHZ3EtaFpTOGtqZ19BaEc3Y2ZBQWlCM1lLakxIb1NOVHJMVjdpX0FnNzU4dWN3WU53OUZPTGNSUTRfYWZZaDJUTXdxQUR4RzVtdmtkLVFESGNLMS1FaWw1SkFIa0FpYw&q=https%3A%2F%2Fgithub.com%2Fcoleam00%2Fclaude-memory-compiler&v=7huCP6RkcY4)

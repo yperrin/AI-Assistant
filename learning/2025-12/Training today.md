@@ -3,11 +3,11 @@ complexity: Advanced
 date: 2025-12-04 17:01:00-05:00
 id: 2bf9fa3b-8750-8082-8d9b-ff9255a60c01
 processed_by_ai: true
-summary: This document introduces several AI-powered development tools like Factory
-  AI for context management, Cursor for IDE, BugBot for code review, Vercel for deployment,
-  and MCPs for accurate AI context. It then outlines a comprehensive research prompt
-  for evaluating low-code/no-code integration platforms, focusing on architectural
-  health, developer adoption, and strategic recommendations.
+summary: This document outlines Ray Fernando's "2026 VibeCode Stack," a suite of five
+  paid tools designed for AI-driven development to solve problems like context death,
+  quality slip, and deploy friction. It also includes a detailed prompt for a technical
+  expert to perform a comprehensive architectural evaluation of Factory AI and comparable
+  low-code/no-code integration platforms.
 title: Training today
 tools_mentioned:
 - Factory AI
@@ -16,24 +16,36 @@ tools_mentioned:
 - Vercel
 - Ref.tools
 - Exa Code
-- Kafka
-- Event Hub
-- SQS
-- Angular
-- C#
-- Java
-- GitOps
+- Claude
+- GPT
 topics:
-- AI Development Tools
-- Low-Code/No-Code Platforms
+- AI-driven Development
+- Developer Productivity
+- Tech Stack
+- Workflow Orchestration
+- Context Management
+- Code Quality
+- Deployment
 - Architectural Evaluation
-- Software Development
-- AI Agents
-- DevOps
+- Low-Code/No-Code Platforms
+- Event-Driven Architecture
+- Data Mesh
 url: https://www.notion.so/Training-today-2bf9fa3b875080828d9bff9255a60c01
 ---
 
+Looking at someone’s tech stack for AI driven development.
+
+I need to investigate some of the tools, clearly not usable at Clarivate but studying the tools could provide some insights in the kind of things we need to do.
+
 <br/>
+
+Summary of the Video
+
+============================
+
+This video outlines Ray Fernando's **"2026 VibeCode Stack,"** a suite of five paid tools that costs roughly **$289/month**. He argues that for serious developers, the cost is justified because it solves three momentum-killing problems: **context death** (AI forgetting previous work), **quality slip** (bugs from moving too fast), and **deploy friction** (infrastructure slowing you down).
+
+Here is the breakdown of the stack:
 
 - **[Factory AI](https://www.google.com/search?q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZspuexTQrO0%26t%3D117s)**** ($200/200M tokens)**
 
@@ -42,6 +54,10 @@ url: https://www.notion.so/Training-today-2bf9fa3b875080828d9bff9255a60c01
 	- **Function:** This tool helps maintain architectural context over long coding sessions. Ray used it to migrate an entire app, and the agent remembered decisions made days prior, unlike standard chat interfaces that forget quickly.
 
 ## Deep Research Prompt: Comprehensive Architectural Evaluation of Low-Code/No-Code Integration Platforms
+
+You are a **Technical Expert and Solution Architect** reporting to a Senior Director responsible for long-term architectural health and developer productivity. Your evaluation will inform a critical technology investment decision, specifically targeting solutions for event-driven automation and data flow within a distributed microservices and data mesh environment.
+The core tool to be evaluated is **Factory AI**.
+**Your evaluation must incorporate the user's architectural philosophy, which prioritizes:**
 
 - **Strong, independent component boundaries** over complex, shared abstractions (favoring loose coupling, even at the expense of minor code duplication).
 
@@ -110,3 +126,7 @@ url: https://www.notion.so/Training-today-2bf9fa3b875080828d9bff9255a60c01
 	- **Tools:** **Ref.tools** ($9/mo) and **Exa Code** (Free).
 
 	- **Function:** These provide the AI with accurate, fresh documentation and context, preventing it from hallucinating syntax or using outdated patterns.
+
+Who is this for?
+
+Ray specifies this stack is not for beginners or those just testing an MVP (who should use free tools). It is designed for technical founders, CTOs, and senior engineers whose time is valuable enough that paying $300/month to save hours of debugging and context-switching is a positive ROI.

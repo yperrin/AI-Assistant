@@ -5,3 +5,5 @@ url: https://www.notion.so/Need-to-improve-cost-checks-2cb9fa3b875080629593dd1fc
 date: 2025-12-16T10:13:00.000-05:00
 ---
 
+Need to provide cost review and add to my daily agent
+

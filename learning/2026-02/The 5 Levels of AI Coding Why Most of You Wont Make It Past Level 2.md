@@ -3,12 +3,12 @@ complexity: Advanced
 date: 2026-02-18 19:53:00-05:00
 id: 30c9fa3b-8750-80f3-a51c-e4c2906020c3
 processed_by_ai: true
-summary: This document outlines five levels of AI coding, from basic autocomplete
-  to autonomous "Dark Factories," and discusses the profound impact of AI on developer
-  productivity, company structure, and the evolving roles of developers and managers.
-  It highlights a "J-Curve" productivity dip, the shift from implementation speed
-  to specification quality, and the hollowing out of junior and middle management
-  roles.
+summary: This document analyzes Nate B. Jones' "5 Levels of AI Coding" framework,
+  explaining how AI integration impacts developer productivity, organizational structure,
+  and the future of various job roles. It highlights a "J-Curve" productivity dip,
+  the "Dark Factory" model, and a shift in value from implementation speed to specification
+  quality, leading to a flattening of organizational charts and the potential obsolescence
+  of coordination and junior developer roles.
 title: The 5 Levels of AI Coding Why Most of You Wont Make It Past Level 2
 tools_mentioned:
 - GitHub Copilot
@@ -17,17 +17,22 @@ tools_mentioned:
 - Midjourney
 - Kubernetes
 topics:
-- AI in Software Development
+- AI Coding
 - Developer Productivity
-- Organizational Change
+- Organizational Structure
+- AI Impact on Jobs
+- Software Development Workflow
+- Specification Quality
+- Management Roles
 - Future of Work
-- Software Engineering Management
-- AI Ethics
-- Career Development
 url: https://www.notion.so/The-5-Levels-of-AI-Coding-Why-Most-of-You-Won-t-Make-It-Past-Level-2-30c9fa3b875080f3a51ce4c2906020c3
 ---
 
+This video by **Nate B. Jones** explores the "5 Levels of AI Coding," a framework originally proposed by Dan Shapiro (CEO of Glowforge), and analyzes why most developers are currently getting *slower* despite using AI tools.
+
 ### **The 5 Levels of Vibe Coding**
+
+The video categorizes AI integration into five distinct stages [02:37 Opens in a new window ](http://www.youtube.com/watch?v=bDcgHzCBgmQ&t=157):
 
 1. **Level 0: Spicy Autocomplete** – Basic suggestions (e.g., original GitHub Copilot) [02:44 Opens in a new window ](http://www.youtube.com/watch?v=bDcgHzCBgmQ&t=164).
 
@@ -42,6 +47,8 @@ url: https://www.notion.so/The-5-Levels-of-AI-Coding-Why-Most-of-You-Won-t-Make-
 1. **Level 5: The Dark Factory** – An autonomous black box where specs go in and working software comes out with zero human code review [05:14 Opens in a new window ](http://www.youtube.com/watch?v=bDcgHzCBgmQ&t=314).
 
 ### **Key Takeaways for Senior Leaders**
+
+As a Senior Director, several points from the video align with your interests in **Medallion architecture**, **event-driven systems**, and **AI-assisted systems**:
 
 - **The "J-Curve" Productivity Dip:** Randomized trials show experienced devs can take **19% longer** on tasks with AI because they are running "new engines on old transmissions" [15:25 Opens in a new window ](http://www.youtube.com/watch?v=bDcgHzCBgmQ&t=925). True gains (25%+) require a total workflow redesign, not just installing a tool [17:00 Opens in a new window ](http://www.youtube.com/watch?v=bDcgHzCBgmQ&t=1020).
 
@@ -61,6 +68,8 @@ url: https://www.notion.so/The-5-Levels-of-AI-Coding-Why-Most-of-You-Won-t-Make-
 
 <br/>
 
+Based on the video, the "Dark Factory" era leads to a radical flattening of the organizational chart. Because machines handle the implementation, the entire coordination layer of a modern software company—which Nate B. Jones notes currently occupies about 60% of a manager's time—is essentially deleted.
+
 ### **Key Shifts in Company Structure**
 
 - **Flattening of the Org Chart:** AI-native startups like [Cursor](https://www.youtube.com/watch?v=bDcgHzCBgmQ) and [Midjourney](https://www.youtube.com/watch?v=bDcgHzCBgmQ) are generating hundreds of millions in revenue with only a few dozen employees. This results in a revenue-per-employee ratio roughly 5-6 times higher than the average SaaS company.
@@ -73,11 +82,19 @@ url: https://www.notion.so/The-5-Levels-of-AI-Coding-Why-Most-of-You-Won-t-Make-
 
 ### **The Evolving Role of Management**
 
+Management moves from **coordination** to **articulation**:
+
 - **Engineering Managers:** Their value shifts from "coordinating the team" to "defining the specification" clearly enough for agents to build it.
 
 - **Program Managers:** They move from tracking dependencies between human teams to architecting the "pipeline of specs" flowing through the factory.
 
+Ultimately, the bottleneck of the organization moves from **how fast can we build it** to **what should we build and for whom**.
+
 <br/>
+
+Based on the video's analysis of the transition toward "Dark Factories" and autonomous AI agents, the jobs most likely to disappear are those centered around **coordination**, **implementation of simple tasks**, and **manual verification**.
+
+Nate B. Jones highlights that as AI moves toward Level 5 (The Dark Factory), roles designed to manage human limitations become redundant.
 
 ### **Roles Most at Risk**
 
@@ -96,3 +113,7 @@ url: https://www.notion.so/The-5-Levels-of-AI-Coding-Why-Most-of-You-Won-t-Make-
 - **Specialized "Implementation" Roles:** Developers who function as "adequate" implementers—those who can write a CRUD endpoint but lack broader system or business intuition—are being replaced by models that can do the same work for the cost of tokens.
 
 ### **The Structural Change**
+
+The video notes that these roles aren't necessarily eliminated as a "cost-saving measure" but because they **no longer serve a purpose** in an AI-native workflow. The center of gravity is shifting from **coordination** to **articulation**—the ability to describe a problem precisely enough for a machine to solve it.
+
+For more details, you can view the [full video](https://www.youtube.com/watch?v=bDcgHzCBgmQ) or read the [full story with prompts](https://natesnewsletter.substack.com/p/the-5-level-framework-that-explains?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true).

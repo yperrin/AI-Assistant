@@ -3,26 +3,34 @@ complexity: Advanced
 date: 2026-03-25 13:53:00-04:00
 id: 32e9fa3b-8750-80d6-97fb-ccacdffc2be7
 processed_by_ai: true
-summary: This document outlines a memory system based on activation rather than retrieval,
-  featuring temporal decay, Hebbian association, Bayesian confidence, and semantic
-  triggers. It emphasizes local operation, privacy, and includes a bundled embedding
-  model and web UI.
+summary: This document introduces MuninnDB, an innovative AI memory system that moves
+  beyond passive vector databases by actively processing information using cognitive
+  models like ACT-R. It features temporal decay, Hebbian association, Bayesian confidence,
+  and semantic triggers, running entirely locally with a web UI.
 title: I Threw Away Two Memory Systems THEN BUILT THIS Instead MuninnDB
 tools_mentioned:
-- LLM
-- embedding model
-- web UI
+- MuninnDB
+- Zep
+- Mem
+- LangChain
+- Claude Desktop
+- Claude Code
+- Cursor
 topics:
-- Memory Systems
+- AI Memory Systems
+- Vector Databases
+- Cognitive Models
 - Artificial Intelligence
-- Information Retrieval
-- Cognitive Science
 - Local AI
-- Machine Learning Concepts
+- Database Design
 url: https://www.notion.so/I-Threw-Away-Two-Memory-Systems-THEN-BUILT-THIS-Instead-MuninnDB-32e9fa3b875080d697fbccacdffc2be7
 ---
 
+The video features the creator of **[MuninnDB](https://www.youtube.com/watch?v=b29wl0ehrQI)**, an innovative AI memory system designed to move beyond the passive "store-fetch-inject" model of traditional vector databases.
+
 ### Core Philosophy: Activation vs. Retrieval
+
+The creator argues that most AI memory systems (like Zep, Mem, or LangChain modules) are **passive**—they only return data when queried based on semantic similarity [01:46 Opens in a new window ](http://www.youtube.com/watch?v=b29wl0ehrQI&t=106). **MuninnDB** is built on the **ACT-R** (Adaptive Control of Thought—Rational) cognitive model, where the storage engine itself performs "cognitive work" between queries [03:13 Opens in a new window ](http://www.youtube.com/watch?v=b29wl0ehrQI&t=193).
 
 ### Key Features
 
@@ -38,4 +46,8 @@ url: https://www.notion.so/I-Threw-Away-Two-Memory-Systems-THEN-BUILT-THIS-Inste
 
 ### Getting Started
 
+The system is currently in alpha (v0.2.4) and can be installed via a curl one-liner from **[muninndb.com](https://www.youtube.com/watch?v=b29wl0ehrQI)** [13:30 Opens in a new window ](http://www.youtube.com/watch?v=b29wl0ehrQI&t=810). It features auto-detection for tools like **Claude Desktop**, **Claude Code**, and **Cursor** [09:14 Opens in a new window ](http://www.youtube.com/watch?v=b29wl0ehrQI&t=554).
+
 ---
+
+**Would you like me to find the specific installation commands or documentation for setting up MuninnDB with your local environment?**

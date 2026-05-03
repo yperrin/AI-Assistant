@@ -7,6 +7,18 @@ from dotenv import load_dotenv
 
 from notion_client import Client
 from notion2md.exporter.block import StringExporter
+import notion2md.convertor.block
+
+# Monkey-patch notion2md's collect_info to handle 'icon': None
+original_collect_info = notion2md.convertor.block.BlockConvertor.collect_info
+
+def patched_collect_info(self, payload: dict) -> dict:
+    if "icon" in payload and payload["icon"] is None:
+        payload = payload.copy()
+        del payload["icon"]
+    return original_collect_info(self, payload)
+
+notion2md.convertor.block.BlockConvertor.collect_info = patched_collect_info
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

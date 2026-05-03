@@ -3,27 +3,27 @@ complexity: Advanced
 date: 2026-03-29 17:19:00-04:00
 id: 3329fa3b-8750-8012-9164-d0487e16bc69
 processed_by_ai: true
-summary: This document critiques early AI agentic workflows, highlighting issues like
-  LLM instruction budget limits, over-specification by users, and the "slop" factor
-  in automated code generation. It introduces the "CRISPY" framework as a solution,
-  advocating for a structured, human-in-the-loop approach to agent-assisted software
-  development.
+summary: 'This document summarizes Dexter Horthy''s keynote on the evolution of AI
+  coding agents, detailing the failures of early Research-Plan-Implement (RPI) methodologies
+  due to issues like instruction budgets and '
 title: Everything We Got Wrong About Research-Plan-Implement - Dexter Horthy
-tools_mentioned:
-- Frontier LLMs
+tools_mentioned: []
 topics:
-- AI Agents
-- Software Development Workflows
-- LLMs
+- AI Coding Agents
+- Software Development Methodologies
+- Large Language Models
 - Prompt Engineering
-- Code Quality
 - Software Engineering Best Practices
 url: https://www.notion.so/Everything-We-Got-Wrong-About-Research-Plan-Implement-Dexter-Horthy-3329fa3b875080129164d0487e16bc69
 ---
 
+In his keynote at the [Coding Agents Conference](http://www.youtube.com/watch?v=YwZR6tc7qYg), Dexter Horthy (HumanLayer) provides a deep dive into the evolution of the **Research-Plan-Implement (RPI)** methodology. He explores why initial attempts at fully autonomous coding agents often fail and introduces a more robust, human-centric framework called **CRISPY**.
+
 ---
 
 ## The Core Issues with Early Agentic Workflows
+
+Horthy identifies three primary failure points that teams encountered when adopting early AI coding agents:
 
 - **The "Dumb Zone" & Instruction Budgets:** Frontier LLMs have an "instruction budget" of roughly **150-200 instructions** before consistency degrades. Early RPI prompts often hit 85+ instructions, causing the model to "half-attend" to tasks and skip critical steps [07:36 Opens in a new window ](http://www.youtube.com/watch?v=YwZR6tc7qYg&t=456).
 
@@ -35,6 +35,8 @@ url: https://www.notion.so/Everything-We-Got-Wrong-About-Research-Plan-Implement
 
 ## Lessons Learnt: What They Got Wrong
 
+Horthy is candid about his previous advice that proved ineffective in production environments:
+
 - **"Don't Read the Code" was a mistake:** Previously, the advice was to just trust the agent and read the plan. Horthy now insists that **engineers must read the code** [09:22 Opens in a new window ](http://www.youtube.com/watch?v=YwZR6tc7qYg&t=562). Plans and implementations often diverge, and "leverage" isn't found by avoiding the code, but by making the alignment phase more efficient.
 
 - **Magic Words:** Tools that require users to say specific "magic words" (e.g., *"work back and forth with me"*) are fundamentally broken. If the workflow requires hours of training to get right, the tool—not the user—is the problem [07:17 Opens in a new window ](http://www.youtube.com/watch?v=YwZR6tc7qYg&t=437).
@@ -44,6 +46,8 @@ url: https://www.notion.so/Everything-We-Got-Wrong-About-Research-Plan-Implement
 ---
 
 ## The Solution: The "CRISPY" Framework
+
+To solve these issues, Horthy proposes breaking the monolithic RPI prompt into a series of smaller, high-leverage steps. This ensures each prompt stays well under the 40-instruction limit [14:13 Opens in a new window ](http://www.youtube.com/watch?v=YwZR6tc7qYg&t=853).
 
  | **Stage** | **Purpose** | **Key Strategy** | 
  | ---- | ---- | ---- | 
@@ -58,5 +62,9 @@ url: https://www.notion.so/Everything-We-Got-Wrong-About-Research-Plan-Implement
 ---
 
 ### Final Takeaway
+
+The goal is to achieve **2x-3x speedup with human-level quality**, rather than 10x speedup with "slop." By treating the code as a craft and using AI to handle the "context engineering" and alignment, senior developers can maintain architectural health while increasing output.
+
+Would you like me to find the **slides** mentioned in the video description or more information on the **12 Factor Agents** paper Horthy referenced?
 
 <br/>

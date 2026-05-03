@@ -3,25 +3,30 @@ complexity: Intermediate
 date: 2026-04-30
 id: 3529fa3b-8750-80cf-b7b2-fd16c94a53cf
 processed_by_ai: true
-summary: This document outlines a "Four-Quadrant Model" for strategically applying
-  AI in software development based on risk and differentiation, ranging from full
-  automation to human-led craftsmanship. It also discusses key implications like the
-  commoditization of velocity, cognitive debt, and the importance of human understanding
-  over passive AI delegation.
+summary: This article argues against over-automating core business logic with AI,
+  warning of "cognitive debt" and the risk of outsourcing competitive advantage. It
+  introduces a four-quadrant model to guide AI autonomy based on business risk and
+  competitive differentiation.
 title: Dont Automate Your Moat Matching AI Autonomy to Risk and Competitive Stakes
 tools_mentioned: []
 topics:
-- AI in Software Development
+- AI Automation
+- Cognitive Debt
+- Competitive Advantage
 - Software Engineering Strategy
 - Risk Management
-- Cognitive Debt
-- Automation
-url: https://app.notion.com/p/Don-t-Automate-Your-Moat-Matching-AI-Autonomy-to-Risk-and-Competitive-Stakes-3529fa3b875080cfb7b2fd16c94a53cf
+url: https://www.notion.so/Don-t-Automate-Your-Moat-Matching-AI-Autonomy-to-Risk-and-Competitive-Stakes-3529fa3b875080cfb7b2fd16c94a53cf
 ---
+
+The article [Don’t Automate Your Moat](https://www.oreilly.com/radar/dont-automate-your-moat-matching-ai-autonomy-to-risk-and-competitive-stakes/) argues that while AI increases coding velocity, it often creates **"cognitive debt"**—a gap between the volume of code in a system and the team's actual understanding of how it works.
+
+The core thesis is that you should never outsource your competitive advantage to an AI because if your engineers don't understand the "why" behind your core logic, you can't defend, extend, or fix it during a crisis.
 
 ---
 
 ## The Four-Quadrant Model
+
+The authors suggest categorizing tasks by **Business Risk** and **Competitive Differentiation** to determine how much autonomy to grant AI:
 
  | **Quadrant** | **Risk / Differentiation** | **Strategy** | **Example** | 
  | ---- | ---- | ---- | ---- | 

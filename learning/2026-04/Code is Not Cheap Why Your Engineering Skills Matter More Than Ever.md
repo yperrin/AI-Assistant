@@ -3,29 +3,35 @@ complexity: Advanced
 date: 2026-04-26 12:45:00-04:00
 id: 34e9fa3b-8750-804f-97d6-cf2651bbc65e
 processed_by_ai: true
-summary: This document identifies four common failure modes when using AI for coding
-  and proposes strategic solutions by applying established software engineering principles
-  like Test-Driven Development, Domain-Driven Design, and architectural refactoring
-  to improve AI-generated code quality and alignment. It emphasizes that humans should
-  act as strategic leaders, guiding AI as a tactical programmer.
+summary: This document, based on a talk by Matt Pocock, argues that strong software
+  fundamentals are more critical than ever when working with AI, countering the idea
+  that AI makes code cheap. It identifies four common failure modes in AI-assisted
+  development and proposes solutions rooted in established software engineering principles
+  like TDD and Domain-Driven Design.
 title: Code is Not Cheap Why Your Engineering Skills Matter More Than Ever
 tools_mentioned:
 - AI
+- GitHub
+- n8n
+- LangGraph
 topics:
-- AI programming
-- Software engineering principles
-- Test-Driven Development (TDD)
-- Domain-Driven Design (DDD)
-- Software architecture
-- Code quality
-- Human-AI collaboration
-- Requirements engineering
+- Software Engineering Fundamentals
+- AI-assisted Development
+- Code Quality
+- Software Architecture
+- Test-Driven Development
+- Domain-Driven Design
+- Communication with AI
 url: https://www.notion.so/Code-is-Not-Cheap-Why-Your-Engineering-Skills-Matter-More-Than-Ever-34e9fa3b8750804f97d6cf2651bbc65e
 ---
+
+This transcript is based on the talk **"Software Fundamentals Matter More Than Ever"** by [Matt Pocock](https://www.youtube.com/@mattpocockuk) at the [AI Engineer](https://www.youtube.com/@aiDotEngineer) conference.
 
 ---
 
 ## 🏗️ The Core Thesis: Code is Not Cheap
+
+Many believe in the "specs-to-code" movement—the idea that you can write a specification, let AI generate the code, and never look at the source again. Matt argues this is a fallacy that leads to **"Software Entropy"** and "vibe coding." In reality, **bad code is the most expensive it has ever been** because it prevents you from leveraging the true bounty of AI.
 
 ---
 
@@ -101,5 +107,7 @@ url: https://www.notion.so/Code-is-Not-Cheap-Why-Your-Engineering-Skills-Matter-
 - **Full Video:** [Code is Not Cheap — Matt Pocock](https://www.youtube.com/watch?v=v4F1gFy-hqg)
 
 > "AI is a great tactical programmer—a sergeant on the ground. You need to be the strategic leader above it, and that requires software fundamentals." [17:32 Opens in a new window](http://www.youtube.com/watch?v=v4F1gFy-hqg&t=1052)
+
+Given your interest in **AI-assisted systems** and **architectural health**, do you want to explore how to integrate these "Grill Me" or "Ubiquitous Language" workflows into your specific n8n or LangGraph projects?
 
 <br/>

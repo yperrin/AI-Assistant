@@ -4,3 +4,4 @@ description: Should be run every time the project is loaded to make sure we have
 
 Get the latest from git (pull)
 Run the skill notion-sync
+Run the skill `idea-processor` to evaluate and route any new ideas from the inbox.

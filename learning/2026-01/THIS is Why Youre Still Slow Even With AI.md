@@ -1,27 +1,30 @@
 ---
-complexity: Beginner
+complexity: Intermediate
 date: 2026-01-15 21:31:00-05:00
 id: 2ea9fa3b-8750-8073-8a9d-c297f69cde28
 processed_by_ai: true
-summary: This document outlines 8 habits to break for "AI-Native" work, focusing on
-  rapid prototyping, action over planning, and early feedback. It also identifies
-  new bottlenecks like clarity, ambition, distribution, and relationships in this
-  evolving work paradigm.
+summary: This document argues that AI has shifted the primary bottleneck in knowledge
+  work from execution to clarity, ambition, and distribution, making traditional risk-management
+  work habits counterproductive. It outlines 8 habits to break for "AI-native" work,
+  emphasizing rapid prototyping and action over extensive planning and approvals.
 title: THIS is Why Youre Still Slow Even With AI
-tools_mentioned:
-- Cognition
-- Infosys
+tools_mentioned: []
 topics:
-- AI-Native Work
+- AI impact on work
 - Productivity
-- Agile Development
+- Work habits
 - Prototyping
-- Organizational Habits
-- Decision Making
+- Organizational change
+- Innovation
+- Knowledge work
 url: https://www.notion.so/THIS-is-Why-You-re-Still-Slow-Even-With-AI-2ea9fa3b875080738a9dc297f69cde28
 ---
 
+In this video, Nate B. Jones argues that the primary bottleneck in knowledge work has shifted from **execution** to **clarity, ambition, and distribution**. Because AI has made building things (code, content, prototypes) incredibly cheap and fast, our traditional "risk-management" work habits are now actively slowing us down.
+
 ### The Core Shift
+
+For decades, execution was scarce and expensive, leading to rituals designed to "protect" engineering time (meetings, PRDs, approval gates). Today, the cost of building a prototype is often lower than the cost of the meeting to discuss it. [02:17 Opens in a new window](http://www.youtube.com/watch?v=hpDC29JdgjI&t=137)
 
 ### 8 Habits to Break for "AI-Native" Work
 
@@ -43,6 +46,8 @@ url: https://www.notion.so/THIS-is-Why-You-re-Still-Slow-Even-With-AI-2ea9fa3b87
 
 ### The New Bottlenecks
 
+As execution becomes a commodity, these human-centric factors become the new moats:
+
 - **Clarity:** Knowing exactly what is worth building for the customer. [05:34 Opens in a new window](http://www.youtube.com/watch?v=hpDC29JdgjI&t=334)
 
 - **Ambition:** Having the courage to take "50 swings a year" rather than just a few safe bets. [07:06 Opens in a new window](http://www.youtube.com/watch?v=hpDC29JdgjI&t=426)
@@ -50,3 +55,5 @@ url: https://www.notion.so/THIS-is-Why-You-re-Still-Slow-Even-With-AI-2ea9fa3b87
 - **Distribution:** The ability to actually get products into users' hands (e.g., [Cognition's partnership with Infosys](https://www.youtube.com/watch?v=hpDC29JdgjI)). [08:03 Opens in a new window](http://www.youtube.com/watch?v=hpDC29JdgjI&t=483)
 
 - **Relationships:** Durable professional trust that cannot be "vibe-coded." [09:01 Opens in a new window](http://www.youtube.com/watch?v=hpDC29JdgjI&t=541)
+
+**Watch the full video here:** [THIS is Why You're Still Slow Even With AI](https://www.youtube.com/watch?v=hpDC29JdgjI)

@@ -3,28 +3,34 @@ complexity: Intermediate
 date: 2026-01-12 21:04:00-05:00
 id: 2e79fa3b-8750-80c3-8064-e842fa1a304a
 processed_by_ai: true
-summary: This document addresses the problem of "context bloat" in AI models, where
-  sending large tool schemas leads to massive token usage, degraded performance, and
-  higher costs. It proposes "progressive disclosure" as a solution, enabling on-demand
-  tool discovery and significantly reducing token usage, with practical applications
-  in Claude Code using a skills directory and an experimental CLI.
+summary: This document explains how "Progressive Disclosure" in AI agents, particularly
+  in Claude Code, solves the problem of context bloat by allowing agents to discover
+  and load tools on-demand. This approach significantly reduces token usage, improves
+  performance, and lowers costs compared to traditional methods.
 title: Progressive Disclosure in Claude Code
 tools_mentioned:
+- Claude Code
 - Anthropic
 - Cloudflare
+- Cursor
 - Bash
-- Claude Code
-- MCP CLI
+- Model Context Protocol
+- TypeScript
 topics:
-- AI Efficiency
+- Progressive Disclosure
+- AI Agents
 - Context Management
-- Token Optimization
-- Large Language Models
-- Tooling in AI
+- Token Efficiency
+- Filesystem-First Architecture
+- Tool Discovery
 url: https://www.notion.so/Progressive-Disclosure-in-Claude-Code-2e79fa3b875080c38064e842fa1a304a
 ---
 
+This video explores the concept of **Progressive Disclosure** in AI agents, specifically within [Claude Code](https://www.youtube.com/watch?v=DQHFow2NoQc), and how it addresses the inefficiencies of traditional agent architectures.
+
 ### **The Core Problem: Context Bloat**
+
+Traditionally, AI agents load all available tools (via [Model Context Protocol](https://www.youtube.com/watch?v=DQHFow2NoQc) or MCP) into the context window upfront. This leads to:
 
 - **Massive Token Burn:** Sending thousands of tokens of tool schemas with every request [01:41 Opens in a new window ](http://www.youtube.com/watch?v=DQHFow2NoQc&t=101).
 
@@ -33,6 +39,8 @@ url: https://www.notion.so/Progressive-Disclosure-in-Claude-Code-2e79fa3b875080c
 - **Higher Costs:** Constant re-sending of tool definitions is expensive [02:37 Opens in a new window ](http://www.youtube.com/watch?v=DQHFow2NoQc&t=157).
 
 ### **The Solution: Progressive Disclosure**
+
+Industry leaders like **Anthropic**, **Cloudflare**, and **Cursor** are converging on a "Filesystem-First" approach [03:11 Opens in a new window ](http://www.youtube.com/watch?v=DQHFow2NoQc&t=191):
 
 - **On-Demand Discovery:** Instead of seeing all tools, the model uses a "tool search tool" to find what it needs only when it needs it [01:35 Opens in a new window ](http://www.youtube.com/watch?v=DQHFow2NoQc&t=95).
 
@@ -45,3 +53,5 @@ url: https://www.notion.so/Progressive-Disclosure-in-Claude-Code-2e79fa3b875080c
 - **Skills Directory:** You can create a `skills` folder where each file contains "front matter" (a brief description) that is disclosed to the model. The full content is only loaded if the model decides it needs that specific skill [11:42 Opens in a new window ](http://www.youtube.com/watch?v=DQHFow2NoQc&t=702).
 
 - **Experimental MCP CLI:** There is an experimental flag in Claude Code to enable tool search capabilities, allowing the agent to manage vast libraries of MCP servers without hitting context limits [07:38 Opens in a new window ](http://www.youtube.com/watch?v=DQHFow2NoQc&t=458).
+
+**The Bottom Line:** By moving from "context-heavy" to "progressive disclosure," developers can build more ambitious agents that run longer, handle more complex tasks, and cost significantly less [12:27 Opens in a new window ](http://www.youtube.com/watch?v=DQHFow2NoQc&t=747).

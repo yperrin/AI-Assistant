@@ -3,27 +3,35 @@ complexity: Intermediate
 date: 2026-01-25 10:14:00-05:00
 id: 2f39fa3b-8750-805a-93d0-ca50df8bcf17
 processed_by_ai: true
-summary: This document introduces the concept of "Flipping the Script," where tools
-  leverage a user's existing LLM configuration instead of managing their own API keys
-  or hardcoding logic. It highlights benefits like simpler architecture and model
-  flexibility, using the "Council of Mine" example to illustrate its application in
-  creative content generation and judgment calls.
+summary: The article explains MCP Sampling, a feature of the Model Context Protocol
+  (MCP) that allows AI tools to delegate complex, non-deterministic "thinking" tasks
+  back to the user's connected Large Language Model (LLM). This approach simplifies
+  development by removing the need for tools to manage their own LLM dependencies
+  or hardcode creative logic, offering greater model flexibility.
 title: MCP Sampling When Your Tools Need to Think
 tools_mentioned:
-- MCP server
+- Model Context Protocol (MCP)
 - goose
 - Claude
 - Llama
+- Python
+- TypeScript
+- mcp-council-of-mine
 topics:
-- AI Architecture
-- LLM Integration
-- Tool Design
+- MCP Sampling
+- Model Context Protocol (MCP)
+- AI Tools
+- Large Language Models (LLMs)
+- Software Architecture
 - Creative Content Generation
-- Orchestration
 url: https://www.notion.so/MCP-Sampling-When-Your-Tools-Need-to-Think-2f39fa3b8750805a93d0ca50df8bcf17
 ---
 
+The article [MCP Sampling: When Your Tools Need to Think](https://www.oreilly.com/radar) explains a specific feature of the **Model Context Protocol (MCP)** called **sampling**. While standard MCP tools allow an AI to call a function (like reading a file), **sampling** allows the tool to call the AI back to perform "thinking" tasks.
+
 ### Core Concept: "Flipping the Script"
+
+Instead of the AI simply using a tool, the tool delegates complex, non-deterministic tasks back to the user's connected LLM. This removes the need for developers to:
 
 - Manage separate API keys for their tools.
 
@@ -46,3 +54,5 @@ url: https://www.notion.so/MCP-Sampling-When-Your-Tools-Need-to-Think-2f39fa3b87
 - **Simpler Architecture:** Focus on domain logic and orchestration rather than building a full AI application.
 
 - **Model Flexibility:** The tool automatically adapts if the user switches models (e.g., moving from Claude to a local Llama model via [goose](https://block.github.io/goose/)).
+
+Would you like me to find more technical documentation on implementing the `ctx.sample()` call in Python or TypeScript?

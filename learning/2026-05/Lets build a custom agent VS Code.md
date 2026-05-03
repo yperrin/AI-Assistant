@@ -3,21 +3,23 @@ complexity: Intermediate
 date: 2026-05-03 09:55:00-04:00
 id: 3559fa3b-8750-806a-938f-f44e7e24d34e
 processed_by_ai: true
-summary: This document explains how to build and utilize custom AI agents within VS
-  Code, detailing their definition, role examples like Security Reviewers and Feature
-  Builders, and how they integrate into development workflows. It highlights how agents
-  can be specialized with domain knowledge and assist in tasks like security auditing
-  and application generation.
+summary: This document explains how to build custom AI agents within VS Code, detailing
+  their definition, role examples like Security Reviewers and Feature Builders, and
+  how they integrate into development workflows. It highlights how agents can be specialized
+  with domain knowledge and assist in tasks like security auditing and application
+  generation while inheriting project aesthetics.
 title: Lets build a custom agent VS Code
 tools_mentioned:
 - VS Code
 - GitHub Copilot
 topics:
-- Custom AI Agents
+- AI Agents
 - VS Code
-- AI-Assisted Development
+- Custom Agents
 - Security Auditing
-- Workflow Integration
+- AI-Assisted Development
+- Software Development
+- Code Generation
 url: https://www.notion.so/Let-s-build-a-custom-agent-VS-Code-3559fa3b8750806a938ff44e7e24d34e
 ---
 

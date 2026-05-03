@@ -1,24 +1,29 @@
 ---
-complexity: Advanced
+complexity: Intermediate
 date: 2026-04-14 08:29:00-04:00
 id: 3429fa3b-8750-8058-8749-ef1f3b1ccccd
 processed_by_ai: true
-summary: This document introduces "comprehension debt," a new form of technical debt
-  where AI-generated code leads to a loss of human understanding of system design,
-  despite appearing functional. It highlights challenges like AI's speed creating
-  review bottlenecks, the inadequacy of tests for complex behaviors, and a decline
-  in developer comprehension when AI is used for delegation rather than inquiry.
+summary: This article introduces "comprehension debt," the growing gap between AI-generated
+  code volume and human understanding, highlighting its risks to long-term architectural
+  health and team clarity. It emphasizes that while AI speeds up code generation,
+  it can erode collective intelligence and create a false sense of productivity if
+  not managed strategically.
 title: Comprehension Debt The Hidden Cost of AI-Generated Code
 tools_mentioned: []
 topics:
+- AI-generated code
 - Comprehension Debt
-- AI in Software Development
-- Software Quality
-- Code Review
-- Developer Productivity
+- Software Development
+- Code Quality
+- Engineering Management
+- Leadership
 - Technical Debt
 url: https://www.notion.so/Comprehension-Debt-The-Hidden-Cost-of-AI-Generated-Code-3429fa3b875080588749ef1f3b1ccccd
 ---
+
+The article [Comprehension Debt: The Hidden Cost of AI-Generated Code](https://www.oreilly.com/radar/comprehension-debt-the-hidden-cost-of-ai-generated-code/) by [Addy Osmani](https://www.google.com/search?q=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fauthor%2Faddy-osmani%2F) explores the growing risk of "comprehension debt"—the gap between the volume of code produced by AI and the human ability to understand it.
+
+As a Senior Director managing development teams, you’ll find this particularly relevant to your philosophy of "long-term architectural health" and "team-wide clarity."
 
 ---
 
@@ -61,3 +66,7 @@ url: https://www.notion.so/Comprehension-Debt-The-Hidden-Cost-of-AI-Generated-Co
 ---
 
 ### The Bottom Line
+
+**"Making code cheap to generate doesn’t make understanding cheap to skip."** True productivity is not about how much code is shipped, but how much of that code is genuinely understood and maintainable by the team.
+
+**Would you like me to create a summary of these principles in a Google Doc for you to share with your engineering managers?**

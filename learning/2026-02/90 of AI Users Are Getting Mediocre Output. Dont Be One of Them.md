@@ -3,26 +3,34 @@ complexity: Intermediate
 date: 2026-02-08 11:54:00-05:00
 id: 3019fa3b-8750-802d-878c-dcc9299e3370
 processed_by_ai: true
-summary: 'This document outlines four key levers for customizing AI models: Memory,
-  Instructions, Apps and Tools, and Style and Tone Control. It provides examples of
-  how different AI platforms like ChatGPT, Claude, and Gemini implement these customization
-  features.'
+summary: This document, based on a video by Nate B Jones, explains why most AI users
+  get mediocre results due to RLHF and outlines four key levers (Memory, Instructions,
+  Apps/Tools, Style/Tone) to customize AI models like ChatGPT, Claude, and Gemini
+  for "10x results." It also introduces a "10x" workflow where users continuously
+  refine AI behavior by treating mistakes as steering inputs.
 title: 90 of AI Users Are Getting Mediocre Output. Dont Be One of Them
 tools_mentioned:
 - ChatGPT
 - Claude
 - Gemini
 - Google Workspace
+- Gmail
+- Calendar
+- Photos
 - Model Context Protocol (MCP)
 topics:
 - AI Customization
+- Prompt Engineering
+- Reinforcement Learning from Human Feedback (RLHF)
 - AI Memory
 - AI Instructions
-- AI Tools
+- AI Integrations
 - AI Style Control
-- Large Language Models
+- Workflow Optimization
 url: https://www.notion.so/90-of-AI-Users-Are-Getting-Mediocre-Output-Don-t-Be-One-of-Them-3019fa3b8750802d878cdcc9299e3370
 ---
+
+In this video, [Nate B Jones](https://www.youtube.com/watch?v=KX0GurmgAoo) argues that most users get mediocre results because AI models are trained via **Reinforcement Learning from Human Feedback (RLHF)** to provide "median" or "average" responses that please the widest possible audience [03:07 Opens in a new window ](http://www.youtube.com/watch?v=KX0GurmgAoo&t=187). To get "10x results," you must move beyond basic prompting and utilize four key levers to customize the AI to your specific needs [05:03 Opens in a new window ](http://www.youtube.com/watch?v=KX0GurmgAoo&t=303).
 
 ### **The 4 Levers to Customize Your AI**
 
@@ -53,3 +61,7 @@ url: https://www.notion.so/90-of-AI-Users-Are-Getting-Mediocre-Output-Don-t-Be-O
 	- **Claude:** Features a sophisticated "Custom Style" tool where you can upload samples of your own writing to have Claude mirror your voice and structure [14:11 Opens in a new window ](http://www.youtube.com/watch?v=KX0GurmgAoo&t=851).
 
 ### **The "10x" Workflow**
+
+High-performing users treat every AI mistake as a **"steering input"** [15:47 Opens in a new window ](http://www.youtube.com/watch?v=KX0GurmgAoo&t=947). Instead of getting frustrated, they immediately encode the correction into their instructions or memory so the AI never makes that specific mistake again [16:07 Opens in a new window ](http://www.youtube.com/watch?v=KX0GurmgAoo&t=967).
+
+**Link to Full Video:** [90% of AI Users Are Getting Mediocre Output](https://www.youtube.com/watch?v=KX0GurmgAoo)

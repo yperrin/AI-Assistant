@@ -1,33 +1,34 @@
 ---
-complexity: Advanced
+complexity: Intermediate
 date: 2026-03-20
 id: 3299fa3b-8750-80aa-8210-e03507686b10
 processed_by_ai: true
-summary: 'This document outlines a strategy for building an "Agentic OS" by prioritizing
-  systems over individual skills, detailing four layers: shared brand context, continuous
-  learning, self-maintenance, and chained workflows. It also describes key technical
-  components like `skill.md` and various context files for agent identity and memory.'
+summary: This document explains how to build an Agentic Operating System for business
+  using Claude Code, moving beyond isolated tasks to a unified system that shares
+  context, learns continuously, self-maintains, and chains workflows. It outlines
+  four key layers and technical components for creating such a system.
 title: How Smart People Are Using Claude Code Skills to Automate Anything
 tools_mentioned:
-- skill.md
-- learnings.md
-- soul.md
-- user.md
-- memory.md
-- MCP servers
+- Claude Code
+- Reddit
 topics:
-- Agentic Systems
-- System Design
+- Agentic Operating Systems
 - AI Agents
-- Automation
-- Knowledge Management
+- Business Automation
+- System Design
+- Context Management
+- Continuous Learning
 - Workflow Automation
 url: https://www.notion.so/How-Smart-People-Are-Using-Claude-Code-Skills-to-Automate-Anything-3299fa3b875080aa8210e03507686b10
 ---
 
+This video by [Simon Scrapes](https://www.youtube.com/watch?v=5AfSB0sWihw) explains how to move beyond using **Claude Code** for isolated tasks and instead build an **Agentic Operating System** for your business.
+
 ---
 
 ### **The Core Strategy: Systems Over Skills**
+
+The speaker argues that most people use Claude Code "wrong" by building individual, disconnected skills for research or copy. The "smart" approach is to connect them into a unified system that shares context and improves over time. [00:00 Opens in a new window](http://www.youtube.com/watch?v=5AfSB0sWihw&t=0)
 
 ### **The 4 Layers of an Agentic OS**
 
@@ -48,3 +49,5 @@ url: https://www.notion.so/How-Smart-People-Are-Using-Claude-Code-Skills-to-Auto
 - **Context Files**: Includes `soul.md` (agent identity), `user.md` (your preferences), and `memory.md` (long-term knowledge). [05:32 Opens in a new window](http://www.youtube.com/watch?v=5AfSB0sWihw&t=332)
 
 ---
+
+**Would you like me to find more details on how to set up the "Heartbeat" sync or the specific structure of the **`**skill.md**`** files?**
