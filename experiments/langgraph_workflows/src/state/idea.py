@@ -17,6 +17,8 @@ class IdeaAgentState(TypedDict):
     artifacts: Annotated[List[ArtifactMetadata], operator.add]
     iteration: int
     max_loop: int
+    decisions_log: Annotated[List[str], operator.add]
+    status: str
 
 def format_state(state: IdeaAgentState) -> str:
     return f"""

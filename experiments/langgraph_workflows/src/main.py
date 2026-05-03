@@ -20,6 +20,8 @@ def main():
             "artifacts": [],
             "iteration": 0,
             "max_loop": 4,
+            "decisions_log": [],
+            "status": "initial_research",
         }
     )
     print("--- Research Complete ---")

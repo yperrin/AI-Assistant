@@ -35,7 +35,8 @@ class PromptManager:
             kwargs = {
                 "model": selected_model, 
                 "temperature": temperature,
-                "timeout": timeout,
+                "client_kwargs": {"timeout": float(timeout)},
+                "async_client_kwargs": {"timeout": float(timeout)},
             }
             if base_url:
                 kwargs["base_url"] = base_url

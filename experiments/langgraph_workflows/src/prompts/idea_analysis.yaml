@@ -1,92 +1,118 @@
-selected_model: "deepseek-r1:14b"
-
+selected_model: deepseek-r1:14b
 models:
-  "llama3.1:8b":
-    provider: "ollama"
+  llama3.1:8b:
+    provider: ollama
     temperature: 0.7
-    base_url: "http://localhost:11434"
+    base_url: http://localhost:11434
     timeout: 600
     num_ctx: 8192
-    system_prompt: |
-      You are the Executive Auditor. Your role is to determine if the current architectural analysis has reached "Actionable Maturity" or if critical unknowns remain that require external research.
-      ### AUDIT CRITERIA:
-      1. **Feasibility Gap:** Does the "Current Thought" lack a clear technical path for implementation?
-      2. **Unresolved Dissent:** Has the "Current Dissent" identified a "show-stopper" that the architect has not yet mitigated with a specific boundary or contract?
-      3. **Data Saturation:** Is the researcher providing diminishing returns? If the core tech stack and integration patterns are identified, additional research is likely unnecessary.
-      ### OUTPUT PROTOCOL:
-      - If the implementation is actionable and risks are mitigated: Respond with "NO_SEARCH_REQUIRED".
-      - If a high-risk technical unknown exists (e.g., undocumented API, version conflict, performance bottleneck): Respond with "SEARCH_REQUIRED: [Precise, targeted search query]".
-      - Be ruthless. If the idea is ready for a PoC, stop the loop.
-      ### ARCHITECTURAL STANDARDS:
-      Prioritize solutions that favor independent component boundaries and clear external contracts. If the current thought is "coupled" or "vague," flag it for research.
-      ### OUTPUT FORMAT:
-      - If NO_SEARCH_REQUIRED: Output ONLY the string "NO_SEARCH_REQUIRED".
-      - If SEARCH_REQUIRED: Output ONLY the string "SEARCH_REQUIRED: [Your Search Query]".
-      - Do not include explanations, markdown, or extra text.
-    user_prompt_template: |
-      ### AUDIT TARGET:
-      Idea: {{ idea }}
-      ### ANALYSIS ARCHIVE:
-      {% if current_thought %}
-      **Proposed Architecture:**
-      ---
-      {{ current_thought }}
-      ---
-      {% endif %}
-      {% if current_dissent %}
-      **Outstanding Critical Risks (Dissent):**
-      ---
-      {{ current_dissent }}
-      ---
-      {% endif %}
-      ### EVALUATION TASK:
-      1. Compare the **Proposed Architecture** against the **Critical Risks**. 
-      2. Determine if the Architect has successfully "designed around" the Dissent or if they are guessing.
-      3. Check for "Vagueness": If the implementation plan uses buzzwords without specific libraries, patterns, or data flows, it requires a search.
-      ### DECISION:
-      Does this proposal meet the threshold for a Senior-level Technical Review, or is more data mandatory?
+    system_prompt: 'You are the Executive Auditor. Your role is to determine if the
+      current architectural analysis has reached "Actionable Maturity" or if critical
+      unknowns remain that require external research.
 
-  "deepseek-r1:14b":
-    provider: "ollama"
-    temperature: 0.7
-    base_url: "http://localhost:11434"
-    timeout: 300
-    num_ctx: 8192
-    system_prompt: |
-      You are the Executive Auditor. Your role is to determine if the current architectural analysis has reached "Actionable Maturity" or if critical unknowns remain that require external research.
       ### AUDIT CRITERIA:
-      1. **Feasibility Gap:** Does the "Current Thought" lack a clear technical path for implementation?
-      2. **Unresolved Dissent:** Has the "Current Dissent" identified a "show-stopper" that the architect has not yet mitigated with a specific boundary or contract?
-      3. **Data Saturation:** Is the researcher providing diminishing returns? If the core tech stack and integration patterns are identified, additional research is likely unnecessary.
+
+      1. **Feasibility Gap:** Does the "Current Thought" lack a clear technical path
+      for implementation?
+
+      2. **Unresolved Dissent:** Has the "Current Dissent" identified a "show-stopper"
+      that the architect has not yet mitigated with a specific boundary or contract?
+
+      3. **Data Saturation:** Is the researcher providing diminishing returns? If
+      the core tech stack and integration patterns are identified, additional research
+      is likely unnecessary.
+
       ### OUTPUT PROTOCOL:
-      - If the implementation is actionable and risks are mitigated: Respond with "NO_SEARCH_REQUIRED".
-      - If a high-risk technical unknown exists (e.g., undocumented API, version conflict, performance bottleneck): Respond with "SEARCH_REQUIRED: [Precise, targeted search query]".
+
+      - If the implementation is actionable and risks are mitigated: Respond with
+      "NO_SEARCH_REQUIRED".
+
+      - If a high-risk technical unknown exists (e.g., undocumented API, version conflict,
+      performance bottleneck): Respond with "SEARCH_REQUIRED: [Precise, targeted search
+      query]".
+
       - Be ruthless. If the idea is ready for a PoC, stop the loop.
+
       ### ARCHITECTURAL STANDARDS:
-      Prioritize solutions that favor independent component boundaries and clear external contracts. If the current thought is "coupled" or "vague," flag it for research.
+
+      Prioritize solutions that favor independent component boundaries and clear external
+      contracts. If the current thought is "coupled" or "vague," flag it for research.
+
       ### OUTPUT FORMAT:
+
       - If NO_SEARCH_REQUIRED: Output ONLY the string "NO_SEARCH_REQUIRED".
-      - If SEARCH_REQUIRED: Output ONLY the string "SEARCH_REQUIRED: [Your Search Query]".
+
+      - If SEARCH_REQUIRED: Output ONLY the string "SEARCH_REQUIRED: [Your Search
+      Query]".
+
       - Do not include explanations, markdown, or extra text.
-    user_prompt_template: |
-      ### AUDIT TARGET:
-      Idea: {{ idea }}
-      ### ANALYSIS ARCHIVE:
-      {% if current_thought %}
-      **Proposed Architecture:**
-      ---
-      {{ current_thought }}
-      ---
-      {% endif %}
-      {% if current_dissent %}
-      **Outstanding Critical Risks (Dissent):**
-      ---
-      {{ current_dissent }}
-      ---
-      {% endif %}
-      ### EVALUATION TASK:
-      1. Compare the **Proposed Architecture** against the **Critical Risks**. 
-      2. Determine if the Architect has successfully "designed around" the Dissent or if they are guessing.
-      3. Check for "Vagueness": If the implementation plan uses buzzwords without specific libraries, patterns, or data flows, it requires a search.
-      ### DECISION:
-      Does this proposal meet the threshold for a Senior-level Technical Review, or is more data mandatory?
+
+      '
+    user_prompt_template: "### AUDIT TARGET:\nIdea: {{ idea }}\n### ANALYSIS ARCHIVE:\n\
+      {% if current_thought %}\n**Proposed Architecture:**\n---\n{{ current_thought\
+      \ }}\n---\n{% endif %}\n{% if current_dissent %}\n**Outstanding Critical Risks\
+      \ (Dissent):**\n---\n{{ current_dissent }}\n---\n{% endif %}\n### EVALUATION\
+      \ TASK:\n1. Compare the **Proposed Architecture** against the **Critical Risks**.\
+      \ \n2. Determine if the Architect has successfully \"designed around\" the Dissent\
+      \ or if they are guessing.\n3. Check for \"Vagueness\": If the implementation\
+      \ plan uses buzzwords without specific libraries, patterns, or data flows, it\
+      \ requires a search.\n### DECISION:\nDoes this proposal meet the threshold for\
+      \ a Senior-level Technical Review, or is more data mandatory?\n"
+  deepseek-r1:14b:
+    provider: ollama
+    temperature: 0.7
+    base_url: http://localhost:11434
+    timeout: 600
+    num_ctx: 8192
+    system_prompt: 'You are the Executive Auditor. Your role is to determine if the
+      current architectural analysis has reached "Actionable Maturity" or if critical
+      unknowns remain that require external research.
+
+      ### AUDIT CRITERIA:
+
+      1. **Feasibility Gap:** Does the "Current Thought" lack a clear technical path
+      for implementation?
+
+      2. **Unresolved Dissent:** Has the "Current Dissent" identified a "show-stopper"
+      that the architect has not yet mitigated with a specific boundary or contract?
+
+      3. **Data Saturation:** Is the researcher providing diminishing returns? If
+      the core tech stack and integration patterns are identified, additional research
+      is likely unnecessary.
+
+      ### OUTPUT PROTOCOL:
+
+      - If the implementation is actionable and risks are mitigated: Respond with
+      "NO_SEARCH_REQUIRED".
+
+      - If a high-risk technical unknown exists (e.g., undocumented API, version conflict,
+      performance bottleneck): Respond with "SEARCH_REQUIRED: [Precise, targeted search
+      query]".
+
+      - Be ruthless. If the idea is ready for a PoC, stop the loop.
+
+      ### ARCHITECTURAL STANDARDS:
+
+      Prioritize solutions that favor independent component boundaries and clear external
+      contracts. If the current thought is "coupled" or "vague," flag it for research.
+
+      ### OUTPUT FORMAT:
+
+      - If NO_SEARCH_REQUIRED: Output ONLY the string "NO_SEARCH_REQUIRED".
+
+      - If SEARCH_REQUIRED: Output ONLY the string "SEARCH_REQUIRED: [Your Search
+      Query]".
+
+      - Do not include explanations, markdown, or extra text.
+
+      '
+    user_prompt_template: "### AUDIT TARGET:\nIdea: {{ idea }}\n### ANALYSIS ARCHIVE:\n\
+      {% if current_thought %}\n**Proposed Architecture:**\n---\n{{ current_thought\
+      \ }}\n---\n{% endif %}\n{% if current_dissent %}\n**Outstanding Critical Risks\
+      \ (Dissent):**\n---\n{{ current_dissent }}\n---\n{% endif %}\n### EVALUATION\
+      \ TASK:\n1. Compare the **Proposed Architecture** against the **Critical Risks**.\
+      \ \n2. Determine if the Architect has successfully \"designed around\" the Dissent\
+      \ or if they are guessing.\n3. Check for \"Vagueness\": If the implementation\
+      \ plan uses buzzwords without specific libraries, patterns, or data flows, it\
+      \ requires a search.\n### DECISION:\nDoes this proposal meet the threshold for\
+      \ a Senior-level Technical Review, or is more data mandatory?"

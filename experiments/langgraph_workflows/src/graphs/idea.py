@@ -60,12 +60,35 @@ def architect_node(state: IdeaAgentState) -> dict:
 
     print(f"--- Architect Node Start (Model: {pm.get_model_name()}) ---")
     response = llm.invoke(messages)
-    print(response.content)
+    content = response.content
+    print(content)
     print("--- Architect Node End ---")
+
+    # Extract decisions from the response
+    new_decisions = []
+    if "RESOLVED_DECISIONS:" in content:
+        try:
+            # Get everything after RESOLVED_DECISIONS:
+            decision_text = content.split("RESOLVED_DECISIONS:")[-1].strip()
+            # Split by lines and clean up
+            lines = decision_text.split("\n")
+            for line in lines:
+                line = line.strip()
+                if line.startswith("-") or line.startswith("*"):
+                    new_decisions.append(line.lstrip("-* ").strip())
+                elif not line: # Stop at first empty line after the list
+                    if new_decisions: break
+                elif len(new_decisions) > 0: # If we already found some and hit a non-list line, stop
+                    break
+        except Exception as e:
+            print(f"Error parsing decisions: {e}")
+
     return {
-        "messages": [AIMessage(content=response.content, name="Architect")], 
-        "current_thought": response.content,
+        "messages": [AIMessage(content=content, name="Architect")], 
+        "current_thought": content,
         "current_dissent": "",
+        "decisions_log": new_decisions,
+        "status": "refining"
     }
 
 
@@ -80,10 +103,15 @@ def research_node(state: IdeaAgentState) -> dict:
         tools=[{"google_search": {}}],
     )
 
+    import re
     # Handle case where response.content is a list
     content = response.content
     if isinstance(content, list):
         content = "\n".join(content)
+        
+    # Clean up massive blocks of spaces that Gemini sometimes generates with grounding
+    content = re.sub(r' {3,}', '  ', content).strip()
+    
     print(content)
     print("--- Researcher Node End ---")
 
@@ -109,15 +137,57 @@ def research_node(state: IdeaAgentState) -> dict:
     }
 
 
-def route_discussion(state: IdeaAgentState) -> Literal["Researcher", "continue"]:
+def doc_node(state: IdeaAgentState) -> dict:
+    """Synthesizes the final results into a technical specification."""
+    pm = PromptManager("idea_documenter")
+    llm = pm.get_llm()
+    messages = pm.render_prompts(state)
+
+    print(f"--- DocWriter Node Start (Model: {pm.get_model_name()}) ---")
+    response = llm.invoke(messages)
+    content = response.content
+    print("--- DocWriter Node End ---")
+
+    # Save the final specification as an artifact
+    subfolder = f"{state['run_id']}/final"
+    path = write_markdown_artifact.invoke(
+        {"filename": "technical_specification.md", "content": content, "subfolder": subfolder}
+    )
+
+    artifact = {
+        "file_path": path,
+        "description": "Final Technical Specification",
+        "agent_source": "documenter",
+    }
+
+    return {
+        "messages": [AIMessage(content=content, name="Documenter")],
+        "artifacts": [artifact],
+        "status": "completed"
+    }
+
+
+def route_discussion(state: IdeaAgentState) -> Literal["Researcher", "Architect", "DocWriter"]:
     last_message = state["messages"][-1]
-    # Check if the agent asked for a web search
-    if "SEARCH_REQUIRED:" in last_message.content:
-        return "Researcher"
-    # If the discussion has gone on long enough, finalize
+    
+    # 1. Check for Max Iterations
     if state["iteration"] > state["max_loop"]:
-        return "continue"
-    return "continue"
+        print("--- Routing: Max iterations reached. Documenting. ---")
+        return "DocWriter"
+    
+    # 2. Check for Search Requirement
+    if "SEARCH_REQUIRED:" in last_message.content:
+        print("--- Routing: Search required. ---")
+        return "Researcher"
+    
+    # 3. Check for Approval
+    if "NO_SEARCH_REQUIRED" in last_message.content:
+        print("--- Routing: Final approval reached. Documenting. ---")
+        return "DocWriter"
+    
+    # 4. Default: Refine Architecture
+    print("--- Routing: Continuing refinement. ---")
+    return "Architect"
 
 
 def build_idea_graph():
@@ -128,11 +198,24 @@ def build_idea_graph():
     workflow.add_node("Critic", critic_node, retry=retry_policy)
     workflow.add_node("Researcher", research_node, retry=retry_policy)
     workflow.add_node("Analysis", analysis_node, retry=retry_policy)
+    workflow.add_node("DocWriter", doc_node, retry=retry_policy)
 
     workflow.add_edge(START, "Researcher")
     workflow.add_edge("Researcher", "Architect")
     workflow.add_edge("Architect", "Critic")
     workflow.add_edge("Critic", "Analysis")
-    workflow.add_conditional_edges("Analysis", route_discussion, {"Researcher": "Researcher", "continue": END})
+    
+    # The heart of the refinement loop
+    workflow.add_conditional_edges(
+        "Analysis", 
+        route_discussion, 
+        {
+            "Researcher": "Researcher", 
+            "Architect": "Architect", 
+            "DocWriter": "DocWriter"
+        }
+    )
+
+    workflow.add_edge("DocWriter", END)
 
     return workflow.compile()
