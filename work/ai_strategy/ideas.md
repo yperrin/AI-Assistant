@@ -15,6 +15,7 @@
 
 ## Non-Development Teams (PO, DM, Architects)
 * Involve SAs to rollout to other projects
+* Create a way to evaluate quality of the specs/requirements. Maybe also fit within current product or architecture (more for the implementation)
 * How to involve POs and DMs in the process
 * Involve devops to clean the pipeline + GitHub
   * PR run integrations tests
