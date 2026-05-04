@@ -67,5 +67,51 @@ Agents use a specific `resolve_memory_file_uri` tool to generate fully qualified
 3.  **Explicit Delegation:** When you establish a preference, explicitly say: *"Save this choice to my user memory in [filename].md".*
 4.  **Clean Repository Context:** Use repo memory for "Truths" about the codebase to avoid the agent hallucinating project details.
 
+# Additional information
+
+In the current version of GitHub Copilot, observing the agent pull from files like `notes.md` or `preferences.md` is a sign that the **Heuristic Discovery Engine** is active. 
+
+While `.github/copilot-instructions.md` is the "official" entry point, Copilot’s context pipeline is designed to identify and prioritize files with high **signal-to-noise ratios**. Files named `notes.md`, `preferences.md`, or `rules.md` are flagged as "Project Knowledge" and are often pulled into the context window with higher priority than standard source code.
+
+### How Copilot Uses These Specific Files
+
+Copilot treats these files as **Semi-Structured Memory**. Here is how they function within the internal pipeline:
+
+* **Heuristic Priority:** The context engine assumes that a file named `preferences.md` contains architectural constraints or styling rules. If your prompt involves a "How" or "Why" question, these files are indexed before standard `.ts` or `.cs` files.
+* **Agentic State Tracking:** In "Plan Mode" or when using "Agentic Workflows," Copilot often creates or looks for a `notes.md` to store the "State of the Union" for a multi-step task.
+* **The "Shadow" Instructions:** If you don't have a formal `.github/copilot-instructions.md` file, Copilot falls back to these files as the primary source for project-wide conventions.
+
 ---
-*Last updated: 2026-04-27*
+
+### Comparison of Manual Memory Files
+
+| File Name | Internal Treatment | Best Use Case |
+| :--- | :--- | :--- |
+| **`notes.md`** | **Task Context** | Storing temporary technical debt, "to-do" lists, or specific logic flow for a feature. |
+| **`preferences.md`** | **Style Context** | Defining code formatting, naming conventions, and preferred libraries (e.g., "Use Signals over Observables"). |
+| **`.github/copilot-instructions.md`** | **System Level** | The "Holy Grail" of instructions. Overrides everything and is injected into every prompt. |
+| **`CONTRIBUTING.md`** | **Policy Context** | Rules for PRs, branching strategies, and testing requirements. |
+
+---
+
+### Why your Copilot is favoring these files
+There are three technical reasons why these files are appearing in your context citations:
+
+1.  **Semantic Match:** Your prompt likely contains keywords (e.g., "boundaries," "architecture," "rules") that have a high vector similarity to the content in `preferences.md`.
+2.  **Recent Activity:** If you recently edited these files, the **Local Buffer** prioritizes them, assuming they represent your current "mental model" of the project.
+3.  **Cross-File Reference:** If a source file has a comment like `// See notes.md for implementation details`, Copilot’s **LSP (Language Server Protocol) Crawler** will follow that link and pull the content into the prompt.
+
+### Managing these "Shadow" Memories
+If you want to fine-tune how Copilot uses these files, you can use these chat commands:
+
+* **To prioritize:** *"Always reference `preferences.md` when suggesting architectural changes."*
+* **To ignore:** *"Do not use `notes.md` for this prompt; it's outdated."*
+* **To formalize:** *"Consolidate the rules in `preferences.md` into our `.github/copilot-instructions.md` file."*
+
+> [!TIP]
+> If you find that `notes.md` is becoming cluttered and confusing the agent, you can wrap sections in **Markdown Comments** like ``. The agent will skip those blocks while keeping them visible to you.
+
+Are you finding that the suggestions coming from `notes.md` are helping maintain your architectural boundaries, or are they introducing "stale" context that you need to prune?
+
+---
+*Last updated: 2026-05-04*
